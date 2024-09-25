@@ -151,7 +151,7 @@
         "coyote",
         "pheasant",
         "whitetail_deer"
-      ]        
+      ]
   },
   "mississippi": {
       "name": "Mississippi Acres Preserve",
@@ -170,7 +170,7 @@
         "american_alligator",
         "green_wing_teal",
         "whitetail_deer"
-      ]        
+      ]
   },
   "revontuli": {
       "name": "Revontuli Coast",
@@ -195,7 +195,7 @@
         "greylag_goose",
         "whitetail_deer",
         "raccoon_dog"
-      ]        
+      ]
   },
   "newengland": {
       "name": "New England Mountains",
@@ -216,7 +216,7 @@
         "pheasant",
         "green_wing_teal",
         "whitetail_deer"
-      ]        
+      ]
   },
   "emerald": {
     "name": "Emerald Coast",
@@ -236,6 +236,25 @@
       "stubble_quail",
       "axis_deer",
       "javan_rusa"
+    ]
+  },
+  "sundarpatan": {
+    "name": "Sundarpatan",
+    "index": 17,
+    "species": [
+      "blue_sheep",
+      "water_buffalo",
+      "snow_leopard",
+      "blackbuck",
+      "nilgai",
+      "tibetan_fox",
+      "wild_yak",
+      "muntjac",
+      "barasingha",
+      "woolly_hare",
+      "bengal_tiger",
+      "greylag_goose",
+      "tahr"
     ]
   }
 }

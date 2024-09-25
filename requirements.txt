@@ -1,6 +1,6 @@
 typer<0.5.0
 rich==12.6.0
-numpy==1.23.4
-PySimpleGUI==4.60.4
+numpy==2.0.0
+PySimpleGUI==5.0.6
 pybabel-json-md==0.1.0
 pybabel==0.0.0.dev0

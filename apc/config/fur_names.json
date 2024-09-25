@@ -242,7 +242,7 @@
     },
     "fabled_mocha": {
       "fur_name": "Fabled Mocha"
-    },    
+    },
     "two_tone": {
       "fur_name": "Two Tone"
     },
@@ -269,7 +269,7 @@
     },
     "fabled_silver": {
       "fur_name": "Fabled Silver"
-    },      
+    },
     "fabled_golden": {
       "fur_name": "Fabled Golden"
     },
@@ -284,6 +284,48 @@
     },
     "bald_leuc.": {
       "fur_name": "Bald Leucist"
-    }                  
+    },
+    "caramel": {
+      "fur_name": "Caramel"
+    },
+    "snow": {
+      "fur_name": "Snow"
+    },
+    "grey": {
+      "fur_name": "Grey"
+    },
+    "tawny": {
+      "fur_name": "Tawny"
+    },
+    "smoke": {
+      "fur_name": "Smoke"
+    },
+    "sand": {
+      "fur_name": "Sand"
+    },
+    "dark_red_brown": {
+      "fur_name": "Dark Red Brown"
+    },
+    "jet_brown": {
+      "fur_name": "Jet Brown"
+    },
+    "jet_black": {
+      "fur_name": "Jet Black"
+    },
+    "light_grey": {
+      "fur_name": "Light Grey"
+    },
+    "white_stripeless": {
+      "fur_name": "White Stripeless"
+    },
+    "pseudo_melanistic_white": {
+      "fur_name": "Pseudo Melanistic White"
+    },
+    "pseudo_melanistic": {
+      "fur_name": "Pseudo Melanistic"
+    },
+    "straw": {
+      "fur_name": "Straw"
+    }
   }
 }

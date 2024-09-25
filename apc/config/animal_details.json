@@ -4388,5 +4388,558 @@
         ]
       ]
     }
+  },
+  "blue_sheep": {
+    "diamonds": {
+      "score_low": 158.08,
+      "score_high": 166.475,
+      "weight_low": 71.5,
+      "weight_high": 75.999,
+      "furs": {
+        "male": {
+          "blue_grey": 3749,
+          "slate_grey": 5003,
+          "leucistic": 8754,
+          "yellow": 8764,
+          "albino": 10018,
+          "melanistic": 10023,
+          "brown": 10033
+        },
+        "female": {
+          "blue_grey": 3749,
+          "slate_grey": 5003,
+          "leucistic": 8754,
+          "yellow": 8764,
+          "albino": 10018,
+          "melanistic": 10023,
+          "brown": 10033
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          47.499
+        ],
+        [
+          47.5,
+          55.999
+        ],
+        [
+          56.0,
+          64.209
+        ],
+        [
+          64.21,
+          71.499
+        ],
+        [
+          71.5,
+          75.999
+        ]
+      ]
+    }
+  },
+  "snow_leopard": {
+    "diamonds": {
+      "score_low": 29,
+      "score_high": 30.0,
+      "weight_low": 69.0,
+      "weight_high": 75.199,
+      "furs": {
+        "male": {
+          "caramel": 100,
+          "snow": 2497,
+          "albino": 9903,
+          "leucistic": 9923,
+          "melanistic": 9973
+        },
+        "female": {
+          "caramel": 100,
+          "snow": 2497,
+          "albino": 9903,
+          "leucistic": 9923,
+          "melanistic": 9973
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          32.999
+        ],
+        [
+          33.0,
+          37.699
+        ],
+        [
+          37.7,
+          41.999
+        ],
+        [
+          42.0,
+          47.499
+        ],
+        [
+          47.5,
+          52.999
+        ],
+        [
+          53.0,
+          58.629
+        ],
+        [
+          58.63,
+          63.999
+        ],
+        [
+          64.0,
+          68.999
+        ],
+        [
+          69.0,
+          75.199
+        ]
+      ]
+    }
+  },
+  "nilgai": {
+    "diamonds": {
+      "score_low": 94.89,
+      "score_high": 98.566,
+      "weight_low": 285.5,
+      "weight_high": 301.999,
+      "furs": {
+        "male": {
+          "blue": 9,
+          "dark_brown": 7514,
+          "piebald": 10023
+        },
+        "female": {
+          "brown": 2483,
+          "light_brown": 7495,
+          "piebald": 10003
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          152.649
+        ],
+        [
+          152.65,
+          195.499
+        ],
+        [
+          195.5,
+          239.999
+        ],
+        [
+          240.0,
+          285.499
+        ],
+        [
+          285.5,
+          301.999
+        ]
+      ]
+    }
+  },
+  "tibetan_fox": {
+    "diamonds": {
+      "score_low": 6.37,
+      "score_high": 6.8,
+      "weight_low": 5.65,
+      "weight_high": 6.299,
+      "furs": {
+        "male": {
+          "albino": 2,
+          "grey": 6,
+          "tawny": 1260,
+          "red": 2514,
+          "melanistic": 6262,
+          "smoke": 6265,
+          "orange": 6275,
+          "leucistic": 10023,
+          "sand": 10026
+        },
+        "female": {
+          "albino": 2,
+          "grey": 6,
+          "tawny": 1260,
+          "red": 2514,
+          "melanistic": 6262,
+          "smoke": 6265,
+          "orange": 6275,
+          "leucistic": 10023,
+          "sand": 10026
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          3.199
+        ],
+        [
+          3.2,
+          3.619
+        ],
+        [
+          3.62,
+          3.899
+        ],
+        [
+          3.9,
+          4.379
+        ],
+        [
+          4.38,
+          4.749
+        ],
+        [
+          4.75,
+          5.069
+        ],
+        [
+          5.07,
+          5.389
+        ],
+        [
+          5.39,
+          5.649
+        ],
+        [
+          5.65,
+          6.299
+        ]
+      ]
+    }
+  },
+  "wild_yak": {
+    "diamonds": {
+      "score_low": 273.23,
+      "score_high": 287.323,
+      "weight_low": 1134.0,
+      "weight_high": 1200.0,
+      "furs": {
+        "male": {
+          "dark_brown": 1251,
+          "dark_red": 3754,
+          "albino": 6258,
+          "leucistic": 6260,
+          "dark_red_brown": 6265,
+          "jet_brown": 8769,
+          "gold": 10023,
+          "jet_black": 10031
+        },
+        "female": {
+          "dark_brown": 1251,
+          "dark_red": 3754,
+          "albino": 6258,
+          "leucistic": 6260,
+          "dark_red_brown": 6265,
+          "jet_brown": 8769,
+          "gold": 10023,
+          "jet_black": 10031
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          639.999
+        ],
+        [
+          640.0,
+          719.999
+        ],
+        [
+          720.0,
+          799.999
+        ],
+        [
+          800.0,
+          879.999
+        ],
+        [
+          880.0,
+          959.999
+        ],
+        [
+          960.0,
+          1017.999
+        ],
+        [
+          1018.0,
+          1074.999
+        ],
+        [
+          1075.0,
+          1133.999
+        ],
+        [
+          1134.0,
+          1200.0
+        ]
+      ]
+    }
+  },
+  "muntjac": {
+    "diamonds": {
+      "score_low": 35.24,
+      "score_high": 36.672,
+      "weight_low": 26.5,
+      "weight_high": 28.999,
+      "furs": {
+        "male": {
+          "red": 1,
+          "leucistic": 5005,
+          "melanistic": 10023,
+          "albino": 10030
+        },
+        "female": {
+          "red": 1,
+          "leucistic": 5005,
+          "melanistic": 10023,
+          "albino": 10030
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          14.999
+        ],
+        [
+          15.0,
+          18.869
+        ],
+        [
+          18.87,
+          21.299
+        ],
+        [
+          21.3,
+          26.499
+        ],
+        [
+          26.5,
+          28.999
+        ]
+      ]
+    }
+  },
+  "barasingha": {
+    "diamonds": {
+      "score_low": 226.5,
+      "score_high": 244.649,
+      "weight_low": 265.5,
+      "weight_high": 280.999,
+      "furs": {
+        "male": {
+          "melanistic": 2487,
+          "dark_red": 2492,
+          "red": 3747,
+          "piebald": 6245,
+          "dark_brown": 6255,
+          "albino": 7510,
+          "leucistic": 7514,
+          "light_brown": 7525,
+          "brown": 10023
+        },
+        "female": {
+          "melanistic": 2487,
+          "dark_red": 2492,
+          "red": 3747,
+          "piebald": 6245,
+          "dark_brown": 6255,
+          "albino": 7510,
+          "leucistic": 7514,
+          "light_brown": 7525,
+          "brown": 10023
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          183.999
+        ],
+        [
+          184.0,
+          209.699
+        ],
+        [
+          209.7,
+          236.999
+        ],
+        [
+          237.0,
+          265.499
+        ],
+        [
+          265.5,
+          280.999
+        ]
+      ]
+    }
+  },
+  "woolly_hare": {
+    "diamonds": {
+      "score_low": 3.28,
+      "score_high": 3.4,
+      "weight_low": 3.29,
+      "weight_high": 3.299,
+      "furs": {
+        "male": {
+          "molting": 2799,
+          "dark_brown": 4404,
+          "white": 7204,
+          "light_grey": 7224,
+          "albino": 10023,
+          "light_brown": 10033
+        },
+        "female": {
+          "molting": 2799,
+          "dark_brown": 4404,
+          "white": 7204,
+          "light_grey": 7224,
+          "albino": 10023,
+          "light_brown": 10033
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          2.309
+        ],
+        [
+          2.31,
+          3.289
+        ],
+        [
+          3.29,
+          3.299
+        ]
+      ]
+    }
+  },
+  "bengal_tiger": {
+    "diamonds": {
+      "score_low": 57,
+      "score_high": 60,
+      "weight_low": 296.0,
+      "weight_high": 324.159,
+      "furs": {
+        "male": {
+          "orange": 160,
+          "albino": 9903,
+          "gold": 9913,
+          "white_stripeless": 9927,
+          "pseudo_melanistic_white": 9941,
+          "white": 9956,
+          "melanistic": 9970,
+          "pseudo_melanistic": 9980
+        },
+        "female": {
+          "orange": 160,
+          "albino": 9903,
+          "gold": 9913,
+          "white_stripeless": 9927,
+          "pseudo_melanistic_white": 9941,
+          "white": 9956,
+          "melanistic": 9970,
+          "pseudo_melanistic": 9980
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          145.199
+        ],
+        [
+          145.2,
+          163.999
+        ],
+        [
+          164.0,
+          183.499
+        ],
+        [
+          183.5,
+          202.999
+        ],
+        [
+          203.0,
+          219.999
+        ],
+        [
+          220.0,
+          246.999
+        ],
+        [
+          247.0,
+          272.099
+        ],
+        [
+          272.1,
+          295.999
+        ],
+        [
+          296.0,
+          324.159
+        ]
+      ]
+    }
+  },
+  "tahr": {
+    "diamonds": {
+      "score_low": 101.87,
+      "score_high": 107.685,
+      "weight_low": 132.0,
+      "weight_high": 140.999,
+      "furs": {
+        "male": {
+          "black": 4,
+          "dark_brown": 14,
+          "white": 24,
+          "redbrown": 34,
+          "light_brown": 7505,
+          "straw": 8759,
+          "red": 10013,
+          "dark_red": 10023,
+          "albino": 10033
+        },
+        "female": {
+          "redbrown": 4,
+          "light_brown": 7497,
+          "straw": 8755,
+          "red": 10013,
+          "albino": 10023,
+          "white": 10028
+        }
+      },
+      "levels": [
+        [
+          0.0,
+          82.999
+        ],
+        [
+          83.0,
+          99.299
+        ],
+        [
+          99.3,
+          115.589
+        ],
+        [
+          115.59,
+          131.999
+        ],
+        [
+          132.0,
+          140.999
+        ],
+        [
+          141.0,
+          180.0
+        ]
+      ]
+    }
   }
 }

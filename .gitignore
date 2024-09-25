@@ -5,6 +5,7 @@ apc.egg-info
 mods
 backups
 venv
+.python-version
 */__pycache__
 .DS_Store
 build

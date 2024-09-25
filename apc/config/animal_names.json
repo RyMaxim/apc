@@ -152,7 +152,7 @@
     },
     "mountain_lion": {
       "animal_name": "Mountain Lion"
-    },    
+    },
     "mule_deer": {
       "animal_name": "Mule Deer"
     },
@@ -245,7 +245,7 @@
     },
     "wild_hog": {
       "animal_name": "Wild Hog"
-    },    
+    },
     "wild_turkey": {
       "animal_name": "Wild Turkey"
     },
@@ -257,24 +257,54 @@
     },
     "magpie_goose": {
       "animal_name": "Magpie Goose"
-    },    
+    },
     "eg_kangaroo": {
       "animal_name": "Eastern Kangaroo"
-    },    
+    },
     "sambar": {
       "animal_name": "Sambar Deer"
-    },    
+    },
     "banteng": {
       "animal_name": "Banteng"
-    },    
+    },
     "sw_crocodile": {
       "animal_name": "Saltwater Crocodile"
-    },    
+    },
     "stubble_quail": {
       "animal_name": "Stubble Quail"
     },
     "javan_rusa": {
       "animal_name": "Javan Rusa"
-    }  
+    },
+    "blue_sheep": {
+      "animal_name": "Blue Sheep"
+    },
+    "snow_leopard": {
+      "animal_name": "Snow Leopard"
+    },
+    "nilgai": {
+      "animal_name": "Nilgai"
+    },
+    "tibetan_fox": {
+      "animal_name": "Tibetan Fox"
+    },
+    "wild_yak": {
+      "animal_name": "Wild Yak"
+    },
+    "muntjac": {
+      "animal_name": "Northern Red Muntjac"
+    },
+    "barasingha": {
+      "animal_name": "Barasingha"
+    },
+    "woolly_hare": {
+      "animal_name": "Woolly Hare"
+    },
+    "bengal_tiger": {
+      "animal_name": "Bengal Tiger"
+    },
+    "tahr": {
+      "animal_name": "Tahr"
+    }
   }
 }

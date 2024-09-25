@@ -21,11 +21,11 @@ def get_languages() -> list:
     use_languages = env_language.split(':')
   else:
     use_languages = [default_locale]
-  
-  use_languages = list(filter(lambda x: x in SUPPORTED_LANGUAGES, use_languages))  
+
+  use_languages = list(filter(lambda x: x in SUPPORTED_LANGUAGES, use_languages))
   if len(use_languages) == 0:
     use_languages = ["en_US"]
-    
+
   return (default_locale, use_languages)
 
 LOCALE_PATH = Path(getattr(sys, '_MEIPASS', Path(__file__).resolve().parent)) / "locale/"
@@ -317,6 +317,10 @@ ANIMALS = json.load((CONFIG_PATH / "animal_details.json").open())
 # TODO: diamonds that can be both genders need different weight / score values
 # TODO: kangaroos with multiple white furs
 # TODO: crocodiles with multiple spots
+# TODO: wild hogs with multiple light brown variants
+# TODO: bengal tigers with multiple pseudo leucistic and pseudo melanistic variants
+# TODO: tahr great one
+# TODO: missing great one furs
 
 class Reserve(str, Enum):
    hirsch = "hirsch"
@@ -332,6 +336,8 @@ class Reserve(str, Enum):
    mississippi = "mississippi"
    revontuli = "revontuli"
    newengland = "newengland"
+   emerald = "emerald"
+   sundarpatan = "sundarpatan"
 
 class Strategy(str, Enum):
    go_all = "go-all"
@@ -352,6 +358,7 @@ class GreatOnes(str, Enum):
    whitetail_deer = "whitetail_deer"
    red_deer = "red_deer"
    fallow_deer = "fallow_deer"
+   tahr = "tahr"
 
 class Levels(int, Enum):
   TRIVIAL = 1
@@ -364,7 +371,7 @@ class Levels(int, Enum):
   MYTHICAL = 8
   LEGENDARY = 9
   GREAT_ONE = 10
-  
+
 def get_level_name(level: Levels):
   if level == Levels.TRIVIAL:
    return translate("Trivial")
@@ -388,11 +395,36 @@ def get_level_name(level: Levels):
     return translate("Great One")
   return None
 
+def get_difficulty(difficulty: str):
+  match difficulty:
+    case "Trivial":
+      return 1
+    case "Minor":
+      return 2
+    case "Very Easy":
+      return 3
+    case "Easy":
+      return 4
+    case "Medium":
+      return 5
+    case "Hard":
+      return 6
+    case "Very Hard":
+      return 7
+    case "Mythical":
+      return 8
+    case "Legendary":
+      return 9
+    case "Great One":
+      return 10
+    case _:
+      return None
+
 def format_key(key: str) -> str:
   key = [s.capitalize() for s in re.split("_|-", key)]
   return " ".join(key)
 
-def load_config(config_path: Path) -> int: 
+def load_config(config_path: Path) -> int:
   config_path.read_text()
 
 def get_save_path() -> Path:
@@ -450,7 +482,7 @@ def get_reserve_species_name(species_key: str, reserve_key: str) -> str:
   renames = get_reserve_species_renames(reserve_key)
   species_key = renames[species_key] if species_key in renames else species_key
   return get_species_name(species_key)
-  
+
 def get_reserve_name(key: str) -> str:
   return translate(RESERVE_NAMES[key]["reserve_name"])
 
@@ -459,7 +491,7 @@ def reserve_keys() -> list:
 
 def reserves(include_keys = False) -> list:
    keys = list(dict.keys(RESERVES))
-   return [f"{get_reserve_name(r)}{' (' + r + ')' if include_keys else ''}" for r in keys]  
+   return [f"{get_reserve_name(r)}{' (' + r + ')' if include_keys else ''}" for r in keys]
 
 def get_reserve(reserve_key: str) -> dict:
   return RESERVES[reserve_key]
@@ -472,7 +504,7 @@ def get_species(species_key: str) -> dict:
 
 def get_diamond_gender(species_key: str) -> str:
   species_config = get_species(species_key)["diamonds"]
-  return species_config["gender"] if "gender" in species_config else "male"  
+  return species_config["gender"] if "gender" in species_config else "male"
 
 def _get_fur(furs: dict, seed: int) -> str:
   try:
@@ -512,14 +544,14 @@ def valid_fur_species(species_key: str) -> bool:
 def get_population_file_name(reserve: str):
     index = RESERVES[reserve]["index"]
     return f"animal_population_{index}"
-  
+
 def get_population_reserve_key(filename: str):
   for _reserve, details in RESERVES.items():
     reserve_filename = f"animal_population_{details['index']}"
     if reserve_filename == filename:
       return _reserve
   return None
-  
+
 def get_population_name(filename: str):
   for _reserve, details in RESERVES.items():
     reserve_filename = f"animal_population_{details['index']}"
