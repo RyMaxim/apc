@@ -1,4 +1,4 @@
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import sys, traceback, time, os, re, shutil, subprocess, textwrap
 from apc import populations, adf, config
 from apc.config import valid_go_species, Strategy, MOD_DIR_PATH, save_path, get_save_path, get_population_file_name, get_population_name, BACKUP_DIR_PATH, valid_fur_species, format_key, get_reserve_species, get_diamond_gender, get_species_name
