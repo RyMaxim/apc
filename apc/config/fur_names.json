@@ -161,6 +161,9 @@
   "erythristic_golden": {
     "fur_name": "Erythristic Golden"
   },
+  "erythristic_isabelline": {
+    "fur_name": "Erythristic Isabelline"
+  },
   "erythristic_red": {
     "fur_name": "Erythristic Red"
   },
@@ -575,7 +578,7 @@
   "twinsoul": {
     "fur_name": "Fabled Twinsoul"
   },
-    "unknown": {
+  "unknown": {
     "fur_name": "Unknown"
   },
   "vanguard": {

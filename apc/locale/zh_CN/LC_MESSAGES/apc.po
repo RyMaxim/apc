@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-10 04:12-0500\n"
+"POT-Creation-Date: 2026-02-24 16:48-0500\n"
 "PO-Revision-Date: 2023-04-17 17:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: apc/config.py:43
 msgid "Animal Population Changer"
@@ -79,7 +79,7 @@ msgstr "编号"
 msgid "Fur"
 msgstr "毛皮"
 
-#: apc/config.py:73 apc/config.py:444 apc/config/fur_names.json:579
+#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:582
 msgid "Unknown"
 msgstr "未知"
 
@@ -91,11 +91,11 @@ msgstr "没有任何"
 msgid "Bronze"
 msgstr "青铜色"
 
-#: apc/config.py:79 apc/config/fur_names.json:531
+#: apc/config.py:79 apc/config/fur_names.json:534
 msgid "Silver"
 msgstr "银"
 
-#: apc/config.py:81 apc/config/fur_names.json:189
+#: apc/config.py:81 apc/config/fur_names.json:192
 msgid "Gold"
 msgstr "金色"
 
@@ -103,7 +103,7 @@ msgstr "金色"
 msgid "Diamond"
 msgstr "钻石"
 
-#: apc/config.py:85 apc/config.py:464
+#: apc/config.py:85 apc/config.py:476
 msgid "Great One"
 msgstr "奇珍异兽"
 
@@ -322,312 +322,338 @@ msgid "The file could not be found"
 msgstr "该文件找不到"
 
 #: apc/config.py:195
+msgid "Map data not found"
+msgstr "找不到地图数据"
+
+#: apc/config.py:197
+msgid ""
+"Open the game, load the map once, then save and quit. After that, reopen the"
+" mod tool and try again."
+msgstr "打开游戏，加载地图一次，然后保存并退出。之后，重新打开mod工具并重试。"
+
+#: apc/config.py:199
 msgid "Configure Game Path"
 msgstr "配置游戏路径"
 
-#: apc/config.py:197
+#: apc/config.py:201
 msgid "Please configure the path to your game save"
 msgstr "请配置游戏的路径保存"
 
-#: apc/config.py:199
+#: apc/config.py:203
 msgid "List Mods"
 msgstr "列出文件"
 
-#: apc/config.py:201
+#: apc/config.py:205
 msgid "Load Mod"
 msgstr "加载文件"
 
-#: apc/config.py:203
+#: apc/config.py:207
 msgid "Unload Mod"
 msgstr "卸载文件"
 
-#: apc/config.py:205
+#: apc/config.py:209
 msgid "Select the folder where the game saves your files"
 msgstr "选择游戏保存文件的文件夹"
 
-#: apc/config.py:207
+#: apc/config.py:211
 msgid "Saves Path"
 msgstr "存档路径"
 
-#: apc/config.py:209
+#: apc/config.py:213
 msgid "Game path saved"
 msgstr "游戏路径已保存"
 
-#: apc/config.py:211
+#: apc/config.py:215
 msgid "Are you sure you want to overwrite your game file with the modded one?"
 msgstr "确定要用修改过的游戏文件覆盖原本的游戏文件吗？"
 
-#: apc/config.py:213
+#: apc/config.py:217
 msgid "Don't worry, a backup copy will be made."
 msgstr "无需担心原文件丢失，本程序会自动备份一份原始文件的副本。"
 
-#: apc/config.py:215
+#: apc/config.py:219
 msgid "Confirmation"
 msgstr "确认"
 
-#: apc/config.py:217
+#: apc/config.py:221
 msgid "Mod"
 msgstr "转变"
 
-#: apc/config.py:219
+#: apc/config.py:223
 msgid "View modded version"
 msgstr "查看改装版本"
 
-#: apc/config.py:221
+#: apc/config.py:225
 msgid "viewing loaded"
 msgstr "查看已加载"
 
-#: apc/config.py:223
+#: apc/config.py:227
 msgid "viewing modded"
 msgstr "显示当前转换后的动物"
 
-#: apc/config.py:225
+#: apc/config.py:229
 msgid "Total animals"
 msgstr "全动物"
 
-#: apc/config.py:227 apc/config.py:291
+#: apc/config.py:231 apc/config.py:295
 msgid "Loaded"
 msgstr "已加载"
 
-#: apc/config.py:229
+#: apc/config.py:233
 msgid "Modded File"
 msgstr "修改后的文件"
 
-#: apc/config.py:231
+#: apc/config.py:235
 msgid "Back to Reserve"
 msgstr "返回原界面"
 
-#: apc/config.py:233
+#: apc/config.py:237
 msgid "update translations"
 msgstr "刷新语言包"
 
-#: apc/config.py:235
+#: apc/config.py:239
 msgid "switch language"
 msgstr "切换语言包"
 
-#: apc/config.py:237
+#: apc/config.py:241
 msgid "Please restart to see changes"
 msgstr "请重启以查看语言变化"
 
-#: apc/config.py:239
+#: apc/config.py:243
 msgid "default"
 msgstr "默认"
 
-#: apc/config.py:241
+#: apc/config.py:245
 msgid "using"
 msgstr "正在使用"
 
-#: apc/config.py:243
+#: apc/config.py:247
 msgid "OK"
 msgstr "确定"
 
-#: apc/config.py:245
+#: apc/config.py:249
 msgid "Cancel"
 msgstr "取消"
 
-#: apc/config.py:247
+#: apc/config.py:251
 msgid "Modify Animals"
 msgstr "修改动物"
 
-#: apc/config.py:249
+#: apc/config.py:253
 msgid "Gender Counts"
 msgstr "性别计数"
 
-#: apc/config.py:251
+#: apc/config.py:255
 msgid "Add/Remove Animals"
 msgstr "添加/删除动物"
 
-#: apc/config.py:253
+#: apc/config.py:257
 msgid "Adding Animals"
 msgstr "添加动物"
 
-#: apc/config.py:255
+#: apc/config.py:259
 msgid "Can't add all animals"
 msgstr "无法添加所有动物"
 
-#: apc/config.py:257
+#: apc/config.py:261
 msgid "Each group has a limit of 30 animals"
 msgstr "每组有30只动物的限制"
 
-#: apc/config.py:259
+#: apc/config.py:263
 msgid "Removing Animals"
 msgstr "去除动物"
 
-#: apc/config.py:261
+#: apc/config.py:265
 msgid "Can't remove animals"
 msgstr "无法移走动物"
 
-#: apc/config.py:263
+#: apc/config.py:267
 msgid "Each group needs at least 1 animal"
 msgstr "每个小组至少需要1只动物"
 
-#: apc/config.py:265
+#: apc/config.py:269
 msgid "Trophy Rating"
 msgstr "奖杯等级"
 
-#: apc/config.py:267
+#: apc/config.py:271
 msgid "Furs"
 msgstr "毛皮"
 
-#: apc/config.py:269
+#: apc/config.py:273
 msgid "Modify Animal Furs"
 msgstr "修改动物毛皮"
 
-#: apc/config.py:271
+#: apc/config.py:275
 msgid "Male Furs"
 msgstr "雄性毛皮"
 
-#: apc/config.py:273
+#: apc/config.py:277
 msgid "Female Furs"
 msgstr "雌性毛皮"
 
-#: apc/config.py:275
+#: apc/config.py:279
 msgid "Change All Species"
 msgstr "改变所有物种"
 
-#: apc/config.py:277
+#: apc/config.py:281
 msgid "Explore Animals"
 msgstr "探索动物"
 
-#: apc/config.py:279
+#: apc/config.py:283
 msgid "Manage Modded Reserves"
 msgstr "管理改装储备"
 
-#: apc/config.py:281
+#: apc/config.py:285
 msgid "use all furs"
 msgstr "使用所有毛皮"
 
-#: apc/config.py:283
+#: apc/config.py:287
 msgid "Animal Details"
 msgstr "动物详情"
 
-#: apc/config.py:285
+#: apc/config.py:289
 msgid "default is random fur"
 msgstr "默认是随机毛皮"
 
-#: apc/config.py:287
+#: apc/config.py:291
 msgid "Update Animal"
 msgstr "更新动物"
 
-#: apc/config.py:289
+#: apc/config.py:293
 msgid "Top 10"
 msgstr "前 10 名"
 
-#: apc/config.py:293
+#: apc/config.py:297
 msgid "Export Mod"
 msgstr "导出模型"
 
-#: apc/config.py:295
+#: apc/config.py:299
 msgid "Import Mod"
 msgstr "导入模型"
 
-#: apc/config.py:297
+#: apc/config.py:301
 msgid "Export"
 msgstr "导出"
 
-#: apc/config.py:299
+#: apc/config.py:303
 msgid "Import"
 msgstr "导入"
 
-#: apc/config.py:301
+#: apc/config.py:305
 msgid "Select the location and filename where you want to export"
 msgstr "选择要导出的位置和文件名"
 
-#: apc/config.py:303
+#: apc/config.py:307
 msgid "Select the reserve mod to import"
 msgstr "选择要导入的备用模块"
 
-#: apc/config.py:305
+#: apc/config.py:309
 msgid "Export As"
 msgstr "导出为"
 
-#: apc/config.py:307
+#: apc/config.py:311
 msgid "Select File"
 msgstr "选择文件"
 
-#: apc/config.py:309
+#: apc/config.py:313
 msgid "Mod Exported"
 msgstr "模组导出"
 
-#: apc/config.py:311
+#: apc/config.py:315
 msgid "Mod Imported"
 msgstr "模组已导入"
 
-#: apc/config.py:313
+#: apc/config.py:317
 msgid "No reserve data loaded. Select a reserve from the list."
 msgstr "没有加载狩猎区数据。从列表中选择一个狩猎区。"
 
-#: apc/config.py:315
+#: apc/config.py:319
 msgid "Select an animal from the list."
 msgstr "从列表中选择动物。"
 
-#: apc/config.py:317
+#: apc/config.py:321
 msgid "Loading animals"
 msgstr "装载动物"
 
-#: apc/config.py:319
+#: apc/config.py:323
 msgid "Animals loaded"
 msgstr "动物加载"
 
-#: apc/config.py:321
+#: apc/config.py:325
 msgid ""
 "Selected animals from multiple reserves. Modifications will overwrite the "
 "following files:"
 msgstr "来自多个狩猎区的选择动物。修改将覆盖以下文件："
 
-#: apc/config.py:323
-msgid "Updated animals on multiple reserves. Use"
-msgstr "在多个狩猎区上更新动物。使用"
+#: apc/config.py:327
+msgid "Click"
+msgstr "点击"
 
-#: apc/config.py:325
-msgid "to load the modded files for each reserve:"
-msgstr "为每个狩猎区加载改装文件："
+#: apc/config.py:329
+msgid "Updated animals on reserve"
+msgstr "更新了保护区的动物"
 
-#: apc/config.py:446
+#: apc/config.py:331
+msgid "to load the modded file into your saves folder"
+msgstr "将修改后的文件加载到您的保存文件夹中"
+
+#: apc/config.py:333
+msgid "Updated animals on multiple reserves"
+msgstr "更新了多个保护区的动物"
+
+#: apc/config.py:335
+msgid "to load the modded files for each reserve into your saves folder"
+msgstr "将每个储备的修改文件加载到您的保存文件夹中"
+
+#: apc/config.py:337
+msgid "Don't remind me again"
+msgstr "不要再提醒我"
+
+#: apc/config.py:458
 msgid "Trivial"
 msgstr "微不足道"
 
-#: apc/config.py:448
+#: apc/config.py:460
 msgid "Minor"
 msgstr "小菜一碟"
 
-#: apc/config.py:450
+#: apc/config.py:462
 msgid "Very Easy"
 msgstr "非常简单"
 
-#: apc/config.py:452
+#: apc/config.py:464
 msgid "Easy"
 msgstr "简单"
 
-#: apc/config.py:454
+#: apc/config.py:466
 msgid "Medium"
 msgstr "中等"
 
-#: apc/config.py:456
+#: apc/config.py:468
 msgid "Hard"
 msgstr "困难"
 
-#: apc/config.py:458
+#: apc/config.py:470
 msgid "Very Hard"
 msgstr "非常困难"
 
-#: apc/config.py:460
+#: apc/config.py:472
 msgid "Mythical"
 msgstr "神秘"
 
-#: apc/config.py:462
+#: apc/config.py:474
 msgid "Legendary"
 msgstr "传说"
 
-#: apc/config.py:515
+#: apc/config.py:527
 msgid "animal_name"
 msgstr "动物名称"
 
-#: apc/config.py:519
+#: apc/config.py:531
 msgid "fur_name"
 msgstr "毛皮颜色"
 
-#: apc/config.py:584 apc/config.py:707
+#: apc/config.py:596 apc/config.py:719
 msgid "reserve_name"
 msgstr "狩猎区名称"
 
@@ -1123,11 +1149,11 @@ msgstr "白化病 2"
 msgid "Albino - Boss"
 msgstr "白化病 - 老板"
 
-#: apc/config/fur_names.json:15 apc/config/fur_names.json:588
+#: apc/config/fur_names.json:15 apc/config/fur_names.json:591
 msgid "Bald Calico"
 msgstr "秃头印花布"
 
-#: apc/config/fur_names.json:18 apc/config/fur_names.json:585
+#: apc/config/fur_names.json:18 apc/config/fur_names.json:588
 msgid "Bald Spotted"
 msgstr "秃头斑点"
 
@@ -1239,11 +1265,11 @@ msgstr "肉桂色"
 msgid "Cream"
 msgstr "奶油色"
 
-#: apc/config/fur_names.json:105 apc/config/fur_names.json:591
+#: apc/config/fur_names.json:105 apc/config/fur_names.json:594
 msgid "Crested Blond"
 msgstr "凤头金发女郎"
 
-#: apc/config/fur_names.json:108 apc/config/fur_names.json:594
+#: apc/config/fur_names.json:108 apc/config/fur_names.json:597
 msgid "Crested Brown"
 msgstr "凤头棕"
 
@@ -1320,603 +1346,607 @@ msgid "Erythristic Golden"
 msgstr "红金"
 
 #: apc/config/fur_names.json:165
+msgid "Erythristic Isabelline"
+msgstr "红斑伊莎贝琳"
+
+#: apc/config/fur_names.json:168
 msgid "Erythristic Red"
 msgstr "红"
 
-#: apc/config/fur_names.json:168
+#: apc/config/fur_names.json:171
 msgid "Fantasma"
 msgstr "幻想"
 
-#: apc/config/fur_names.json:171
+#: apc/config/fur_names.json:174
 msgid "Fabled Frostbite"
 msgstr "珍稀霜痕"
 
-#: apc/config/fur_names.json:174 apc/config/fur_names.json:597
+#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
 msgid "Furry Charred Cinnamon"
 msgstr "毛茸茸的烧焦肉桂"
 
-#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
+#: apc/config/fur_names.json:180 apc/config/fur_names.json:603
 msgid "Furry Tawny"
 msgstr "毛茸茸的黄褐色"
 
-#: apc/config/fur_names.json:180
+#: apc/config/fur_names.json:183
 msgid "Ghost"
 msgstr "鬼"
 
-#: apc/config/fur_names.json:183
+#: apc/config/fur_names.json:186
 msgid "Ginger"
 msgstr "姜黄色"
 
-#: apc/config/fur_names.json:186
+#: apc/config/fur_names.json:189
 msgid "Gingersplit"
 msgstr "gingersplit"
 
-#: apc/config/fur_names.json:192
+#: apc/config/fur_names.json:195
 msgid "Fabled Gravehide"
 msgstr "珍稀墓隐"
 
-#: apc/config/fur_names.json:195
+#: apc/config/fur_names.json:198
 msgid "Grey Brown"
 msgstr "灰棕色"
 
-#: apc/config/fur_names.json:198
+#: apc/config/fur_names.json:201
 msgid "Fabled Chestnut"
 msgstr "珍惜栗色"
 
-#: apc/config/fur_names.json:201
+#: apc/config/fur_names.json:204
 msgid "Fabled Cream"
 msgstr "珍惜米黄色"
 
-#: apc/config/fur_names.json:204
+#: apc/config/fur_names.json:207
 msgid "Fabled Glacier"
 msgstr "珍惜冰川色"
 
-#: apc/config/fur_names.json:207
+#: apc/config/fur_names.json:210
 msgid "Fabled Glacier 2"
 msgstr "传说中的冰川 2"
 
-#: apc/config/fur_names.json:210
+#: apc/config/fur_names.json:213
 msgid "Fabled Spirit"
 msgstr "珍惜灵性色"
 
-#: apc/config/fur_names.json:213 apc/config/fur_names.json:243
-#: apc/config/fur_names.json:291
+#: apc/config/fur_names.json:216 apc/config/fur_names.json:246
+#: apc/config/fur_names.json:294
 msgid "Fabled Spotted"
 msgstr "珍惜斑点"
 
-#: apc/config/fur_names.json:216
+#: apc/config/fur_names.json:219
 msgid "Fabled Silver"
 msgstr "珍稀银斑"
 
-#: apc/config/fur_names.json:219 apc/config/fur_names.json:342
+#: apc/config/fur_names.json:222 apc/config/fur_names.json:345
 msgid "Fabled Piebald"
 msgstr "珍稀花斑"
 
-#: apc/config/fur_names.json:222
+#: apc/config/fur_names.json:225
 msgid "Fabled Hooded"
 msgstr "珍稀棕斑"
 
-#: apc/config/fur_names.json:225
+#: apc/config/fur_names.json:228
 msgid "Fabled Golden"
 msgstr "珍稀金斑"
 
-#: apc/config/fur_names.json:228
+#: apc/config/fur_names.json:231
 msgid "Fabled Mocha"
 msgstr "珍稀摩卡"
 
-#: apc/config/fur_names.json:231
+#: apc/config/fur_names.json:234
 msgid "Fabled Spruce"
 msgstr "珍稀云杉纹"
 
-#: apc/config/fur_names.json:234
+#: apc/config/fur_names.json:237
 msgid "Fabled Two Tone"
 msgstr "珍稀两色"
 
-#: apc/config/fur_names.json:237
+#: apc/config/fur_names.json:240
 msgid "Fabled Birch"
 msgstr "珍稀桦树纹"
 
-#: apc/config/fur_names.json:240
+#: apc/config/fur_names.json:243
 msgid "Fabled Ashen"
 msgstr "珍稀灰白斑"
 
-#: apc/config/fur_names.json:246
+#: apc/config/fur_names.json:249
 msgid "Fabled Oak"
 msgstr "珍稀栎树纹"
 
-#: apc/config/fur_names.json:249
+#: apc/config/fur_names.json:252
 msgid "Fabled Dripple Drizzle"
 msgstr "珍稀细雨纹"
 
-#: apc/config/fur_names.json:252
+#: apc/config/fur_names.json:255
 msgid "Fabled Cobweb Enigma"
 msgstr "珍稀蛛丝之谜纹"
 
-#: apc/config/fur_names.json:255
+#: apc/config/fur_names.json:258
 msgid "Fabled Dusky Drift"
 msgstr "珍稀暗黑漂流纹"
 
-#: apc/config/fur_names.json:258
+#: apc/config/fur_names.json:261
 msgid "Fabled Milky Way"
 msgstr "珍稀银河纹"
 
-#: apc/config/fur_names.json:261
+#: apc/config/fur_names.json:264
 msgid "Fabled Petal Puff"
 msgstr "珍稀花瓣泡芙纹"
 
-#: apc/config/fur_names.json:264
+#: apc/config/fur_names.json:267
 msgid "Fabled Cinnamon Stripes"
 msgstr "珍稀肉桂条纹"
 
-#: apc/config/fur_names.json:267
+#: apc/config/fur_names.json:270
 msgid "Fabled Citrine"
 msgstr "珍稀黄水晶纹"
 
-#: apc/config/fur_names.json:270
+#: apc/config/fur_names.json:273
 msgid "Fabled Emerald"
 msgstr "珍稀翡翠纹"
 
-#: apc/config/fur_names.json:273
+#: apc/config/fur_names.json:276
 msgid "Fabled Garnet"
 msgstr "珍稀石榴石纹"
 
-#: apc/config/fur_names.json:276
+#: apc/config/fur_names.json:279
 msgid "Fabled Morganite"
 msgstr "珍稀铯绿柱石纹"
 
-#: apc/config/fur_names.json:279
+#: apc/config/fur_names.json:282
 msgid "Fabled Obsidian"
 msgstr "珍稀黑曜石纹"
 
-#: apc/config/fur_names.json:282
+#: apc/config/fur_names.json:285
 msgid "Fabled Pearl"
 msgstr "珍稀珍珠纹"
 
-#: apc/config/fur_names.json:285
+#: apc/config/fur_names.json:288
 msgid "Fabled Ruby"
 msgstr "珍稀红宝石纹"
 
-#: apc/config/fur_names.json:288
+#: apc/config/fur_names.json:291
 msgid "Fabled Sapphire"
 msgstr "珍稀蓝宝石纹"
 
-#: apc/config/fur_names.json:294
+#: apc/config/fur_names.json:297
 msgid "Fabled Blood Moon"
 msgstr "珍惜血月纹"
 
-#: apc/config/fur_names.json:297
+#: apc/config/fur_names.json:300
 msgid "Fabled Candycane"
 msgstr "珍稀糖杖纹"
 
-#: apc/config/fur_names.json:300
+#: apc/config/fur_names.json:303
 msgid "Fabled Cherry Blossom"
 msgstr "珍稀樱花纹"
 
-#: apc/config/fur_names.json:303
+#: apc/config/fur_names.json:306
 msgid "Fabled Licorice"
 msgstr "珍稀甘草纹"
 
-#: apc/config/fur_names.json:306
+#: apc/config/fur_names.json:309
 msgid "Fabled Midnight Poppy"
 msgstr "珍稀夜罂粟纹"
 
-#: apc/config/fur_names.json:309
+#: apc/config/fur_names.json:312
 msgid "Fabled Mystic Snowdrop"
 msgstr "珍稀神秘雪花纹"
 
-#: apc/config/fur_names.json:312
+#: apc/config/fur_names.json:315
 msgid "Fabled Peppermint"
 msgstr "珍稀薄荷纹"
 
-#: apc/config/fur_names.json:315
+#: apc/config/fur_names.json:318
 msgid "Fabled Rosebud Frost"
 msgstr "珍稀玫瑰花蕾霜样纹"
 
-#: apc/config/fur_names.json:318
+#: apc/config/fur_names.json:321
 msgid "Fabled Scarlet Nightshade"
 msgstr "珍稀猩红茄属纹"
 
-#: apc/config/fur_names.json:321
+#: apc/config/fur_names.json:324
 msgid "Fabled Gold"
 msgstr "珍稀金斑"
 
-#: apc/config/fur_names.json:324
+#: apc/config/fur_names.json:327
 msgid "Fabled Grey"
 msgstr "珍稀灰斑"
 
-#: apc/config/fur_names.json:327
+#: apc/config/fur_names.json:330
 msgid "Fabled Half"
 msgstr "珍稀对半纹"
 
-#: apc/config/fur_names.json:330
+#: apc/config/fur_names.json:333
 msgid "Fabled Latte"
 msgstr "珍稀拿铁斑"
 
-#: apc/config/fur_names.json:333
+#: apc/config/fur_names.json:336
 msgid "Fabled Scars"
 msgstr "珍稀疤纹"
 
-#: apc/config/fur_names.json:336
+#: apc/config/fur_names.json:339
 msgid "Fabled Skull"
 msgstr "珍稀头骨纹"
 
-#: apc/config/fur_names.json:339
+#: apc/config/fur_names.json:342
 msgid "Fabled Snow"
 msgstr "珍稀雪纹"
 
-#: apc/config/fur_names.json:345
+#: apc/config/fur_names.json:348
 msgid "Grey"
 msgstr "灰色的"
 
-#: apc/config/fur_names.json:348
+#: apc/config/fur_names.json:351
 msgid "Grey 2"
 msgstr "灰色2"
 
-#: apc/config/fur_names.json:351
+#: apc/config/fur_names.json:354
 msgid "Fabled Hollow"
 msgstr "珍稀空谷"
 
-#: apc/config/fur_names.json:354
+#: apc/config/fur_names.json:357
 msgid "Honeytones"
 msgstr "蜂蜜色调"
 
-#: apc/config/fur_names.json:357
+#: apc/config/fur_names.json:360
 msgid "Hybrid"
 msgstr "杂交色"
 
-#: apc/config/fur_names.json:360
+#: apc/config/fur_names.json:363
 msgid "Hybrid 1"
 msgstr "杂种1"
 
-#: apc/config/fur_names.json:363
+#: apc/config/fur_names.json:366
 msgid "Hybrid 2"
 msgstr "混合2"
 
-#: apc/config/fur_names.json:366
+#: apc/config/fur_names.json:369
 msgid "Hybrid Blue"
 msgstr "蓝色杂交"
 
-#: apc/config/fur_names.json:369
+#: apc/config/fur_names.json:372
 msgid "Hybrid Green"
 msgstr "绿色杂交"
 
-#: apc/config/fur_names.json:372
+#: apc/config/fur_names.json:375
 msgid "Intermediate Morph"
 msgstr "中间变形"
 
-#: apc/config/fur_names.json:375
+#: apc/config/fur_names.json:378
 msgid "Jet Black"
 msgstr "乌黑"
 
-#: apc/config/fur_names.json:378
+#: apc/config/fur_names.json:381
 msgid "Jet Brown"
 msgstr "杰特布朗"
 
-#: apc/config/fur_names.json:381
+#: apc/config/fur_names.json:384
 msgid "Leucistic"
 msgstr "白色"
 
-#: apc/config/fur_names.json:384
+#: apc/config/fur_names.json:387
 msgid "Leucistic 2"
 msgstr "白化 2"
 
-#: apc/config/fur_names.json:387
+#: apc/config/fur_names.json:390
 msgid "Leucistic 3"
 msgstr "Leucistic 3"
 
-#: apc/config/fur_names.json:390
+#: apc/config/fur_names.json:393
 msgid "Leucistic 4"
 msgstr "Leucistic 4"
 
-#: apc/config/fur_names.json:393
+#: apc/config/fur_names.json:396
 msgid "Leucistic 5"
 msgstr "Leucistic 5"
 
-#: apc/config/fur_names.json:396
+#: apc/config/fur_names.json:399
 msgid "Light Bronze"
 msgstr "浅青铜色"
 
-#: apc/config/fur_names.json:399
+#: apc/config/fur_names.json:402
 msgid "Light Brown"
 msgstr "浅棕色"
 
-#: apc/config/fur_names.json:402
+#: apc/config/fur_names.json:405
 msgid "Light Brown 2"
 msgstr "浅棕色2"
 
-#: apc/config/fur_names.json:405
+#: apc/config/fur_names.json:408
 msgid "Light Green"
 msgstr "浅绿色"
 
-#: apc/config/fur_names.json:408
+#: apc/config/fur_names.json:411
 msgid "Light Grey"
 msgstr "浅灰色"
 
-#: apc/config/fur_names.json:411
+#: apc/config/fur_names.json:414
 msgid "Lightbuff"
 msgstr "浅米黄色"
 
-#: apc/config/fur_names.json:414
+#: apc/config/fur_names.json:417
 msgid "Light Grey Leucistic"
 msgstr "浅灰色 白化"
 
-#: apc/config/fur_names.json:417
+#: apc/config/fur_names.json:420
 msgid "Maroon"
 msgstr "栗色"
 
-#: apc/config/fur_names.json:420
+#: apc/config/fur_names.json:423
 msgid "Melanistic"
 msgstr "黑化"
 
-#: apc/config/fur_names.json:423
+#: apc/config/fur_names.json:426
 msgid "Melanistic 2"
 msgstr "黑色素2"
 
-#: apc/config/fur_names.json:426
+#: apc/config/fur_names.json:429
 msgid "Melanistic Charcoal"
 msgstr "炭色黑狼"
 
-#: apc/config/fur_names.json:429
+#: apc/config/fur_names.json:432
 msgid "Mixed"
 msgstr "混合色"
 
-#: apc/config/fur_names.json:432
+#: apc/config/fur_names.json:435
 msgid "Mixed 2"
 msgstr "混合2"
 
-#: apc/config/fur_names.json:435
+#: apc/config/fur_names.json:438
 msgid "Molting"
 msgstr "换毛色"
 
-#: apc/config/fur_names.json:438
+#: apc/config/fur_names.json:441
 msgid "Molting 2"
 msgstr "摩尔2"
 
-#: apc/config/fur_names.json:441
+#: apc/config/fur_names.json:444
 msgid "Mosaic"
 msgstr "马赛克"
 
-#: apc/config/fur_names.json:444
+#: apc/config/fur_names.json:447
 msgid "Mottled"
 msgstr "斑驳色"
 
-#: apc/config/fur_names.json:447
+#: apc/config/fur_names.json:450
 msgid "Mottled 2"
 msgstr "mottled 2"
 
-#: apc/config/fur_names.json:450
+#: apc/config/fur_names.json:453
 msgid "Mocha"
 msgstr "摩卡"
 
-#: apc/config/fur_names.json:453
+#: apc/config/fur_names.json:456
 msgid "Ochre"
 msgstr "赭色"
 
-#: apc/config/fur_names.json:456
+#: apc/config/fur_names.json:459
 msgid "Ogro"
 msgstr "欧格罗"
 
-#: apc/config/fur_names.json:459
+#: apc/config/fur_names.json:462
 msgid "Olive"
 msgstr "橄榄色"
 
-#: apc/config/fur_names.json:462
+#: apc/config/fur_names.json:465
 msgid "Orange"
 msgstr "橙色"
 
-#: apc/config/fur_names.json:465
+#: apc/config/fur_names.json:468
 msgid "Pale"
 msgstr "苍白色"
 
-#: apc/config/fur_names.json:468
+#: apc/config/fur_names.json:471
 msgid "Piebald"
 msgstr "花斑色"
 
-#: apc/config/fur_names.json:471
+#: apc/config/fur_names.json:474
 msgid "Piebald 2"
 msgstr "花斑 2"
 
-#: apc/config/fur_names.json:474
+#: apc/config/fur_names.json:477
 msgid "Piebald 3"
 msgstr "Piebald 3"
 
-#: apc/config/fur_names.json:477
+#: apc/config/fur_names.json:480
 msgid "Piebald 4"
 msgstr "Piebald 4"
 
-#: apc/config/fur_names.json:480
+#: apc/config/fur_names.json:483
 msgid "Piebald 5"
 msgstr "Piebald 5"
 
-#: apc/config/fur_names.json:483
+#: apc/config/fur_names.json:486
 msgid "Piebald Blonde"
 msgstr "Piebald金发"
 
-#: apc/config/fur_names.json:486
+#: apc/config/fur_names.json:489
 msgid "Piebald Grey"
 msgstr "斑块灰色"
 
-#: apc/config/fur_names.json:489
+#: apc/config/fur_names.json:492
 msgid "Pink"
 msgstr "粉色"
 
-#: apc/config/fur_names.json:492
+#: apc/config/fur_names.json:495
 msgid "Pristine"
 msgstr "纯净色"
 
-#: apc/config/fur_names.json:495
+#: apc/config/fur_names.json:498
 msgid "Pseudo-Melanistic"
 msgstr "伪黑色素"
 
-#: apc/config/fur_names.json:498
+#: apc/config/fur_names.json:501
 msgid "Pseudo-Melanistic 2"
 msgstr "伪黑色素2"
 
-#: apc/config/fur_names.json:501
+#: apc/config/fur_names.json:504
 msgid "Pseudo-Melanistic White"
 msgstr "伪黑白色"
 
-#: apc/config/fur_names.json:504
+#: apc/config/fur_names.json:507
 msgid "Pseudo-Melanistic White 2"
 msgstr "伪黑白色2"
 
-#: apc/config/fur_names.json:507
+#: apc/config/fur_names.json:510
 msgid "Purple Grey"
 msgstr "紫灰色"
 
-#: apc/config/fur_names.json:510
+#: apc/config/fur_names.json:513
 msgid "Fabled Razorwind"
 msgstr "珍稀刃风"
 
-#: apc/config/fur_names.json:513
+#: apc/config/fur_names.json:516
 msgid "Red"
 msgstr "红色"
 
-#: apc/config/fur_names.json:516
+#: apc/config/fur_names.json:519
 msgid "Red 2"
 msgstr "红色 2"
 
-#: apc/config/fur_names.json:519
+#: apc/config/fur_names.json:522
 msgid "Red Brown"
 msgstr "红棕色"
 
-#: apc/config/fur_names.json:522
+#: apc/config/fur_names.json:525
 msgid "Reddish Brown"
 msgstr "红棕色"
 
-#: apc/config/fur_names.json:525
+#: apc/config/fur_names.json:528
 msgid "Sand"
 msgstr "沙"
 
-#: apc/config/fur_names.json:528
+#: apc/config/fur_names.json:531
 msgid "Fabled Scarborne"
 msgstr "珍稀疤纹"
 
-#: apc/config/fur_names.json:534
+#: apc/config/fur_names.json:537
 msgid "Slate Grey"
 msgstr "板岩灰"
 
-#: apc/config/fur_names.json:537
+#: apc/config/fur_names.json:540
 msgid "Smoke"
 msgstr "抽烟"
 
-#: apc/config/fur_names.json:540
+#: apc/config/fur_names.json:543
 msgid "Snow"
 msgstr "雪"
 
-#: apc/config/fur_names.json:543
+#: apc/config/fur_names.json:546
 msgid "Sombra"
 msgstr "sombra"
 
-#: apc/config/fur_names.json:546
+#: apc/config/fur_names.json:549
 msgid "Spirit"
 msgstr "幽灵色"
 
-#: apc/config/fur_names.json:549
+#: apc/config/fur_names.json:552
 msgid "Spotted"
 msgstr "有斑点的"
 
-#: apc/config/fur_names.json:552
+#: apc/config/fur_names.json:555
 msgid "Spotted 2"
 msgstr "发现2"
 
-#: apc/config/fur_names.json:555
+#: apc/config/fur_names.json:558
 msgid "Spotted Dark"
 msgstr "深色斑点色"
 
-#: apc/config/fur_names.json:558
+#: apc/config/fur_names.json:561
 msgid "Spotted Red"
 msgstr "红色斑点色"
 
-#: apc/config/fur_names.json:561
+#: apc/config/fur_names.json:564
 msgid "Standard"
 msgstr "标准"
 
-#: apc/config/fur_names.json:564
+#: apc/config/fur_names.json:567
 msgid "Straw"
 msgstr "稻草"
 
-#: apc/config/fur_names.json:567
+#: apc/config/fur_names.json:570
 msgid "Tan"
 msgstr "茶色"
 
-#: apc/config/fur_names.json:570
+#: apc/config/fur_names.json:573
 msgid "Tawny"
 msgstr "黄褐色"
 
-#: apc/config/fur_names.json:573
+#: apc/config/fur_names.json:576
 msgid "Two Tone"
 msgstr "双色调"
 
-#: apc/config/fur_names.json:576
+#: apc/config/fur_names.json:579
 msgid "Fabled Twinsoul"
 msgstr "珍稀双魂"
 
-#: apc/config/fur_names.json:582
+#: apc/config/fur_names.json:585
 msgid "Fabled Vanguard"
 msgstr "珍稀先锋"
 
-#: apc/config/fur_names.json:603
+#: apc/config/fur_names.json:606
 msgid "White"
 msgstr "白色"
 
-#: apc/config/fur_names.json:606
+#: apc/config/fur_names.json:609
 msgid "White Brown"
 msgstr "白棕色"
 
-#: apc/config/fur_names.json:609
+#: apc/config/fur_names.json:612
 msgid "White Hybrid"
 msgstr "白色杂种"
 
-#: apc/config/fur_names.json:612
+#: apc/config/fur_names.json:615
 msgid "White Morph"
 msgstr "白色变体"
 
-#: apc/config/fur_names.json:615
+#: apc/config/fur_names.json:618
 msgid "White Stripeless"
 msgstr "白色无条纹"
 
-#: apc/config/fur_names.json:618
+#: apc/config/fur_names.json:621
 msgid "Fabled Ash"
 msgstr "传说中的灰烬"
 
-#: apc/config/fur_names.json:621
+#: apc/config/fur_names.json:624
 msgid "Fabled Stipple"
 msgstr "传说中的点画"
 
-#: apc/config/fur_names.json:624
+#: apc/config/fur_names.json:627
 msgid "Fabled Smolder"
 msgstr "传说中的阴燃"
 
-#: apc/config/fur_names.json:627
+#: apc/config/fur_names.json:630
 msgid "Fabled Cinder"
 msgstr "传说中的煤渣"
 
-#: apc/config/fur_names.json:630
+#: apc/config/fur_names.json:633
 msgid "Fabled Stitch"
 msgstr "传说中的缝合"
 
-#: apc/config/fur_names.json:633
+#: apc/config/fur_names.json:636
 msgid "Fabled Scorch"
 msgstr "传说中的焦土"
 
-#: apc/config/fur_names.json:636
+#: apc/config/fur_names.json:639
 msgid "Fabled Butterscotch"
 msgstr "传说中的奶油糖果"
 
-#: apc/config/fur_names.json:639
+#: apc/config/fur_names.json:642
 msgid "Fabled Chalk"
 msgstr "传说中的粉笔"
 
-#: apc/config/fur_names.json:642
+#: apc/config/fur_names.json:645
 msgid "Fabled Brindle"
 msgstr "传说中的斑纹"
 
-#: apc/config/fur_names.json:645
+#: apc/config/fur_names.json:648
 msgid "Winter"
 msgstr "冬季色"
 
-#: apc/config/fur_names.json:648
+#: apc/config/fur_names.json:651
 msgid "Yellow"
 msgstr "黄色的"
 
@@ -1991,3 +2021,9 @@ msgstr "阿斯基岭狩猎保护区"
 #: apc/config/reserve_details.json:310
 msgid "Tórr nan Sìthean Hunting Reserve"
 msgstr "精灵之丘狩猎庄园"
+
+#~ msgid "Updated animals on multiple reserves. Use"
+#~ msgstr "在多个狩猎区上更新动物。使用"
+
+#~ msgid "to load the modded files for each reserve:"
+#~ msgstr "为每个狩猎区加载改装文件："

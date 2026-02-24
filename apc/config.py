@@ -191,6 +191,10 @@ def setup_translations() -> None:
   FILES = translate("Files")
   global FILE_NOT_FOUND
   FILE_NOT_FOUND = translate("The file could not be found")
+  global MAP_DATA_NOT_FOUND
+  MAP_DATA_NOT_FOUND = translate("Map data not found")
+  global MAP_DATA_NOT_FOUND_INSTRUCTIONS
+  MAP_DATA_NOT_FOUND_INSTRUCTIONS = translate("Open the game, load the map once, then save and quit. After that, reopen the mod tool and try again.")
   global CONFIGURE_GAME_PATH
   CONFIGURE_GAME_PATH = translate("Configure Game Path")
   global CONFIGURE_GAME_PATH_ERROR
@@ -319,10 +323,18 @@ def setup_translations() -> None:
   ANIMALS_LOADED = translate("Animals loaded")
   global SELECTED_MULTIPLE_RESERVES
   SELECTED_MULTIPLE_RESERVES = translate("Selected animals from multiple reserves. Modifications will overwrite the following files:")
+  global CLICK
+  CLICK = translate("Click")
+  global UPDATED_ANIMALS_ON_RESERVE
+  UPDATED_ANIMALS_ON_RESERVE = translate("Updated animals on reserve")
+  global UPDATED_ANIMALS_ON_RESERVE_2
+  UPDATED_ANIMALS_ON_RESERVE_2 = translate("to load the modded file into your saves folder")
   global UPDATED_MULTIPLE_RESERVES
-  UPDATED_MULTIPLE_RESERVES = translate("Updated animals on multiple reserves. Use")
+  UPDATED_MULTIPLE_RESERVES = translate("Updated animals on multiple reserves")
   global UPDATED_MULTIPLE_RESERVES_2
-  UPDATED_MULTIPLE_RESERVES_2 = translate("to load the modded files for each reserve:")
+  UPDATED_MULTIPLE_RESERVES_2 = translate("to load the modded files for each reserve into your saves folder")
+  global DONT_REMIND_ME
+  DONT_REMIND_ME = translate("Don't remind me again")
 
 setup_translations()
 

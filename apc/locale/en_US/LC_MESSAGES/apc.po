@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-10 04:12-0500\n"
+"POT-Creation-Date: 2026-02-24 16:48-0500\n"
 "PO-Revision-Date: 2023-04-02 23:55-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en_US <LL@li.org>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: apc/config.py:43
 msgid "Animal Population Changer"
@@ -78,7 +78,7 @@ msgstr "Visual Seed"
 msgid "Fur"
 msgstr "Fur"
 
-#: apc/config.py:73 apc/config.py:444 apc/config/fur_names.json:579
+#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:582
 msgid "Unknown"
 msgstr "Unknown"
 
@@ -90,11 +90,11 @@ msgstr "None"
 msgid "Bronze"
 msgstr "Bronze"
 
-#: apc/config.py:79 apc/config/fur_names.json:531
+#: apc/config.py:79 apc/config/fur_names.json:534
 msgid "Silver"
 msgstr "Silver"
 
-#: apc/config.py:81 apc/config/fur_names.json:189
+#: apc/config.py:81 apc/config/fur_names.json:192
 msgid "Gold"
 msgstr "Gold"
 
@@ -102,7 +102,7 @@ msgstr "Gold"
 msgid "Diamond"
 msgstr "Diamond"
 
-#: apc/config.py:85 apc/config.py:464
+#: apc/config.py:85 apc/config.py:476
 msgid "Great One"
 msgstr "Great One"
 
@@ -323,255 +323,267 @@ msgid "The file could not be found"
 msgstr "The file could not be found"
 
 #: apc/config.py:195
+msgid "Map data not found"
+msgstr "Map data not found"
+
+#: apc/config.py:197
+msgid ""
+"Open the game, load the map once, then save and quit. After that, reopen the"
+" mod tool and try again."
+msgstr ""
+"Open the game, load the map once, then save and quit. After that, reopen the"
+" mod tool and try again."
+
+#: apc/config.py:199
 msgid "Configure Game Path"
 msgstr "Configure Game Path"
 
-#: apc/config.py:197
+#: apc/config.py:201
 msgid "Please configure the path to your game save"
 msgstr "Please configure the path to your game save"
 
-#: apc/config.py:199
+#: apc/config.py:203
 msgid "List Mods"
 msgstr "List Mods"
 
-#: apc/config.py:201
+#: apc/config.py:205
 msgid "Load Mod"
 msgstr "Load Mod"
 
-#: apc/config.py:203
+#: apc/config.py:207
 msgid "Unload Mod"
 msgstr "Unload Mod"
 
-#: apc/config.py:205
+#: apc/config.py:209
 msgid "Select the folder where the game saves your files"
 msgstr "Select the folder where the game saves your files"
 
-#: apc/config.py:207
+#: apc/config.py:211
 msgid "Saves Path"
 msgstr "Saves Path"
 
-#: apc/config.py:209
+#: apc/config.py:213
 msgid "Game path saved"
 msgstr "Game path saved"
 
-#: apc/config.py:211
+#: apc/config.py:215
 msgid "Are you sure you want to overwrite your game file with the modded one?"
 msgstr ""
 "Are you sure you want to overwrite your game file with the modded one?"
 
-#: apc/config.py:213
+#: apc/config.py:217
 msgid "Don't worry, a backup copy will be made."
 msgstr "Don't worry, a backup copy will be made."
 
-#: apc/config.py:215
+#: apc/config.py:219
 msgid "Confirmation"
 msgstr "Confirmation"
 
-#: apc/config.py:217
+#: apc/config.py:221
 msgid "Mod"
 msgstr "Mod"
 
-#: apc/config.py:219
+#: apc/config.py:223
 msgid "View modded version"
 msgstr "View modded version"
 
-#: apc/config.py:221
+#: apc/config.py:225
 msgid "viewing loaded"
 msgstr "viewing loaded"
 
-#: apc/config.py:223
+#: apc/config.py:227
 msgid "viewing modded"
 msgstr "viewing modded"
 
-#: apc/config.py:225
+#: apc/config.py:229
 msgid "Total animals"
 msgstr "Total animals"
 
-#: apc/config.py:227 apc/config.py:291
+#: apc/config.py:231 apc/config.py:295
 msgid "Loaded"
 msgstr "Loaded"
 
-#: apc/config.py:229
+#: apc/config.py:233
 msgid "Modded File"
 msgstr "Modded File"
 
-#: apc/config.py:231
+#: apc/config.py:235
 msgid "Back to Reserve"
 msgstr "Back to Reserve"
 
-#: apc/config.py:233
+#: apc/config.py:237
 msgid "update translations"
 msgstr "update translations"
 
-#: apc/config.py:235
+#: apc/config.py:239
 msgid "switch language"
 msgstr "switch language"
 
-#: apc/config.py:237
+#: apc/config.py:241
 msgid "Please restart to see changes"
 msgstr "Please restart to see changes"
 
-#: apc/config.py:239
+#: apc/config.py:243
 msgid "default"
 msgstr "default"
 
-#: apc/config.py:241
+#: apc/config.py:245
 msgid "using"
 msgstr "using"
 
-#: apc/config.py:243
+#: apc/config.py:247
 msgid "OK"
 msgstr "OK"
 
-#: apc/config.py:245
+#: apc/config.py:249
 msgid "Cancel"
 msgstr "Cancel"
 
-#: apc/config.py:247
+#: apc/config.py:251
 msgid "Modify Animals"
 msgstr "Modify Animals"
 
-#: apc/config.py:249
+#: apc/config.py:253
 msgid "Gender Counts"
 msgstr "Gender Counts"
 
-#: apc/config.py:251
+#: apc/config.py:255
 msgid "Add/Remove Animals"
 msgstr "Add/Remove Animals"
 
-#: apc/config.py:253
+#: apc/config.py:257
 msgid "Adding Animals"
 msgstr "Adding Animals"
 
-#: apc/config.py:255
+#: apc/config.py:259
 msgid "Can't add all animals"
 msgstr "Can't add all animals"
 
-#: apc/config.py:257
+#: apc/config.py:261
 msgid "Each group has a limit of 30 animals"
 msgstr "Each group has a limit of 30 animals"
 
-#: apc/config.py:259
+#: apc/config.py:263
 msgid "Removing Animals"
 msgstr "Removing Animals"
 
-#: apc/config.py:261
+#: apc/config.py:265
 msgid "Can't remove animals"
 msgstr "Can't remove animals"
 
-#: apc/config.py:263
+#: apc/config.py:267
 msgid "Each group needs at least 1 animal"
 msgstr "Each group needs at least 1 animal"
 
-#: apc/config.py:265
+#: apc/config.py:269
 msgid "Trophy Rating"
 msgstr "Trophy Rating"
 
-#: apc/config.py:267
+#: apc/config.py:271
 msgid "Furs"
 msgstr "Furs"
 
-#: apc/config.py:269
+#: apc/config.py:273
 msgid "Modify Animal Furs"
 msgstr "Modify Animal Furs"
 
-#: apc/config.py:271
+#: apc/config.py:275
 msgid "Male Furs"
 msgstr "Male Furs"
 
-#: apc/config.py:273
+#: apc/config.py:277
 msgid "Female Furs"
 msgstr "Female Furs"
 
-#: apc/config.py:275
+#: apc/config.py:279
 msgid "Change All Species"
 msgstr "Change All Species"
 
-#: apc/config.py:277
+#: apc/config.py:281
 msgid "Explore Animals"
 msgstr "Explore Animals"
 
-#: apc/config.py:279
+#: apc/config.py:283
 msgid "Manage Modded Reserves"
 msgstr "Manage Modded Reserves"
 
-#: apc/config.py:281
+#: apc/config.py:285
 msgid "use all furs"
 msgstr "use all furs"
 
-#: apc/config.py:283
+#: apc/config.py:287
 msgid "Animal Details"
 msgstr "Animal Details"
 
-#: apc/config.py:285
+#: apc/config.py:289
 msgid "default is random fur"
 msgstr "default is random fur"
 
-#: apc/config.py:287
+#: apc/config.py:291
 msgid "Update Animal"
 msgstr "Update Animal"
 
-#: apc/config.py:289
+#: apc/config.py:293
 msgid "Top 10"
 msgstr "Top 10"
 
-#: apc/config.py:293
+#: apc/config.py:297
 msgid "Export Mod"
 msgstr "Export Mod"
 
-#: apc/config.py:295
+#: apc/config.py:299
 msgid "Import Mod"
 msgstr "Import Mod"
 
-#: apc/config.py:297
+#: apc/config.py:301
 msgid "Export"
 msgstr "Export"
 
-#: apc/config.py:299
+#: apc/config.py:303
 msgid "Import"
 msgstr "Import"
 
-#: apc/config.py:301
+#: apc/config.py:305
 msgid "Select the location and filename where you want to export"
 msgstr "Select the location and filename where you want to export"
 
-#: apc/config.py:303
+#: apc/config.py:307
 msgid "Select the reserve mod to import"
 msgstr "Select the reserve mod to import"
 
-#: apc/config.py:305
+#: apc/config.py:309
 msgid "Export As"
 msgstr "Export As"
 
-#: apc/config.py:307
+#: apc/config.py:311
 msgid "Select File"
 msgstr "Select File"
 
-#: apc/config.py:309
+#: apc/config.py:313
 msgid "Mod Exported"
 msgstr "Mod Exported"
 
-#: apc/config.py:311
+#: apc/config.py:315
 msgid "Mod Imported"
 msgstr "Mod Imported"
 
-#: apc/config.py:313
+#: apc/config.py:317
 msgid "No reserve data loaded. Select a reserve from the list."
 msgstr "No reserve data loaded. Select a reserve from the list."
 
-#: apc/config.py:315
+#: apc/config.py:319
 msgid "Select an animal from the list."
 msgstr "Select an animal from the list."
 
-#: apc/config.py:317
+#: apc/config.py:321
 msgid "Loading animals"
 msgstr "Loading animals"
 
-#: apc/config.py:319
+#: apc/config.py:323
 msgid "Animals loaded"
 msgstr "Animals loaded"
 
-#: apc/config.py:321
+#: apc/config.py:325
 msgid ""
 "Selected animals from multiple reserves. Modifications will overwrite the "
 "following files:"
@@ -579,59 +591,75 @@ msgstr ""
 "Selected animals from multiple reserves. Modifications will overwrite the "
 "following files:"
 
-#: apc/config.py:323
-msgid "Updated animals on multiple reserves. Use"
-msgstr "Updated animals on multiple reserves. Use"
+#: apc/config.py:327
+msgid "Click"
+msgstr "Click"
 
-#: apc/config.py:325
-msgid "to load the modded files for each reserve:"
-msgstr "to load the modded files for each reserve:"
+#: apc/config.py:329
+msgid "Updated animals on reserve"
+msgstr "Updated animals on reserve"
 
-#: apc/config.py:446
+#: apc/config.py:331
+msgid "to load the modded file into your saves folder"
+msgstr "to load the modded file into your saves folder"
+
+#: apc/config.py:333
+msgid "Updated animals on multiple reserves"
+msgstr "Updated animals on multiple reserves"
+
+#: apc/config.py:335
+msgid "to load the modded files for each reserve into your saves folder"
+msgstr "to load the modded files for each reserve into your saves folder"
+
+#: apc/config.py:337
+msgid "Don't remind me again"
+msgstr "Don't remind me again"
+
+#: apc/config.py:458
 msgid "Trivial"
 msgstr "Trivial"
 
-#: apc/config.py:448
+#: apc/config.py:460
 msgid "Minor"
 msgstr "Minor"
 
-#: apc/config.py:450
+#: apc/config.py:462
 msgid "Very Easy"
 msgstr "Very Easy"
 
-#: apc/config.py:452
+#: apc/config.py:464
 msgid "Easy"
 msgstr "Easy"
 
-#: apc/config.py:454
+#: apc/config.py:466
 msgid "Medium"
 msgstr "Medium"
 
-#: apc/config.py:456
+#: apc/config.py:468
 msgid "Hard"
 msgstr "Hard"
 
-#: apc/config.py:458
+#: apc/config.py:470
 msgid "Very Hard"
 msgstr "Very Hard"
 
-#: apc/config.py:460
+#: apc/config.py:472
 msgid "Mythical"
 msgstr "Mythical"
 
-#: apc/config.py:462
+#: apc/config.py:474
 msgid "Legendary"
 msgstr "Legendary"
 
-#: apc/config.py:515
+#: apc/config.py:527
 msgid "animal_name"
 msgstr "animal_name"
 
-#: apc/config.py:519
+#: apc/config.py:531
 msgid "fur_name"
 msgstr "fur_name"
 
-#: apc/config.py:584 apc/config.py:707
+#: apc/config.py:596 apc/config.py:719
 msgid "reserve_name"
 msgstr "reserve_name"
 
@@ -1127,11 +1155,11 @@ msgstr "Albino 2"
 msgid "Albino - Boss"
 msgstr "Albino - Boss"
 
-#: apc/config/fur_names.json:15 apc/config/fur_names.json:588
+#: apc/config/fur_names.json:15 apc/config/fur_names.json:591
 msgid "Bald Calico"
 msgstr "Bald Calico"
 
-#: apc/config/fur_names.json:18 apc/config/fur_names.json:585
+#: apc/config/fur_names.json:18 apc/config/fur_names.json:588
 msgid "Bald Spotted"
 msgstr "Bald Spotted"
 
@@ -1243,11 +1271,11 @@ msgstr "Cinnamon"
 msgid "Cream"
 msgstr "Cream"
 
-#: apc/config/fur_names.json:105 apc/config/fur_names.json:591
+#: apc/config/fur_names.json:105 apc/config/fur_names.json:594
 msgid "Crested Blond"
 msgstr "Crested Blond"
 
-#: apc/config/fur_names.json:108 apc/config/fur_names.json:594
+#: apc/config/fur_names.json:108 apc/config/fur_names.json:597
 msgid "Crested Brown"
 msgstr "Crested Brown"
 
@@ -1324,603 +1352,607 @@ msgid "Erythristic Golden"
 msgstr "Erythristic Golden"
 
 #: apc/config/fur_names.json:165
+msgid "Erythristic Isabelline"
+msgstr "Erythristic Isabelline"
+
+#: apc/config/fur_names.json:168
 msgid "Erythristic Red"
 msgstr "Erythristic Red"
 
-#: apc/config/fur_names.json:168
+#: apc/config/fur_names.json:171
 msgid "Fantasma"
 msgstr "Fantasma"
 
-#: apc/config/fur_names.json:171
+#: apc/config/fur_names.json:174
 msgid "Fabled Frostbite"
 msgstr "Fabled Frostbite"
 
-#: apc/config/fur_names.json:174 apc/config/fur_names.json:597
+#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
 msgid "Furry Charred Cinnamon"
 msgstr "Furry Charred Cinnamon"
 
-#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
+#: apc/config/fur_names.json:180 apc/config/fur_names.json:603
 msgid "Furry Tawny"
 msgstr "Furry Tawny"
 
-#: apc/config/fur_names.json:180
+#: apc/config/fur_names.json:183
 msgid "Ghost"
 msgstr "Ghost"
 
-#: apc/config/fur_names.json:183
+#: apc/config/fur_names.json:186
 msgid "Ginger"
 msgstr "Ginger"
 
-#: apc/config/fur_names.json:186
+#: apc/config/fur_names.json:189
 msgid "Gingersplit"
 msgstr "Gingersplit"
 
-#: apc/config/fur_names.json:192
+#: apc/config/fur_names.json:195
 msgid "Fabled Gravehide"
 msgstr "Fabled Gravehide"
 
-#: apc/config/fur_names.json:195
+#: apc/config/fur_names.json:198
 msgid "Grey Brown"
 msgstr "Grey Brown"
 
-#: apc/config/fur_names.json:198
+#: apc/config/fur_names.json:201
 msgid "Fabled Chestnut"
 msgstr "Fabled Chestnut"
 
-#: apc/config/fur_names.json:201
+#: apc/config/fur_names.json:204
 msgid "Fabled Cream"
 msgstr "Fabled Cream"
 
-#: apc/config/fur_names.json:204
+#: apc/config/fur_names.json:207
 msgid "Fabled Glacier"
 msgstr "Fabled Glacier"
 
-#: apc/config/fur_names.json:207
+#: apc/config/fur_names.json:210
 msgid "Fabled Glacier 2"
 msgstr "Fabled Glacier 2"
 
-#: apc/config/fur_names.json:210
+#: apc/config/fur_names.json:213
 msgid "Fabled Spirit"
 msgstr "Fabled Spirit"
 
-#: apc/config/fur_names.json:213 apc/config/fur_names.json:243
-#: apc/config/fur_names.json:291
+#: apc/config/fur_names.json:216 apc/config/fur_names.json:246
+#: apc/config/fur_names.json:294
 msgid "Fabled Spotted"
 msgstr "Fabled Spotted"
 
-#: apc/config/fur_names.json:216
+#: apc/config/fur_names.json:219
 msgid "Fabled Silver"
 msgstr "Fabled Silver"
 
-#: apc/config/fur_names.json:219 apc/config/fur_names.json:342
+#: apc/config/fur_names.json:222 apc/config/fur_names.json:345
 msgid "Fabled Piebald"
 msgstr "Fabled Piebald"
 
-#: apc/config/fur_names.json:222
+#: apc/config/fur_names.json:225
 msgid "Fabled Hooded"
 msgstr "Fabled Hooded"
 
-#: apc/config/fur_names.json:225
+#: apc/config/fur_names.json:228
 msgid "Fabled Golden"
 msgstr "Fabled Golden"
 
-#: apc/config/fur_names.json:228
+#: apc/config/fur_names.json:231
 msgid "Fabled Mocha"
 msgstr "Fabled Mocha"
 
-#: apc/config/fur_names.json:231
+#: apc/config/fur_names.json:234
 msgid "Fabled Spruce"
 msgstr "Fabled Spruce"
 
-#: apc/config/fur_names.json:234
+#: apc/config/fur_names.json:237
 msgid "Fabled Two Tone"
 msgstr "Fabled Two Tone"
 
-#: apc/config/fur_names.json:237
+#: apc/config/fur_names.json:240
 msgid "Fabled Birch"
 msgstr "Fabled Birch"
 
-#: apc/config/fur_names.json:240
+#: apc/config/fur_names.json:243
 msgid "Fabled Ashen"
 msgstr "Fabled Ashen"
 
-#: apc/config/fur_names.json:246
+#: apc/config/fur_names.json:249
 msgid "Fabled Oak"
 msgstr "Fabled Oak"
 
-#: apc/config/fur_names.json:249
+#: apc/config/fur_names.json:252
 msgid "Fabled Dripple Drizzle"
 msgstr "Fabled Dripple Drizzle"
 
-#: apc/config/fur_names.json:252
+#: apc/config/fur_names.json:255
 msgid "Fabled Cobweb Enigma"
 msgstr "Fabled Cobweb Enigma"
 
-#: apc/config/fur_names.json:255
+#: apc/config/fur_names.json:258
 msgid "Fabled Dusky Drift"
 msgstr "Fabled Dusky Drift"
 
-#: apc/config/fur_names.json:258
+#: apc/config/fur_names.json:261
 msgid "Fabled Milky Way"
 msgstr "Fabled Milky Way"
 
-#: apc/config/fur_names.json:261
+#: apc/config/fur_names.json:264
 msgid "Fabled Petal Puff"
 msgstr "Fabled Petal Puff"
 
-#: apc/config/fur_names.json:264
+#: apc/config/fur_names.json:267
 msgid "Fabled Cinnamon Stripes"
 msgstr "Fabled Cinnamon Stripes"
 
-#: apc/config/fur_names.json:267
+#: apc/config/fur_names.json:270
 msgid "Fabled Citrine"
 msgstr "Fabled Citrine"
 
-#: apc/config/fur_names.json:270
+#: apc/config/fur_names.json:273
 msgid "Fabled Emerald"
 msgstr "Fabled Emerald"
 
-#: apc/config/fur_names.json:273
+#: apc/config/fur_names.json:276
 msgid "Fabled Garnet"
 msgstr "Fabled Garnet"
 
-#: apc/config/fur_names.json:276
+#: apc/config/fur_names.json:279
 msgid "Fabled Morganite"
 msgstr "Fabled Morganite"
 
-#: apc/config/fur_names.json:279
+#: apc/config/fur_names.json:282
 msgid "Fabled Obsidian"
 msgstr "Fabled Obsidian"
 
-#: apc/config/fur_names.json:282
+#: apc/config/fur_names.json:285
 msgid "Fabled Pearl"
 msgstr "Fabled Pearl"
 
-#: apc/config/fur_names.json:285
+#: apc/config/fur_names.json:288
 msgid "Fabled Ruby"
 msgstr "Fabled Ruby"
 
-#: apc/config/fur_names.json:288
+#: apc/config/fur_names.json:291
 msgid "Fabled Sapphire"
 msgstr "Fabled Sapphire"
 
-#: apc/config/fur_names.json:294
+#: apc/config/fur_names.json:297
 msgid "Fabled Blood Moon"
 msgstr "Fabled Blood Moon"
 
-#: apc/config/fur_names.json:297
+#: apc/config/fur_names.json:300
 msgid "Fabled Candycane"
 msgstr "Fabled Candycane"
 
-#: apc/config/fur_names.json:300
+#: apc/config/fur_names.json:303
 msgid "Fabled Cherry Blossom"
 msgstr "Fabled Cherry Blossom"
 
-#: apc/config/fur_names.json:303
+#: apc/config/fur_names.json:306
 msgid "Fabled Licorice"
 msgstr "Fabled Licorice"
 
-#: apc/config/fur_names.json:306
+#: apc/config/fur_names.json:309
 msgid "Fabled Midnight Poppy"
 msgstr "Fabled Midnight Poppy"
 
-#: apc/config/fur_names.json:309
+#: apc/config/fur_names.json:312
 msgid "Fabled Mystic Snowdrop"
 msgstr "Fabled Mystic Snowdrop"
 
-#: apc/config/fur_names.json:312
+#: apc/config/fur_names.json:315
 msgid "Fabled Peppermint"
 msgstr "Fabled Peppermint"
 
-#: apc/config/fur_names.json:315
+#: apc/config/fur_names.json:318
 msgid "Fabled Rosebud Frost"
 msgstr "Fabled Rosebud Frost"
 
-#: apc/config/fur_names.json:318
+#: apc/config/fur_names.json:321
 msgid "Fabled Scarlet Nightshade"
 msgstr "Fabled Scarlet Nightshade"
 
-#: apc/config/fur_names.json:321
+#: apc/config/fur_names.json:324
 msgid "Fabled Gold"
 msgstr "Fabled Gold"
 
-#: apc/config/fur_names.json:324
+#: apc/config/fur_names.json:327
 msgid "Fabled Grey"
 msgstr "Fabled Grey"
 
-#: apc/config/fur_names.json:327
+#: apc/config/fur_names.json:330
 msgid "Fabled Half"
 msgstr "Fabled Half"
 
-#: apc/config/fur_names.json:330
+#: apc/config/fur_names.json:333
 msgid "Fabled Latte"
 msgstr "Fabled Latte"
 
-#: apc/config/fur_names.json:333
+#: apc/config/fur_names.json:336
 msgid "Fabled Scars"
 msgstr "Fabled Scars"
 
-#: apc/config/fur_names.json:336
+#: apc/config/fur_names.json:339
 msgid "Fabled Skull"
 msgstr "Fabled Skull"
 
-#: apc/config/fur_names.json:339
+#: apc/config/fur_names.json:342
 msgid "Fabled Snow"
 msgstr "Fabled Snow"
 
-#: apc/config/fur_names.json:345
+#: apc/config/fur_names.json:348
 msgid "Grey"
 msgstr "Grey"
 
-#: apc/config/fur_names.json:348
+#: apc/config/fur_names.json:351
 msgid "Grey 2"
 msgstr "Grey 2"
 
-#: apc/config/fur_names.json:351
+#: apc/config/fur_names.json:354
 msgid "Fabled Hollow"
 msgstr "Fabled Hollow"
 
-#: apc/config/fur_names.json:354
+#: apc/config/fur_names.json:357
 msgid "Honeytones"
 msgstr "Honeytones"
 
-#: apc/config/fur_names.json:357
+#: apc/config/fur_names.json:360
 msgid "Hybrid"
 msgstr "Hybrid"
 
-#: apc/config/fur_names.json:360
+#: apc/config/fur_names.json:363
 msgid "Hybrid 1"
 msgstr "Hybrid 1"
 
-#: apc/config/fur_names.json:363
+#: apc/config/fur_names.json:366
 msgid "Hybrid 2"
 msgstr "Hybrid 2"
 
-#: apc/config/fur_names.json:366
+#: apc/config/fur_names.json:369
 msgid "Hybrid Blue"
 msgstr "Hybrid Blue"
 
-#: apc/config/fur_names.json:369
+#: apc/config/fur_names.json:372
 msgid "Hybrid Green"
 msgstr "Hybrid Green"
 
-#: apc/config/fur_names.json:372
+#: apc/config/fur_names.json:375
 msgid "Intermediate Morph"
 msgstr "Intermediate Morph"
 
-#: apc/config/fur_names.json:375
+#: apc/config/fur_names.json:378
 msgid "Jet Black"
 msgstr "Jet Black"
 
-#: apc/config/fur_names.json:378
+#: apc/config/fur_names.json:381
 msgid "Jet Brown"
 msgstr "Jet Brown"
 
-#: apc/config/fur_names.json:381
+#: apc/config/fur_names.json:384
 msgid "Leucistic"
 msgstr "Leucistic"
 
-#: apc/config/fur_names.json:384
+#: apc/config/fur_names.json:387
 msgid "Leucistic 2"
 msgstr "Leucistic 2"
 
-#: apc/config/fur_names.json:387
+#: apc/config/fur_names.json:390
 msgid "Leucistic 3"
 msgstr "Leucistic 3"
 
-#: apc/config/fur_names.json:390
+#: apc/config/fur_names.json:393
 msgid "Leucistic 4"
 msgstr "Leucistic 4"
 
-#: apc/config/fur_names.json:393
+#: apc/config/fur_names.json:396
 msgid "Leucistic 5"
 msgstr "Leucistic 5"
 
-#: apc/config/fur_names.json:396
+#: apc/config/fur_names.json:399
 msgid "Light Bronze"
 msgstr "Light Bronze"
 
-#: apc/config/fur_names.json:399
+#: apc/config/fur_names.json:402
 msgid "Light Brown"
 msgstr "Light Brown"
 
-#: apc/config/fur_names.json:402
+#: apc/config/fur_names.json:405
 msgid "Light Brown 2"
 msgstr "Light Brown 2"
 
-#: apc/config/fur_names.json:405
+#: apc/config/fur_names.json:408
 msgid "Light Green"
 msgstr "Light Green"
 
-#: apc/config/fur_names.json:408
+#: apc/config/fur_names.json:411
 msgid "Light Grey"
 msgstr "Light Grey"
 
-#: apc/config/fur_names.json:411
+#: apc/config/fur_names.json:414
 msgid "Lightbuff"
 msgstr "Lightbuff"
 
-#: apc/config/fur_names.json:414
+#: apc/config/fur_names.json:417
 msgid "Light Grey Leucistic"
 msgstr "Light Grey Leucistic"
 
-#: apc/config/fur_names.json:417
+#: apc/config/fur_names.json:420
 msgid "Maroon"
 msgstr "Maroon"
 
-#: apc/config/fur_names.json:420
+#: apc/config/fur_names.json:423
 msgid "Melanistic"
 msgstr "Melanistic"
 
-#: apc/config/fur_names.json:423
+#: apc/config/fur_names.json:426
 msgid "Melanistic 2"
 msgstr "Melanistic 2"
 
-#: apc/config/fur_names.json:426
+#: apc/config/fur_names.json:429
 msgid "Melanistic Charcoal"
 msgstr "Melanistic Charcoal"
 
-#: apc/config/fur_names.json:429
+#: apc/config/fur_names.json:432
 msgid "Mixed"
 msgstr "Mixed"
 
-#: apc/config/fur_names.json:432
+#: apc/config/fur_names.json:435
 msgid "Mixed 2"
 msgstr "Mixed 2"
 
-#: apc/config/fur_names.json:435
+#: apc/config/fur_names.json:438
 msgid "Molting"
 msgstr "Molting"
 
-#: apc/config/fur_names.json:438
+#: apc/config/fur_names.json:441
 msgid "Molting 2"
 msgstr "Molting 2"
 
-#: apc/config/fur_names.json:441
+#: apc/config/fur_names.json:444
 msgid "Mosaic"
 msgstr "Mosaic"
 
-#: apc/config/fur_names.json:444
+#: apc/config/fur_names.json:447
 msgid "Mottled"
 msgstr "Mottled"
 
-#: apc/config/fur_names.json:447
+#: apc/config/fur_names.json:450
 msgid "Mottled 2"
 msgstr "Mottled 2"
 
-#: apc/config/fur_names.json:450
+#: apc/config/fur_names.json:453
 msgid "Mocha"
 msgstr "Mocha"
 
-#: apc/config/fur_names.json:453
+#: apc/config/fur_names.json:456
 msgid "Ochre"
 msgstr "Ochre"
 
-#: apc/config/fur_names.json:456
+#: apc/config/fur_names.json:459
 msgid "Ogro"
 msgstr "Ogro"
 
-#: apc/config/fur_names.json:459
+#: apc/config/fur_names.json:462
 msgid "Olive"
 msgstr "Olive"
 
-#: apc/config/fur_names.json:462
+#: apc/config/fur_names.json:465
 msgid "Orange"
 msgstr "Orange"
 
-#: apc/config/fur_names.json:465
+#: apc/config/fur_names.json:468
 msgid "Pale"
 msgstr "Pale"
 
-#: apc/config/fur_names.json:468
+#: apc/config/fur_names.json:471
 msgid "Piebald"
 msgstr "Piebald"
 
-#: apc/config/fur_names.json:471
+#: apc/config/fur_names.json:474
 msgid "Piebald 2"
 msgstr "Piebald 2"
 
-#: apc/config/fur_names.json:474
+#: apc/config/fur_names.json:477
 msgid "Piebald 3"
 msgstr "Piebald 3"
 
-#: apc/config/fur_names.json:477
+#: apc/config/fur_names.json:480
 msgid "Piebald 4"
 msgstr "Piebald 4"
 
-#: apc/config/fur_names.json:480
+#: apc/config/fur_names.json:483
 msgid "Piebald 5"
 msgstr "Piebald 5"
 
-#: apc/config/fur_names.json:483
+#: apc/config/fur_names.json:486
 msgid "Piebald Blonde"
 msgstr "Piebald Blonde"
 
-#: apc/config/fur_names.json:486
+#: apc/config/fur_names.json:489
 msgid "Piebald Grey"
 msgstr "Piebald Grey"
 
-#: apc/config/fur_names.json:489
+#: apc/config/fur_names.json:492
 msgid "Pink"
 msgstr "Pink"
 
-#: apc/config/fur_names.json:492
+#: apc/config/fur_names.json:495
 msgid "Pristine"
 msgstr "Pristine"
 
-#: apc/config/fur_names.json:495
+#: apc/config/fur_names.json:498
 msgid "Pseudo-Melanistic"
 msgstr "Pseudo-Melanistic"
 
-#: apc/config/fur_names.json:498
+#: apc/config/fur_names.json:501
 msgid "Pseudo-Melanistic 2"
 msgstr "Pseudo-Melanistic 2"
 
-#: apc/config/fur_names.json:501
+#: apc/config/fur_names.json:504
 msgid "Pseudo-Melanistic White"
 msgstr "Pseudo-Melanistic White"
 
-#: apc/config/fur_names.json:504
+#: apc/config/fur_names.json:507
 msgid "Pseudo-Melanistic White 2"
 msgstr "Pseudo-Melanistic White 2"
 
-#: apc/config/fur_names.json:507
+#: apc/config/fur_names.json:510
 msgid "Purple Grey"
 msgstr "Purple Grey"
 
-#: apc/config/fur_names.json:510
+#: apc/config/fur_names.json:513
 msgid "Fabled Razorwind"
 msgstr "Fabled Razorwind"
 
-#: apc/config/fur_names.json:513
+#: apc/config/fur_names.json:516
 msgid "Red"
 msgstr "Red"
 
-#: apc/config/fur_names.json:516
+#: apc/config/fur_names.json:519
 msgid "Red 2"
 msgstr "Red 2"
 
-#: apc/config/fur_names.json:519
+#: apc/config/fur_names.json:522
 msgid "Red Brown"
 msgstr "Red Brown"
 
-#: apc/config/fur_names.json:522
+#: apc/config/fur_names.json:525
 msgid "Reddish Brown"
 msgstr "Reddish Brown"
 
-#: apc/config/fur_names.json:525
+#: apc/config/fur_names.json:528
 msgid "Sand"
 msgstr "Sand"
 
-#: apc/config/fur_names.json:528
+#: apc/config/fur_names.json:531
 msgid "Fabled Scarborne"
 msgstr "Fabled Scarborne"
 
-#: apc/config/fur_names.json:534
+#: apc/config/fur_names.json:537
 msgid "Slate Grey"
 msgstr "Slate Grey"
 
-#: apc/config/fur_names.json:537
+#: apc/config/fur_names.json:540
 msgid "Smoke"
 msgstr "Smoke"
 
-#: apc/config/fur_names.json:540
+#: apc/config/fur_names.json:543
 msgid "Snow"
 msgstr "Snow"
 
-#: apc/config/fur_names.json:543
+#: apc/config/fur_names.json:546
 msgid "Sombra"
 msgstr "Sombra"
 
-#: apc/config/fur_names.json:546
+#: apc/config/fur_names.json:549
 msgid "Spirit"
 msgstr "Spirit"
 
-#: apc/config/fur_names.json:549
+#: apc/config/fur_names.json:552
 msgid "Spotted"
 msgstr "Spotted"
 
-#: apc/config/fur_names.json:552
+#: apc/config/fur_names.json:555
 msgid "Spotted 2"
 msgstr "Spotted 2"
 
-#: apc/config/fur_names.json:555
+#: apc/config/fur_names.json:558
 msgid "Spotted Dark"
 msgstr "Spotted Dark"
 
-#: apc/config/fur_names.json:558
+#: apc/config/fur_names.json:561
 msgid "Spotted Red"
 msgstr "Spotted Red"
 
-#: apc/config/fur_names.json:561
+#: apc/config/fur_names.json:564
 msgid "Standard"
 msgstr "Standard"
 
-#: apc/config/fur_names.json:564
+#: apc/config/fur_names.json:567
 msgid "Straw"
 msgstr "Straw"
 
-#: apc/config/fur_names.json:567
+#: apc/config/fur_names.json:570
 msgid "Tan"
 msgstr "Tan"
 
-#: apc/config/fur_names.json:570
+#: apc/config/fur_names.json:573
 msgid "Tawny"
 msgstr "Tawny"
 
-#: apc/config/fur_names.json:573
+#: apc/config/fur_names.json:576
 msgid "Two Tone"
 msgstr "Two Tone"
 
-#: apc/config/fur_names.json:576
+#: apc/config/fur_names.json:579
 msgid "Fabled Twinsoul"
 msgstr "Fabled Twinsoul"
 
-#: apc/config/fur_names.json:582
+#: apc/config/fur_names.json:585
 msgid "Fabled Vanguard"
 msgstr "Fabled Vanguard"
 
-#: apc/config/fur_names.json:603
+#: apc/config/fur_names.json:606
 msgid "White"
 msgstr "White"
 
-#: apc/config/fur_names.json:606
+#: apc/config/fur_names.json:609
 msgid "White Brown"
 msgstr "White Brown"
 
-#: apc/config/fur_names.json:609
+#: apc/config/fur_names.json:612
 msgid "White Hybrid"
 msgstr "White Hybrid"
 
-#: apc/config/fur_names.json:612
+#: apc/config/fur_names.json:615
 msgid "White Morph"
 msgstr "White Morph"
 
-#: apc/config/fur_names.json:615
+#: apc/config/fur_names.json:618
 msgid "White Stripeless"
 msgstr "White Stripeless"
 
-#: apc/config/fur_names.json:618
+#: apc/config/fur_names.json:621
 msgid "Fabled Ash"
 msgstr "Fabled Ash"
 
-#: apc/config/fur_names.json:621
+#: apc/config/fur_names.json:624
 msgid "Fabled Stipple"
 msgstr "Fabled Stipple"
 
-#: apc/config/fur_names.json:624
+#: apc/config/fur_names.json:627
 msgid "Fabled Smolder"
 msgstr "Fabled Smolder"
 
-#: apc/config/fur_names.json:627
+#: apc/config/fur_names.json:630
 msgid "Fabled Cinder"
 msgstr "Fabled Cinder"
 
-#: apc/config/fur_names.json:630
+#: apc/config/fur_names.json:633
 msgid "Fabled Stitch"
 msgstr "Fabled Stitch"
 
-#: apc/config/fur_names.json:633
+#: apc/config/fur_names.json:636
 msgid "Fabled Scorch"
 msgstr "Fabled Scorch"
 
-#: apc/config/fur_names.json:636
+#: apc/config/fur_names.json:639
 msgid "Fabled Butterscotch"
 msgstr "Fabled Butterscotch"
 
-#: apc/config/fur_names.json:639
+#: apc/config/fur_names.json:642
 msgid "Fabled Chalk"
 msgstr "Fabled Chalk"
 
-#: apc/config/fur_names.json:642
+#: apc/config/fur_names.json:645
 msgid "Fabled Brindle"
 msgstr "Fabled Brindle"
 
-#: apc/config/fur_names.json:645
+#: apc/config/fur_names.json:648
 msgid "Winter"
 msgstr "Winter"
 
-#: apc/config/fur_names.json:648
+#: apc/config/fur_names.json:651
 msgid "Yellow"
 msgstr "Yellow"
 
@@ -1995,3 +2027,9 @@ msgstr "Askiy Ridge Hunting Preserve"
 #: apc/config/reserve_details.json:310
 msgid "Tórr nan Sìthean Hunting Reserve"
 msgstr "Tórr nan Sìthean Hunting Reserve"
+
+#~ msgid "Updated animals on multiple reserves. Use"
+#~ msgstr "Updated animals on multiple reserves. Use"
+
+#~ msgid "to load the modded files for each reserve:"
+#~ msgstr "to load the modded files for each reserve:"

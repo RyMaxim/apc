@@ -465,8 +465,8 @@ def update_animal_names() -> dict:
 def update_fur_names() -> dict:
   fur_names = config.load_json(FUR_NAMES_FILE)
   animal_details = config.load_json(ANIMAL_DETAILS_FILE)
-  for animal, animal_data in animal_details.items():
-    for gender, gender_data in animal_data["gender"].items():
+  for _animal, animal_data in animal_details.items():
+    for _gender, gender_data in animal_data["gender"].items():
       for fur in gender_data["furs"].keys():
         if fur not in fur_names:
           fur_names[fur] = { "fur_name": utils.format_key(fur) }
@@ -474,20 +474,20 @@ def update_fur_names() -> dict:
   save_json(FUR_NAMES_FILE, fur_names)
 
 def merge_animal_details(old_animal_details: dict, new_animal_details: dict) -> dict:
-  for name, details in new_animal_details.items():
-    if name not in old_animal_details:
-      logger.info(f"[yellow]{name} not in save file[/yellow]")
-      old_animal_details[name] = details
+  for species, details in new_animal_details.items():
+    if species not in old_animal_details:
+      logger.info(f"[yellow]{species} not in save file[/yellow]")
+      old_animal_details[species] = details
       continue
     # old_animal_details[name].pop("level", None)  # Uncomment to delete old "level" data
     # old_animal_details[name].pop("trophy", None)  # Uncomment to delete old "trophy" data
     for key in ["ammo_class", "animal_name", "gender", "level", "trophy", "truracs"]:
-      if new_animal_details[name].get(key):
-        old_animal_details[name][key] = new_animal_details[name][key]
+      if new_animal_details[species].get(key):
+        old_animal_details[species][key] = new_animal_details[species][key]
     # always overwrite with new gender and species_id data
-    old_animal_details[name]["gender"] = new_animal_details[name]["gender"]
-    old_animal_details[name]["species_id"] = new_animal_details[name]["species_id"]
-    old_animal_details[name] = dict(sorted(old_animal_details[name].items()))
+    old_animal_details[species]["gender"] = new_animal_details[species]["gender"]
+    old_animal_details[species]["species_id"] = new_animal_details[species]["species_id"]
+    old_animal_details[species] = dict(sorted(old_animal_details[species].items()))
 
 def seed_reserve_animal_details(reserve_key: str, skip_update_fur: bool = False, skip_levels: bool = False) -> None:
   if not skip_update_fur:
@@ -502,7 +502,9 @@ def seed_reserve_animal_details(reserve_key: str, skip_update_fur: bool = False,
       # raise ValueError(f"Unable to find data for speecies {species_key} on reserve {reserve_key}")
     if "level" not in species_config and not skip_levels:
       seeded_species_data = seed_species(reserve_key, species_key, species_config)
-      species_config["level"] = trim_trailing_ranges(seeded_species_data["level"])
+      if not seeded_species_data:
+        continue
+      species_config["level"] = seeded_species_data["level"]
     animal_details[species_key] = species_config
     sorted_animal_details = {key: animal_details[key] for key in sorted(animal_details)}
     save_json(ANIMAL_DETAILS_FILE, sorted_animal_details)
@@ -510,32 +512,18 @@ def seed_reserve_animal_details(reserve_key: str, skip_update_fur: bool = False,
 def trim_trailing_ranges(ranges: list[list]) -> list[list]:
   while ranges and not ranges[-1]:
     ranges.pop()
-  return ranges
-
-def parse_diamond_details2(seeded_species_data: dict) -> dict:
-  diamonds = {}
-  for gender in ["male", "female"]:
-    highest_level = len((seeded_species_data[gender]["level"]))
-    fur_data = seeded_species_data[gender]["furs"]
-    diamond_furs = {fur: fur_data[fur] for fur in fur_data if not fur.startswith("fabled_")}
-    diamonds[gender] = {
-      "score_low": 0,
-      "score_high": 0,
-      "weight_low": highest_level[0],
-      "weight_high": highest_level[1],
-      "furs": diamond_furs
-     }
-  return diamonds
 
 def seed_species(reserve_key: str, species_key: str, species_config: dict) -> dict:
   logger.info(f"Seeding species: {species_key}")
   loaded_reserve = LoadedReserve(reserve_key, parse=True)
-  species_groups = populations._get_species_groups(reserve_key, loaded_reserve.parsed_adf.adf, species_key)
+  try:
+    species_groups = populations._get_species_groups(reserve_key, loaded_reserve.parsed_adf.adf, species_key)
+  except populations.NoAnimalsException:
+    return None
   seeded_species_data = {}
   if "level" not in species_config or not species_config["level"]:
     logger.critical(f"No level data for {species_key}")
     seeded_species_data["level"] = seed_animal_levels(loaded_reserve, species_key, species_config, species_groups)
-    seeded_species_data["level"] = trim_trailing_ranges(seeded_species_data["level"])
   else:
     logger.info(f"[green]Levels aready seeded for {species_key}[/green]")
   return seeded_species_data
@@ -676,8 +664,8 @@ def seed_animal_levels(
     levels = merge_levels(levels, aps_levels)
     levels = sanitize_levels(levels, min_weight, max_weight)
 
+  trim_trailing_ranges(levels)
   logger.info(f"[green]Seeded levels:[/green] {levels}")
-  logger.info(levels)
   return levels
 
 
@@ -904,8 +892,8 @@ def click_reserve(reserve_name: str, no_exit: bool = False) -> None:
   # Select Population File window should be 525x260
   action_duration = 0.5
   dropdown = (450, 175)
-  scrollbar_top = (450, 200)
-  scrollbar_middle = (450, 250)
+  scrollbar_top = (450, 195)
+  scrollbar_middle = (450, 260)
   scrollbar_bottom = (450, 325)
   pop_file = (200, 270)
   exit_x = (1600, 115)
@@ -914,105 +902,111 @@ def click_reserve(reserve_name: str, no_exit: bool = False) -> None:
   click()
   if reserve_name == "hirsch":
     line = 1
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "layton":
     line = 2
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "medved":
     line = 3
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "vurhonga":
     line = 4
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "parque":
     line = 5
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "yukon":
     line = 6
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "cuatro":
     line = 7
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "silver":
     line = 8
-    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.moveTo(scrollbar_top)
     pyautogui.dragTo(scrollbar_top, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "teawaroa":
-    line = 0.5
-    pyautogui.moveTo(scrollbar_middle)
-    pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    line = 1
+    pyautogui.moveTo(scrollbar_top)
+    pyautogui.dragTo(scrollbar_middle, duration=action_duration)
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "rancho":
-    line = 1.5
-    pyautogui.moveTo(scrollbar_middle)
+    line = 0.25
+    pyautogui.moveTo(scrollbar_bottom)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "mississippi":
-    line = 2.5
+    line = 1.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "revontuli":
-    line = 3.5
+    line = 2.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "newengland":
-    line = 4.5
+    line = 3.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "emerald":
-    line = 5.5
+    line = 4.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "sundarpatan":
-    line = 6.5
+    line = 5.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "salzwiesen":
-    line = 7.5
+    line = 6.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
   if reserve_name == "alberta":
-    line = 8.5
+    line = 7.25
     pyautogui.moveTo(scrollbar_middle)
     pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
-    pyautogui.moveTo(reserve_coords(line))
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
+    click()
+  if reserve_name == "scotland":
+    line = 8.25
+    pyautogui.moveTo(scrollbar_middle)
+    pyautogui.dragTo(scrollbar_bottom, duration=action_duration)
+    pyautogui.moveTo(reserve_coords(line), duration=action_duration)
     click()
 
   pyautogui.moveTo(pop_file)
@@ -1065,8 +1059,11 @@ def map_aps(reserve_name: str, species_key: str) -> str:
     "eu_hare": "european_hare",
     "eu_rabbit": "euro_rabbit",
     "eurasian_brown_bear": "brown_bear",
+    "eurasian_pine_marten": "pine_marten",
     "eurasian_teal": "eu.teal",
     "eurasian_wigeon": "eu.wigeon",
+    "eurasian_woodcock": "woodcock",
+    "european_badger": "euro_badger",
     "green_wing_teal": "green-winged_teal",
     "gray_wolf": "grey_wolf",
     "harlequin_duck": "h_duck",
@@ -1095,7 +1092,8 @@ def map_aps(reserve_name: str, species_key: str) -> str:
 
 if __name__ == "__main__":
   update_global_animal_data()
-  parse_reserve_species(20)
+  # parse_reserve_species(20)
   # analyze_reserve(config.get_save_path() / "animal_population_20")
-  # seed_reserve_animal_details("alberta", skip_update_fur=True, skip_levels=False)
-  # seed_all_reserves()
+  # Run APS and select "/apc/mods" folder before you can seed animals
+  seed_reserve_animal_details("scotland", skip_update_fur=True, skip_levels=False)
+  seed_all_reserves()

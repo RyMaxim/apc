@@ -127,30 +127,38 @@ def _show_error_window(error):
     if event == sg.WIN_CLOSED:
       break
 
-def _show_popup(message: str, title: str, ok: str, cancel: str = None) -> str:
+def _show_popup(message: str, title: str, ok: str, cancel: str = None, checkbox: str = None) -> str:
   buttons = [sg.Button(ok, k="ok", font=DEFAULT_FONT)]
   if cancel:
     buttons.append(sg.Button(cancel, k="cancel", font=DEFAULT_FONT))
 
   layout = [
     [sg.T(message, font=DEFAULT_FONT, p=(0,10))],
+    [sg.Checkbox(checkbox, k="checkbox", font=DEFAULT_FONT)] if checkbox else [],
     [sg.Push(), buttons]
   ]
   window = sg.Window(title, layout, modal=True, icon=logo.value)
   response = None
   while True:
-    event, _values = window.read()
-    if event == sg.WIN_CLOSED:
-      response = "cancel"
-      break
+    event, values = window.read()
     if event == "ok":
-      response = "ok"
+      if checkbox:
+        response = values["checkbox"]
+      else:
+        response = "ok"
       break
-    elif event == "cancel":
+    elif event == sg.WIN_CLOSED or event == "cancel":
       response = "cancel"
       break
   window.close()
   return response
+
+def _show_load_mod_popup(loaded_reserve):
+  popup_title = f"{config.UPDATE_ANIMALS}: {loaded_reserve.reserve_name}"
+  popup_message = f"{config.UPDATED_ANIMALS_ON_RESERVE}: {loaded_reserve.reserve_name}  [{loaded_reserve.popfilename}]"
+  popup_message += f"\n\n {config.CLICK} '{config.FILES}' > '{config.LIST_MODS}' > '{config.LOAD_MOD}' {config.UPDATED_ANIMALS_ON_RESERVE_2}"
+  result = _show_popup(popup_message, popup_title, config.OK, checkbox=config.DONT_REMIND_ME)
+  return result
 
 def _show_popup_message(message: str, delay: bool = True) -> str:
   sg.PopupQuickMessage(message, font="_ 28", background_color="brown")
@@ -308,12 +316,13 @@ def _load_reserve(window: sg.Window, reserve_key: str, is_modded: bool = False, 
     if show_progress:
       _progress(75)
   except adf.FileNotFound as ex:
-    if str(ex).startswith(config.FILE_NOT_FOUND):
-      error_message = f"{config.FILE_NOT_FOUND}: {config.get_population_file_name(reserve_key)}"
-    else:
-      error_message = ex
     _show_error(ex, delay=False)
-    _show_popup_message(error_message)
+    if str(ex).startswith(config.FILE_NOT_FOUND):
+      error_title = f"{config.FILE_NOT_FOUND}: {config.get_population_file_name(reserve_key)}"
+      error_message = f"{config.MAP_DATA_NOT_FOUND}: {config.get_reserve_name(reserve_key)} [{config.get_population_file_name(reserve_key)}]\n\n{config.MAP_DATA_NOT_FOUND_INSTRUCTIONS}"
+      _show_popup(error_message, error_title, config.OK)
+    else:
+      _show_popup_message(ex)
     return None
   loaded_reserve.population_description, loaded_reserve.species_groups = populations.describe_reserve(reserve_key, loaded_reserve.parsed_adf.adf)
   # loaded_reserve.describe_reserve()
@@ -495,7 +504,9 @@ def _mod_furs(window: sg.Window, male_fur_keys: list[str], female_fur_keys: list
   window["update_animals"].update(disabled=True)
   window["modded_reserves"].update(True)
   _progress(100)
-  _show_message(f"{config.get_species_name(species_key)} (Update Furs) {config.SAVED}: \"{MOD_DIR_PATH / loaded_reserve.filename}\"")
+  _show_message(f"{config.get_species_name(species_key)} ({config.JUST_FURS}) {config.SAVED}: \"{MOD_DIR_PATH / loaded_reserve.filename}\"")
+  if window["load_mod"].metadata != True:
+    window["load_mod"].metadata = _show_load_mod_popup(loaded_reserve)
   _progress(0)
   _reset_furs(window)
   _clear_furs(window)
@@ -518,6 +529,8 @@ def _mod_diamonds(window: sg.Window, species_key: str, diamond_cnt: int, male_fu
   window["modded_label"].update(VIEW_MODDED)
   _progress(100)
   _show_message(f"{config.get_species_name(species_key)} (Diamonds) {config.SAVED}: \"{MOD_DIR_PATH / loaded_reserve.filename}\"")
+  if window["load_mod"].metadata != True:
+    window["load_mod"].metadata = _show_load_mod_popup(loaded_reserve)
   _progress(0)
   window["show_animals"].update(disabled=True)
   window["update_animals"].update(disabled=True)
@@ -575,6 +588,8 @@ def _mod_reserve_animals(window: sg.Window, values: dict, reserve_key: str, spec
     _progress(progress_per_animal * count)
     _show_message(f"{config.UPDATE_ANIMALS}: {count}/{total}")
   _show_message(f'{config.get_species_name(species_key)} ({config.UPDATE_ANIMALS}) {config.SAVED}: "{MOD_DIR_PATH / loaded_reserve.filename}"')
+  if window["load_mod"].metadata != True:
+    window["load_mod"].metadata = _show_load_mod_popup(loaded_reserve)
   return count
 
 def _mod(window: sg.Window, species_key: str, strategy: Strategy, modifier: int, rares: bool = False, percentage: bool = False, party: bool = False) -> None:
@@ -594,6 +609,8 @@ def _mod(window: sg.Window, species_key: str, strategy: Strategy, modifier: int,
   window["modded_label"].update(VIEW_MODDED)
   _progress(100)
   _show_message(f"{config.get_species_name(species_key)} ({utils.format_key(strategy)}) {config.SAVED}: \"{MOD_DIR_PATH / loaded_reserve.filename}\"")
+  if window["load_mod"].metadata != True:
+    window["load_mod"].metadata = _show_load_mod_popup(loaded_reserve)
   _progress(0)
   window["load_modded"].update(value=True)
   window["modded_reserves"].update(value=True)
@@ -617,6 +634,8 @@ def _mod_animal_count(window: sg.Window, species_key: str, animal_count: int, ge
   window["modded_label"].update(VIEW_MODDED)
   _progress(100)
   _show_message(f"{config.get_species_name(species_key)} ({config.MALE if gender == "male" else config.FEMALE}) {config.SAVED}: \"{MOD_DIR_PATH / loaded_reserve.filename}\"")
+  if window["load_mod"].metadata != True:
+    window["load_mod"].metadata = _show_load_mod_popup(loaded_reserve)
   _progress(0)
   window["load_modded"].update(value=True)
   window["modded_reserves"].update(value=True)
@@ -1279,7 +1298,7 @@ def main_window(my_window: sg.Window = None) -> sg.Window:
                     [sg.T(textwrap.fill(config.MANAGE_MODDED_RESERVES, 30), font=MEDIUM_FONT, expand_x=True, justification="c", text_color="orange", p=(0,10))],
                     [sg.Button(config.CONFIGURE_GAME_PATH, expand_x=True, k="set_save", font=BUTTON_FONT, p=((15,15),(5,0)))],
                     [sg.Button(config.LIST_MODS, expand_x=True, k="list_mods", font=BUTTON_FONT, p=((15,15),(5,0)))],
-                    [sg.Button(config.LOAD_MOD, expand_x=True, k="load_mod", disabled=True, font=BUTTON_FONT, p=((15,15),(5,0)))],
+                    [sg.Button(config.LOAD_MOD, expand_x=True, k="load_mod", disabled=True, font=BUTTON_FONT, p=((15,15),(5,0)), metadata=False)],
                     [sg.Button(config.UNLOAD_MOD, expand_x=True, k="unload_mod", disabled=True, font=BUTTON_FONT, p=((15,15),(5,0)))],
                     [sg.Button(config.EXPORT_MOD, expand_x=True, k="export_mod", disabled=True, font=BUTTON_FONT, p=((15,15),(5,0)))],
                     [sg.Button(config.IMPORT_MOD, expand_x=True, k="import_mod", disabled=True, font=BUTTON_FONT, p=((15,15),(5,0)))],
