@@ -351,10 +351,11 @@ def get_trailing_digit(s):
     return None
 
 def map_fur_key(fur: dict, animal_name: str, gender: str) -> str:
-  # Wild Boar Great Ones have variant names that end in `_GO_x`
-  if animal_name == "wild_boar" and gender.startswith("great_one_"):
+  # Wild Boar Great Ones have variant names that end in `_GO_#`
+  # Roe Deer Great Ones have variant names that end in "go#"
+  if animal_name in ["wild_boar", "roe_deer"] and gender.startswith("great_one_"):
     variant = get_trailing_digit(fur["variation_name"])
-    return f"wild_boar_great_one_{variant}"
+    return f"{animal_name}_great_one_{variant}"
 
   # I hate doing any manual mapping but it's impossible to catch every edge-case in so here we are
   # Match on animal_name and "index" value (sane as b'variation_xx' value)
@@ -1095,5 +1096,5 @@ if __name__ == "__main__":
   # parse_reserve_species(20)
   # analyze_reserve(config.get_save_path() / "animal_population_20")
   # Run APS and select "/apc/mods" folder before you can seed animals
-  seed_reserve_animal_details("scotland", skip_update_fur=True, skip_levels=False)
-  seed_all_reserves()
+  # seed_reserve_animal_details("scotland", skip_update_fur=True, skip_levels=False)
+  # seed_all_reserves()

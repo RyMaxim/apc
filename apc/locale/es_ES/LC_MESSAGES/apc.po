@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-24 16:48-0500\n"
+"POT-Creation-Date: 2026-04-18 08:17-0400\n"
 "PO-Revision-Date: 2023-04-02 23:55-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es_MX <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgstr "Semilla Visual"
 msgid "Fur"
 msgstr "El Pelaje"
 
-#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:582
+#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:600
 msgid "Unknown"
 msgstr "Desconocido"
 
@@ -90,7 +90,7 @@ msgstr "Ninguno"
 msgid "Bronze"
 msgstr "Bronce"
 
-#: apc/config.py:79 apc/config/fur_names.json:534
+#: apc/config.py:79 apc/config/fur_names.json:552
 msgid "Silver"
 msgstr "Plata"
 
@@ -1158,11 +1158,11 @@ msgstr "Albino 2"
 msgid "Albino - Boss"
 msgstr "Albino - Jefe"
 
-#: apc/config/fur_names.json:15 apc/config/fur_names.json:591
+#: apc/config/fur_names.json:15 apc/config/fur_names.json:609
 msgid "Bald Calico"
 msgstr "Calicó calvo"
 
-#: apc/config/fur_names.json:18 apc/config/fur_names.json:588
+#: apc/config/fur_names.json:18 apc/config/fur_names.json:606
 msgid "Bald Spotted"
 msgstr "calvo manchado"
 
@@ -1274,11 +1274,11 @@ msgstr "Canela"
 msgid "Cream"
 msgstr "Crema"
 
-#: apc/config/fur_names.json:105 apc/config/fur_names.json:594
+#: apc/config/fur_names.json:105 apc/config/fur_names.json:612
 msgid "Crested Blond"
 msgstr "Rubio crestado"
 
-#: apc/config/fur_names.json:108 apc/config/fur_names.json:597
+#: apc/config/fur_names.json:108 apc/config/fur_names.json:615
 msgid "Crested Brown"
 msgstr "Marrón crestado"
 
@@ -1370,11 +1370,11 @@ msgstr "Fantasma"
 msgid "Fabled Frostbite"
 msgstr "Congelación legendaria"
 
-#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
+#: apc/config/fur_names.json:177 apc/config/fur_names.json:618
 msgid "Furry Charred Cinnamon"
 msgstr "Canela carbonizada peluda"
 
-#: apc/config/fur_names.json:180 apc/config/fur_names.json:603
+#: apc/config/fur_names.json:180 apc/config/fur_names.json:621
 msgid "Furry Tawny"
 msgstr "leonado peludo"
 
@@ -1824,138 +1824,162 @@ msgid "Reddish Brown"
 msgstr "Marrón rojizo"
 
 #: apc/config/fur_names.json:528
+msgid "Fabled Ghostveil"
+msgstr "Velo fantasmal legendario"
+
+#: apc/config/fur_names.json:531
+msgid "Fabled Moonmarked"
+msgstr "Marcado por la luna legendario"
+
+#: apc/config/fur_names.json:534
+msgid "Fabled Rustveil"
+msgstr "Veloóxido legendario"
+
+#: apc/config/fur_names.json:537
+msgid "Fabled Wildfire"
+msgstr "Incendio forestal legendario"
+
+#: apc/config/fur_names.json:540
+msgid "Fabled Kindledawn"
+msgstr "El legendario Kindledawn"
+
+#: apc/config/fur_names.json:543
+msgid "Fabled Mistbound"
+msgstr "Encadenado a la niebla legendario"
+
+#: apc/config/fur_names.json:546
 msgid "Sand"
 msgstr "Arena"
 
-#: apc/config/fur_names.json:531
+#: apc/config/fur_names.json:549
 msgid "Fabled Scarborne"
 msgstr "Scarborne legendario"
 
-#: apc/config/fur_names.json:537
+#: apc/config/fur_names.json:555
 msgid "Slate Grey"
 msgstr "Gris pizarra"
 
-#: apc/config/fur_names.json:540
+#: apc/config/fur_names.json:558
 msgid "Smoke"
 msgstr "Fumar"
 
-#: apc/config/fur_names.json:543
+#: apc/config/fur_names.json:561
 msgid "Snow"
 msgstr "Nieve"
 
-#: apc/config/fur_names.json:546
+#: apc/config/fur_names.json:564
 msgid "Sombra"
 msgstr "Sombría"
 
-#: apc/config/fur_names.json:549
+#: apc/config/fur_names.json:567
 msgid "Spirit"
 msgstr "Espíritu"
 
-#: apc/config/fur_names.json:552
+#: apc/config/fur_names.json:570
 msgid "Spotted"
 msgstr "Manchado"
 
-#: apc/config/fur_names.json:555
+#: apc/config/fur_names.json:573
 msgid "Spotted 2"
 msgstr "Manchado 2"
 
-#: apc/config/fur_names.json:558
+#: apc/config/fur_names.json:576
 msgid "Spotted Dark"
 msgstr "Manchado oscuro"
 
-#: apc/config/fur_names.json:561
+#: apc/config/fur_names.json:579
 msgid "Spotted Red"
 msgstr "Manchado rojo"
 
-#: apc/config/fur_names.json:564
+#: apc/config/fur_names.json:582
 msgid "Standard"
 msgstr "Estándar"
 
-#: apc/config/fur_names.json:567
+#: apc/config/fur_names.json:585
 msgid "Straw"
 msgstr "Paja"
 
-#: apc/config/fur_names.json:570
+#: apc/config/fur_names.json:588
 msgid "Tan"
 msgstr "Broncearse"
 
-#: apc/config/fur_names.json:573
+#: apc/config/fur_names.json:591
 msgid "Tawny"
 msgstr "Leonado"
 
-#: apc/config/fur_names.json:576
+#: apc/config/fur_names.json:594
 msgid "Two Tone"
 msgstr "Dos tonos"
 
-#: apc/config/fur_names.json:579
+#: apc/config/fur_names.json:597
 msgid "Fabled Twinsoul"
 msgstr "Alma gemela legendaria"
 
-#: apc/config/fur_names.json:585
+#: apc/config/fur_names.json:603
 msgid "Fabled Vanguard"
 msgstr "Vanguardia legendaria"
 
-#: apc/config/fur_names.json:606
+#: apc/config/fur_names.json:624
 msgid "White"
 msgstr "Blanco"
 
-#: apc/config/fur_names.json:609
+#: apc/config/fur_names.json:627
 msgid "White Brown"
 msgstr "Blanco Marrón"
 
-#: apc/config/fur_names.json:612
+#: apc/config/fur_names.json:630
 msgid "White Hybrid"
 msgstr "Híbrido blanco"
 
-#: apc/config/fur_names.json:615
+#: apc/config/fur_names.json:633
 msgid "White Morph"
 msgstr "Morfo blanco"
 
-#: apc/config/fur_names.json:618
+#: apc/config/fur_names.json:636
 msgid "White Stripeless"
 msgstr "Blanco sin rayas"
 
-#: apc/config/fur_names.json:621
+#: apc/config/fur_names.json:639
 msgid "Fabled Ash"
 msgstr "Ceniza legendaria"
 
-#: apc/config/fur_names.json:624
+#: apc/config/fur_names.json:642
 msgid "Fabled Stipple"
 msgstr "Punteado legendario"
 
-#: apc/config/fur_names.json:627
+#: apc/config/fur_names.json:645
 msgid "Fabled Smolder"
 msgstr "Ardiente legendario"
 
-#: apc/config/fur_names.json:630
+#: apc/config/fur_names.json:648
 msgid "Fabled Cinder"
 msgstr "Ceniza legendaria"
 
-#: apc/config/fur_names.json:633
+#: apc/config/fur_names.json:651
 msgid "Fabled Stitch"
 msgstr "Puntada legendaria"
 
-#: apc/config/fur_names.json:636
+#: apc/config/fur_names.json:654
 msgid "Fabled Scorch"
 msgstr "Chamuscado legendario"
 
-#: apc/config/fur_names.json:639
+#: apc/config/fur_names.json:657
 msgid "Fabled Butterscotch"
 msgstr "Caramelo legendario"
 
-#: apc/config/fur_names.json:642
+#: apc/config/fur_names.json:660
 msgid "Fabled Chalk"
 msgstr "Tiza legendaria"
 
-#: apc/config/fur_names.json:645
+#: apc/config/fur_names.json:663
 msgid "Fabled Brindle"
 msgstr "Atigrado legendario"
 
-#: apc/config/fur_names.json:648
+#: apc/config/fur_names.json:666
 msgid "Winter"
 msgstr "Invierno"
 
-#: apc/config/fur_names.json:651
+#: apc/config/fur_names.json:669
 msgid "Yellow"
 msgstr "Amarillo"
 

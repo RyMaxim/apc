@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-02-24 16:48-0500\n"
+"POT-Creation-Date: 2026-04-18 08:17-0400\n"
 "PO-Revision-Date: 2023-04-17 17:13+0800\n"
 "Last-Translator: \n"
 "Language-Team: zh_Hans_CN <LL@li.org>\n"
@@ -79,7 +79,7 @@ msgstr "编号"
 msgid "Fur"
 msgstr "毛皮"
 
-#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:582
+#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:600
 msgid "Unknown"
 msgstr "未知"
 
@@ -91,7 +91,7 @@ msgstr "没有任何"
 msgid "Bronze"
 msgstr "青铜色"
 
-#: apc/config.py:79 apc/config/fur_names.json:534
+#: apc/config.py:79 apc/config/fur_names.json:552
 msgid "Silver"
 msgstr "银"
 
@@ -1149,11 +1149,11 @@ msgstr "白化病 2"
 msgid "Albino - Boss"
 msgstr "白化病 - 老板"
 
-#: apc/config/fur_names.json:15 apc/config/fur_names.json:591
+#: apc/config/fur_names.json:15 apc/config/fur_names.json:609
 msgid "Bald Calico"
 msgstr "秃头印花布"
 
-#: apc/config/fur_names.json:18 apc/config/fur_names.json:588
+#: apc/config/fur_names.json:18 apc/config/fur_names.json:606
 msgid "Bald Spotted"
 msgstr "秃头斑点"
 
@@ -1265,11 +1265,11 @@ msgstr "肉桂色"
 msgid "Cream"
 msgstr "奶油色"
 
-#: apc/config/fur_names.json:105 apc/config/fur_names.json:594
+#: apc/config/fur_names.json:105 apc/config/fur_names.json:612
 msgid "Crested Blond"
 msgstr "凤头金发女郎"
 
-#: apc/config/fur_names.json:108 apc/config/fur_names.json:597
+#: apc/config/fur_names.json:108 apc/config/fur_names.json:615
 msgid "Crested Brown"
 msgstr "凤头棕"
 
@@ -1361,11 +1361,11 @@ msgstr "幻想"
 msgid "Fabled Frostbite"
 msgstr "珍稀霜痕"
 
-#: apc/config/fur_names.json:177 apc/config/fur_names.json:600
+#: apc/config/fur_names.json:177 apc/config/fur_names.json:618
 msgid "Furry Charred Cinnamon"
 msgstr "毛茸茸的烧焦肉桂"
 
-#: apc/config/fur_names.json:180 apc/config/fur_names.json:603
+#: apc/config/fur_names.json:180 apc/config/fur_names.json:621
 msgid "Furry Tawny"
 msgstr "毛茸茸的黄褐色"
 
@@ -1815,138 +1815,162 @@ msgid "Reddish Brown"
 msgstr "红棕色"
 
 #: apc/config/fur_names.json:528
+msgid "Fabled Ghostveil"
+msgstr "珍稀迷踪雾色"
+
+#: apc/config/fur_names.json:531
+msgid "Fabled Moonmarked"
+msgstr "珍稀月影斑纹"
+
+#: apc/config/fur_names.json:534
+msgid "Fabled Rustveil"
+msgstr "珍稀古铜雾色"
+
+#: apc/config/fur_names.json:537
+msgid "Fabled Wildfire"
+msgstr "珍稀烈焰斑纹"
+
+#: apc/config/fur_names.json:540
+msgid "Fabled Kindledawn"
+msgstr "珍稀朝霞斑纹"
+
+#: apc/config/fur_names.json:543
+msgid "Fabled Mistbound"
+msgstr "珍稀迷雾斑纹"
+
+#: apc/config/fur_names.json:546
 msgid "Sand"
 msgstr "沙"
 
-#: apc/config/fur_names.json:531
+#: apc/config/fur_names.json:549
 msgid "Fabled Scarborne"
 msgstr "珍稀疤纹"
 
-#: apc/config/fur_names.json:537
+#: apc/config/fur_names.json:555
 msgid "Slate Grey"
 msgstr "板岩灰"
 
-#: apc/config/fur_names.json:540
+#: apc/config/fur_names.json:558
 msgid "Smoke"
 msgstr "抽烟"
 
-#: apc/config/fur_names.json:543
+#: apc/config/fur_names.json:561
 msgid "Snow"
 msgstr "雪"
 
-#: apc/config/fur_names.json:546
+#: apc/config/fur_names.json:564
 msgid "Sombra"
 msgstr "sombra"
 
-#: apc/config/fur_names.json:549
+#: apc/config/fur_names.json:567
 msgid "Spirit"
 msgstr "幽灵色"
 
-#: apc/config/fur_names.json:552
+#: apc/config/fur_names.json:570
 msgid "Spotted"
 msgstr "有斑点的"
 
-#: apc/config/fur_names.json:555
+#: apc/config/fur_names.json:573
 msgid "Spotted 2"
 msgstr "发现2"
 
-#: apc/config/fur_names.json:558
+#: apc/config/fur_names.json:576
 msgid "Spotted Dark"
 msgstr "深色斑点色"
 
-#: apc/config/fur_names.json:561
+#: apc/config/fur_names.json:579
 msgid "Spotted Red"
 msgstr "红色斑点色"
 
-#: apc/config/fur_names.json:564
+#: apc/config/fur_names.json:582
 msgid "Standard"
 msgstr "标准"
 
-#: apc/config/fur_names.json:567
+#: apc/config/fur_names.json:585
 msgid "Straw"
 msgstr "稻草"
 
-#: apc/config/fur_names.json:570
+#: apc/config/fur_names.json:588
 msgid "Tan"
 msgstr "茶色"
 
-#: apc/config/fur_names.json:573
+#: apc/config/fur_names.json:591
 msgid "Tawny"
 msgstr "黄褐色"
 
-#: apc/config/fur_names.json:576
+#: apc/config/fur_names.json:594
 msgid "Two Tone"
 msgstr "双色调"
 
-#: apc/config/fur_names.json:579
+#: apc/config/fur_names.json:597
 msgid "Fabled Twinsoul"
 msgstr "珍稀双魂"
 
-#: apc/config/fur_names.json:585
+#: apc/config/fur_names.json:603
 msgid "Fabled Vanguard"
 msgstr "珍稀先锋"
 
-#: apc/config/fur_names.json:606
+#: apc/config/fur_names.json:624
 msgid "White"
 msgstr "白色"
 
-#: apc/config/fur_names.json:609
+#: apc/config/fur_names.json:627
 msgid "White Brown"
 msgstr "白棕色"
 
-#: apc/config/fur_names.json:612
+#: apc/config/fur_names.json:630
 msgid "White Hybrid"
 msgstr "白色杂种"
 
-#: apc/config/fur_names.json:615
+#: apc/config/fur_names.json:633
 msgid "White Morph"
 msgstr "白色变体"
 
-#: apc/config/fur_names.json:618
+#: apc/config/fur_names.json:636
 msgid "White Stripeless"
 msgstr "白色无条纹"
 
-#: apc/config/fur_names.json:621
+#: apc/config/fur_names.json:639
 msgid "Fabled Ash"
 msgstr "传说中的灰烬"
 
-#: apc/config/fur_names.json:624
+#: apc/config/fur_names.json:642
 msgid "Fabled Stipple"
 msgstr "传说中的点画"
 
-#: apc/config/fur_names.json:627
+#: apc/config/fur_names.json:645
 msgid "Fabled Smolder"
 msgstr "传说中的阴燃"
 
-#: apc/config/fur_names.json:630
+#: apc/config/fur_names.json:648
 msgid "Fabled Cinder"
 msgstr "传说中的煤渣"
 
-#: apc/config/fur_names.json:633
+#: apc/config/fur_names.json:651
 msgid "Fabled Stitch"
 msgstr "传说中的缝合"
 
-#: apc/config/fur_names.json:636
+#: apc/config/fur_names.json:654
 msgid "Fabled Scorch"
 msgstr "传说中的焦土"
 
-#: apc/config/fur_names.json:639
+#: apc/config/fur_names.json:657
 msgid "Fabled Butterscotch"
 msgstr "传说中的奶油糖果"
 
-#: apc/config/fur_names.json:642
+#: apc/config/fur_names.json:660
 msgid "Fabled Chalk"
 msgstr "传说中的粉笔"
 
-#: apc/config/fur_names.json:645
+#: apc/config/fur_names.json:663
 msgid "Fabled Brindle"
 msgstr "传说中的斑纹"
 
-#: apc/config/fur_names.json:648
+#: apc/config/fur_names.json:666
 msgid "Winter"
 msgstr "冬季色"
 
-#: apc/config/fur_names.json:651
+#: apc/config/fur_names.json:669
 msgid "Yellow"
 msgstr "黄色的"
 

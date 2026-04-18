@@ -3343,19 +3343,22 @@
     "ammo_class": 4,
     "gender": {
       "male": {
-        "fur_total_probability": 100076,
+        "fur_total_probability": 58576,
         "furs": {
-          "piebald": 150,
-          "dark": 14940,
-          "albino": 38,
-          "melanistic": 38,
-          "dark_2": 14940,
-          "piebald_2": 150,
-          "chocolate": 12500,
-          "spotted": 14940,
-          "spotted_dark": 14940,
-          "white": 12500,
-          "spotted_2": 14940
+          "piebald": 100,
+          "dark": 6900,
+          "albino": 12,
+          "acromelanistic": 24,
+          "melanistic": 12,
+          "dark_2": 6900,
+          "piebald_2": 50,
+          "leucistic": 100,
+          "chocolate": 8427,
+          "spotted": 6900,
+          "spotted_dark": 13800,
+          "white": 8427,
+          "spotted_2": 6900,
+          "erythristic": 24
         },
         "score_low": 63.435,
         "score_high": 270.728,
@@ -3363,14 +3366,17 @@
         "weight_high": 100.0
       },
       "female": {
-        "fur_total_probability": 64966,
+        "fur_total_probability": 41672,
         "furs": {
-          "piebald": 150,
-          "spotted_dark": 14940,
-          "spotted_red": 24900,
-          "melanistic": 38,
-          "spotted": 24900,
-          "albino": 38
+          "piebald": 100,
+          "spotted_dark": 13800,
+          "spotted_red": 13800,
+          "acromelanistic": 24,
+          "leucistic": 100,
+          "melanistic": 12,
+          "spotted": 13800,
+          "albino": 12,
+          "erythristic": 24
         },
         "score_low": 0.0,
         "score_high": 0.0,
@@ -7601,6 +7607,21 @@
         "score_high": 0.0,
         "weight_low": 14.0,
         "weight_high": 33.0
+      },
+      "great_one_male": {
+        "fur_total_probability": 150,
+        "furs": {
+          "roe_deer_great_one_3": 25,
+          "roe_deer_great_one_6": 25,
+          "roe_deer_great_one_1": 25,
+          "roe_deer_great_one_5": 25,
+          "roe_deer_great_one_2": 25,
+          "roe_deer_great_one_4": 25
+        },
+        "score_low": 120.915,
+        "score_high": 167.04,
+        "weight_low": 36.0,
+        "weight_high": 42.0
       }
     },
     "level": [
@@ -9654,13 +9675,13 @@
     "ammo_class": 1,
     "gender": {
       "male": {
-        "fur_total_probability": 125000,
+        "fur_total_probability": 100000,
         "furs": {
           "leucistic": 200,
           "melanistic": 50,
           "brown": 74700,
-          "dark_brown": 25000,
-          "light_brown": 25000,
+          "dark_brown": 12500,
+          "light_brown": 12500,
           "albino": 50
         },
         "score_low": 3.8,
@@ -9669,13 +9690,13 @@
         "weight_high": 11.0
       },
       "female": {
-        "fur_total_probability": 125000,
+        "fur_total_probability": 100000,
         "furs": {
           "leucistic": 200,
           "melanistic": 50,
           "brown": 74700,
-          "dark_brown": 25000,
-          "light_brown": 25000,
+          "dark_brown": 12500,
+          "light_brown": 12500,
           "albino": 50
         },
         "score_low": 3.0,

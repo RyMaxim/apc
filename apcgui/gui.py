@@ -6,21 +6,22 @@ import textwrap
 import time
 import traceback
 import webbrowser
-from importlib.metadata import version
 from pathlib import Path
 from typing import Callable
 
 import FreeSimpleGUI as sg
 import requests
-from packaging.version import Version as package_version
+from packaging.version import Version
 
 from apc import adf, config, populations, utils
 from apc.config import BACKUP_DIR_PATH, MOD_DIR_PATH, Strategy
 from apc.logging_config import get_logger
+from apcgui.constants import GITHUB_LATEST_API_URL, NEXUSMODS_RELEASES_URL
+from apcgui.version import get_version
 from apcgui import logo
 
 logger = get_logger(__name__)
-__version__ = version("apc-revived")
+__version__ = get_version()
 
 DEFAULT_FONT = "_ 14"
 MEDIUM_FONT = "_ 13"
@@ -74,12 +75,12 @@ def _check_for_update() -> None:
   release_data = _get_latest_release()
   if release_data:
     latest_tag = release_data.get("tag_name", "").lstrip("v")
-    if package_version(latest_tag) > package_version(__version__):
+    if Version(latest_tag) > __version__:
       _show_update_popup(release_data)
 
 def _get_latest_release() -> dict:
   try:
-    resp = requests.get("https://api.github.com/repos/RyMaxim/apc/releases/latest", timeout=2)
+    resp = requests.get(GITHUB_LATEST_API_URL, timeout=2)
     resp.raise_for_status()
     data = resp.json()
     return data
@@ -88,7 +89,6 @@ def _get_latest_release() -> dict:
   return {}
 
 def _show_update_popup(release_data: dict) -> None:
-  nexus_url = "https://www.nexusmods.com/thehuntercallofthewild/mods/440?tab=files"
   github_url = release_data["html_url"]
   layout = [
     [sg.Text(f"A newer version is available!", text_color="yellow")],
@@ -102,11 +102,9 @@ def _show_update_popup(release_data: dict) -> None:
     if event in (sg.WINDOW_CLOSED, "Close"):
       break
     elif event == "-NEXUSMODS-":
-      webbrowser.open(nexus_url)
-      break
+      webbrowser.open(NEXUSMODS_RELEASES_URL)
     elif event == "-GITHUB-":
       webbrowser.open(github_url)
-      break
   window.close()
 
 def _progress(value: float) -> None:

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "apc-revived"
-version = "2.2.2"
+version = "2.3.0"
 description = "GUI tool to modify attributes of animals across all reserves in theHunter: Call of the Wild (COTW)"
 authors = [{ name = "Ryan Maxim" }]
 readme = "README.md"
@@ -30,6 +30,13 @@ translate = [
   "deep-translator",
   "tqdm",
 ]
+
+[project.urls]
+Homepage = "https://github.com/RyMaxim/apc"
+Repository = "https://github.com/RyMaxim/apc"
+Releases = "https://github.com/RyMaxim/apc/releases"
+NexusMods = "https://www.nexusmods.com/thehuntercallofthewild/mods/440"
+NexusModsReleases = "https://www.nexusmods.com/thehuntercallofthewild/mods/440?tab=files"
 
 [project.scripts]
 apc = "apc.__main__:main"
