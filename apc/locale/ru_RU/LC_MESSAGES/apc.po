@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2026-04-18 08:17-0400\n"
+"POT-Creation-Date: 2026-06-17 14:16-0400\n"
 "PO-Revision-Date: 2023-04-02 23:55-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: ru_RU <LL@li.org>\n"
@@ -78,7 +78,7 @@ msgstr "Спаун"
 msgid "Fur"
 msgstr "Мех"
 
-#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:600
+#: apc/config.py:73 apc/config.py:456 apc/config/fur_names.json:654
 msgid "Unknown"
 msgstr "Неизвестный"
 
@@ -86,15 +86,15 @@ msgstr "Неизвестный"
 msgid "None"
 msgstr "Никто"
 
-#: apc/config.py:77 apc/config/fur_names.json:66
+#: apc/config.py:77 apc/config/fur_names.json:75
 msgid "Bronze"
 msgstr "Бронза"
 
-#: apc/config.py:79 apc/config/fur_names.json:552
+#: apc/config.py:79 apc/config/fur_names.json:600
 msgid "Silver"
 msgstr "Серебро"
 
-#: apc/config.py:81 apc/config/fur_names.json:192
+#: apc/config.py:81 apc/config/fur_names.json:219
 msgid "Gold"
 msgstr "Золотистый"
 
@@ -705,1279 +705,1399 @@ msgid "Black Bear"
 msgstr "Черный медведь"
 
 #: apc/config/animal_names.json:33
+msgid "Black Caiman"
+msgstr "Черный Кайман"
+
+#: apc/config/animal_names.json:36
 msgid "Black Grouse"
 msgstr "Тетерев-косач"
 
-#: apc/config/animal_names.json:36
+#: apc/config/animal_names.json:39
 msgid "Blackbuck"
 msgstr "Гарна"
 
-#: apc/config/animal_names.json:39
+#: apc/config/animal_names.json:42
 msgid "Blacktail Deer"
 msgstr "Чернохвостый олень"
 
-#: apc/config/animal_names.json:42
+#: apc/config/animal_names.json:45
 msgid "Blue Sheep"
 msgstr "Голубая овца"
 
-#: apc/config/animal_names.json:45
+#: apc/config/animal_names.json:48
 msgid "Blue Wildebeest"
 msgstr "Голубой гну"
 
-#: apc/config/animal_names.json:48
+#: apc/config/animal_names.json:51
 msgid "Bobcat"
 msgstr "Рысь"
 
-#: apc/config/animal_names.json:51
+#: apc/config/animal_names.json:54
 msgid "Canada Goose"
 msgstr "Канадская казарка"
 
-#: apc/config/animal_names.json:54
+#: apc/config/animal_names.json:57
 msgid "Cape Buffalo"
 msgstr "Европейский буйвол"
 
-#: apc/config/animal_names.json:57
+#: apc/config/animal_names.json:60
+msgid "Capybara"
+msgstr "Капибара"
+
+#: apc/config/animal_names.json:63
 msgid "Grant Caribou"
 msgstr "Грант Карибу"
 
-#: apc/config/animal_names.json:60
+#: apc/config/animal_names.json:66
 msgid "Chamois"
 msgstr "Серна"
 
-#: apc/config/animal_names.json:63
+#: apc/config/animal_names.json:69
 msgid "Cinnamon Teal"
 msgstr "Коричневый чирок"
 
-#: apc/config/animal_names.json:66
+#: apc/config/animal_names.json:72
 msgid "Collared Peccary"
 msgstr "Ошейниковый пекари"
 
-#: apc/config/animal_names.json:69
+#: apc/config/animal_names.json:75
 msgid "Coyote"
 msgstr "Койот"
 
-#: apc/config/animal_names.json:72
+#: apc/config/animal_names.json:78
 msgid "Desert Bighorn Sheep"
 msgstr "Пустынный снежный баран"
 
-#: apc/config/animal_names.json:75
+#: apc/config/animal_names.json:81
 msgid "Dusky Grouse"
 msgstr "Сумерки Груб"
 
-#: apc/config/animal_names.json:78
+#: apc/config/animal_names.json:84
 msgid "Eastern Cottontail Rabbit"
 msgstr "Флоридский кролик"
 
-#: apc/config/animal_names.json:81
+#: apc/config/animal_names.json:87
 msgid "Eastern Gray Kangaroo"
 msgstr "Восточный серый кенгуру"
 
-#: apc/config/animal_names.json:84
+#: apc/config/animal_names.json:90
 msgid "Eastern Wild Turkey"
 msgstr "Восточная дикая индейка"
 
-#: apc/config/animal_names.json:87
+#: apc/config/animal_names.json:93
 msgid "European Bison"
 msgstr "Европейский бизон"
 
-#: apc/config/animal_names.json:90
+#: apc/config/animal_names.json:96
 msgid "European Hare"
 msgstr "Европейский заяц"
 
-#: apc/config/animal_names.json:93
+#: apc/config/animal_names.json:99
 msgid "European Rabbit"
 msgstr "Европейский кролик"
 
-#: apc/config/animal_names.json:96
+#: apc/config/animal_names.json:102
 msgid "Eurasian Brown Bear"
 msgstr "Бурый медведь"
 
-#: apc/config/animal_names.json:99
+#: apc/config/animal_names.json:105
 msgid "Eurasian Lynx"
 msgstr "Рысь обыкновенная"
 
-#: apc/config/animal_names.json:102
+#: apc/config/animal_names.json:108
 msgid "Eurasian Pine Marten"
 msgstr "Евразийская сосновая куница"
 
-#: apc/config/animal_names.json:105
+#: apc/config/animal_names.json:111
 msgid "Eurasian Teal"
 msgstr "Чирок-свистунок"
 
-#: apc/config/animal_names.json:108
+#: apc/config/animal_names.json:114
 msgid "Eurasian Wigeon"
 msgstr "Свиязь"
 
-#: apc/config/animal_names.json:111
+#: apc/config/animal_names.json:117
 msgid "Eurasian Woodcock"
 msgstr "Евразийский вальдшнеп"
 
-#: apc/config/animal_names.json:114
+#: apc/config/animal_names.json:120
 msgid "European Badger"
 msgstr "Европейский барсук"
 
-#: apc/config/animal_names.json:117
+#: apc/config/animal_names.json:123
 msgid "Fallow Deer"
 msgstr "Лань"
 
-#: apc/config/animal_names.json:120
+#: apc/config/animal_names.json:126
 msgid "Feral Goat"
 msgstr "Дикая коза"
 
-#: apc/config/animal_names.json:123
+#: apc/config/animal_names.json:129
 msgid "Feral Pig"
 msgstr "Дикая свинья"
 
-#: apc/config/animal_names.json:126
+#: apc/config/animal_names.json:132
 msgid "Ferruginous Duck"
 msgstr "Железная утка"
 
-#: apc/config/animal_names.json:129
+#: apc/config/animal_names.json:135
 msgid "Gadwall"
 msgstr "Серая утка"
 
-#: apc/config/animal_names.json:132
+#: apc/config/animal_names.json:138
 msgid "Gemsbok"
 msgstr "Орикс"
 
-#: apc/config/animal_names.json:135
+#: apc/config/animal_names.json:141
 msgid "Goldeneye"
 msgstr "Гоголь"
 
-#: apc/config/animal_names.json:138
+#: apc/config/animal_names.json:144
 msgid "Gray Fox"
 msgstr "Серая лисица"
 
-#: apc/config/animal_names.json:141
+#: apc/config/animal_names.json:147
 msgid "Gray Wolf"
 msgstr "Серый волк"
 
-#: apc/config/animal_names.json:144
+#: apc/config/animal_names.json:150
+msgid "Greater Grison"
+msgstr "Большой Граубюнден"
+
+#: apc/config/animal_names.json:153
 msgid "Gredos Ibex"
 msgstr "Гредосский г. козел"
 
-#: apc/config/animal_names.json:147
+#: apc/config/animal_names.json:156
 msgid "Green Winged Teal"
 msgstr "Зеленый крылатый чирет"
 
-#: apc/config/animal_names.json:150
+#: apc/config/animal_names.json:159
 msgid "Greylag Goose"
 msgstr "Серый гусь"
 
-#: apc/config/animal_names.json:153
+#: apc/config/animal_names.json:162
 msgid "Grizzly Bear"
 msgstr "Медведь гризли"
 
-#: apc/config/animal_names.json:156
+#: apc/config/animal_names.json:165
 msgid "Harlequin Duck"
 msgstr "Каменушка"
 
-#: apc/config/animal_names.json:159
+#: apc/config/animal_names.json:168
 msgid "Hazel Grouse"
 msgstr "Рябчик"
 
-#: apc/config/animal_names.json:162
+#: apc/config/animal_names.json:171
 msgid "Hog Deer"
 msgstr "Свинья Олень"
 
-#: apc/config/animal_names.json:165
+#: apc/config/animal_names.json:174
 msgid "Iberian Mouflon"
 msgstr "Иберийский муфлон"
 
-#: apc/config/animal_names.json:168
+#: apc/config/animal_names.json:177
 msgid "Iberian Wolf"
 msgstr "Иберийский волк"
 
-#: apc/config/animal_names.json:171
+#: apc/config/animal_names.json:180
 msgid "White-tailed Jackrabbit"
 msgstr "Белый хвост Джекраббит"
 
-#: apc/config/animal_names.json:174
+#: apc/config/animal_names.json:183
+msgid "Jaguar"
+msgstr "Ягуар"
+
+#: apc/config/animal_names.json:186
 msgid "Javan Rusa"
 msgstr "Джаван Руса"
 
-#: apc/config/animal_names.json:177
+#: apc/config/animal_names.json:189
 msgid "Lesser Kudu"
 msgstr "Малый Куду"
 
-#: apc/config/animal_names.json:180
+#: apc/config/animal_names.json:192
 msgid "Lion"
 msgstr "Лев"
 
-#: apc/config/animal_names.json:183
+#: apc/config/animal_names.json:195
 msgid "Magpie Goose"
 msgstr "Сорока Гусь"
 
-#: apc/config/animal_names.json:186
+#: apc/config/animal_names.json:198
 msgid "Mallard"
 msgstr "Кряква"
 
-#: apc/config/animal_names.json:189
+#: apc/config/animal_names.json:201
 msgid "Manitoban Elk"
 msgstr "Манитобан Элк"
 
-#: apc/config/animal_names.json:192
+#: apc/config/animal_names.json:204
 msgid "Mexican Bobcat"
 msgstr "Мексиканская рысь"
 
-#: apc/config/animal_names.json:195
+#: apc/config/animal_names.json:207
 msgid "Moose"
 msgstr "Лось"
 
-#: apc/config/animal_names.json:198
+#: apc/config/animal_names.json:210
 msgid "Mountain Goat"
 msgstr "Снежная коза"
 
-#: apc/config/animal_names.json:201
+#: apc/config/animal_names.json:213
 msgid "Mountain Hare"
 msgstr "Заяц-беляк"
 
-#: apc/config/animal_names.json:204
+#: apc/config/animal_names.json:216
 msgid "Mountain Lion"
 msgstr "Пума"
 
-#: apc/config/animal_names.json:207
+#: apc/config/animal_names.json:219
 msgid "Mule Deer"
 msgstr "Колумбийский олень"
 
-#: apc/config/animal_names.json:210
+#: apc/config/animal_names.json:222
 msgid "Nilgai"
 msgstr "Нильгау"
 
-#: apc/config/animal_names.json:213
+#: apc/config/animal_names.json:225
 msgid "North American Beaver"
 msgstr "Североамериканский бобр"
 
-#: apc/config/animal_names.json:216
+#: apc/config/animal_names.json:228
 msgid "Bobwhite Quail"
 msgstr "Bobwhite Quail"
 
-#: apc/config/animal_names.json:219
+#: apc/config/animal_names.json:231
 msgid "Northern Pintail"
 msgstr "Северный пинтах"
 
-#: apc/config/animal_names.json:222
+#: apc/config/animal_names.json:234
 msgid "Northern Red Muntjac"
 msgstr "Северный красный мунтжак"
 
-#: apc/config/animal_names.json:225
+#: apc/config/animal_names.json:237
+msgid "Ocelot"
+msgstr "Оцелот"
+
+#: apc/config/animal_names.json:240
 msgid "Ring-Necked Pheasant"
 msgstr "Фазан с кольцами"
 
-#: apc/config/animal_names.json:228
+#: apc/config/animal_names.json:243
 msgid "Plains Bison"
 msgstr "Степной бизон"
 
-#: apc/config/animal_names.json:231
+#: apc/config/animal_names.json:246
 msgid "Pronghorn"
 msgstr "Пронхорн"
 
-#: apc/config/animal_names.json:234
+#: apc/config/animal_names.json:249
 msgid "Puma"
 msgstr "Пума"
 
-#: apc/config/animal_names.json:237
+#: apc/config/animal_names.json:252
 msgid "Common Raccoon"
 msgstr "Обычный енот"
 
-#: apc/config/animal_names.json:240
+#: apc/config/animal_names.json:255
 msgid "Raccoon Dog"
 msgstr "Енотовидная собака"
 
-#: apc/config/animal_names.json:243
+#: apc/config/animal_names.json:258
 msgid "Red Deer"
 msgstr "Благородный олень"
 
-#: apc/config/animal_names.json:246
+#: apc/config/animal_names.json:261
 msgid "Red Fox"
 msgstr "Рыжая лисица"
 
-#: apc/config/animal_names.json:249
+#: apc/config/animal_names.json:264
 msgid "Red Grouse"
 msgstr "Красный тетерев"
 
-#: apc/config/animal_names.json:252
+#: apc/config/animal_names.json:267
 msgid "Reindeer"
 msgstr "Северный олень"
 
-#: apc/config/animal_names.json:255
+#: apc/config/animal_names.json:270
 msgid "Rio Grande Turkey"
 msgstr "Индейка Рио-Гранде"
 
-#: apc/config/animal_names.json:258
+#: apc/config/animal_names.json:273
 msgid "Rock Ptarmigan"
 msgstr "Тундряная куропатка"
 
-#: apc/config/animal_names.json:261
+#: apc/config/animal_names.json:276
 msgid "Rocky Mountain Elk"
 msgstr "Скалистые горы лосей"
 
-#: apc/config/animal_names.json:264
+#: apc/config/animal_names.json:279
 msgid "Roe Deer"
 msgstr "Косуля"
 
-#: apc/config/animal_names.json:267
+#: apc/config/animal_names.json:282
 msgid "Ronda Ibex"
 msgstr "Рондийский г. козел"
 
-#: apc/config/animal_names.json:270
+#: apc/config/animal_names.json:285
 msgid "Roosevelt Elk"
 msgstr "Олень Рузвельта"
 
-#: apc/config/animal_names.json:273
+#: apc/config/animal_names.json:288
 msgid "Saltwater Crocodile"
 msgstr "Морской крокодил"
 
-#: apc/config/animal_names.json:276
+#: apc/config/animal_names.json:291
 msgid "Sambar"
 msgstr "Самбар"
 
-#: apc/config/animal_names.json:279
+#: apc/config/animal_names.json:294
 msgid "Scrub Hare"
 msgstr "Кустарниковый заяц"
 
-#: apc/config/animal_names.json:282
+#: apc/config/animal_names.json:297
 msgid "Siberian Musk Deer"
 msgstr "Сибирская кабарга"
 
-#: apc/config/animal_names.json:285
+#: apc/config/animal_names.json:300
 msgid "Side-Striped Jackal"
 msgstr "Шакал с боковой полосой"
 
-#: apc/config/animal_names.json:288
+#: apc/config/animal_names.json:303
 msgid "Sika Deer"
 msgstr "Пятнистый олень"
 
-#: apc/config/animal_names.json:291
+#: apc/config/animal_names.json:306
 msgid "Snow Goose"
 msgstr "Снежный гусь"
 
-#: apc/config/animal_names.json:294
+#: apc/config/animal_names.json:309
 msgid "Snow Leopard"
 msgstr "Снежный барс"
 
-#: apc/config/animal_names.json:297
+#: apc/config/animal_names.json:312
+msgid "South American Tapir"
+msgstr "Южноамериканский тапир"
+
+#: apc/config/animal_names.json:315
 msgid "Southeastern Spanish Ibex"
 msgstr "Юго -восточный испанский Ibex"
 
-#: apc/config/animal_names.json:300
+#: apc/config/animal_names.json:318
+msgid "Spectacled Bear"
+msgstr "Очковый медведь"
+
+#: apc/config/animal_names.json:321
 msgid "Springbok"
 msgstr "Спрингбок"
 
-#: apc/config/animal_names.json:303
+#: apc/config/animal_names.json:324
 msgid "Stubble Quail"
 msgstr "Стерневой перепел"
 
-#: apc/config/animal_names.json:306
+#: apc/config/animal_names.json:327
 msgid "Tahr"
 msgstr "Тар"
 
-#: apc/config/animal_names.json:309
+#: apc/config/animal_names.json:330
+msgid "Taruca"
+msgstr "Тарука"
+
+#: apc/config/animal_names.json:333
 msgid "Tibetan Fox"
 msgstr "Тибетская лиса"
 
-#: apc/config/animal_names.json:312
+#: apc/config/animal_names.json:336
 msgid "Tufted Duck"
 msgstr "Хохлатая чернеть"
 
-#: apc/config/animal_names.json:315
+#: apc/config/animal_names.json:339
 msgid "Tundra Bean Goose"
 msgstr "Тундровый гуменник"
 
-#: apc/config/animal_names.json:318
+#: apc/config/animal_names.json:342
+msgid "Vicuna"
+msgstr "Викунья"
+
+#: apc/config/animal_names.json:345
 msgid "Warthog"
 msgstr "Бородавочник"
 
-#: apc/config/animal_names.json:321
+#: apc/config/animal_names.json:348
 msgid "Water Buffalo"
 msgstr "Азиатский буйвол"
 
-#: apc/config/animal_names.json:324
+#: apc/config/animal_names.json:351
 msgid "Western Capercaillie"
 msgstr "Глухарь"
 
-#: apc/config/animal_names.json:327
+#: apc/config/animal_names.json:354
+msgid "Western Mountain Coati"
+msgstr "Западная гора Коати"
+
+#: apc/config/animal_names.json:357
 msgid "Whitetail Deer"
 msgstr "Белохвостый олень"
 
-#: apc/config/animal_names.json:330
+#: apc/config/animal_names.json:360
 msgid "Wild Boar"
 msgstr "Кабан"
 
-#: apc/config/animal_names.json:333
+#: apc/config/animal_names.json:363
 msgid "Wild Haggis"
 msgstr "Дикий Хаггис"
 
-#: apc/config/animal_names.json:336
+#: apc/config/animal_names.json:366
 msgid "Wild Hog"
 msgstr "Дикая свинья"
 
-#: apc/config/animal_names.json:339
+#: apc/config/animal_names.json:369
 msgid "Merriam Turkey"
 msgstr "Мерриам Турция"
 
-#: apc/config/animal_names.json:342
+#: apc/config/animal_names.json:372
 msgid "Wild Yak"
 msgstr "Дикий Як"
 
-#: apc/config/animal_names.json:345
+#: apc/config/animal_names.json:375
 msgid "Willow Ptarmigan"
 msgstr "Белая куропатка"
 
-#: apc/config/animal_names.json:348
+#: apc/config/animal_names.json:378
 msgid "Wood Bison"
 msgstr "Деревянный бизон"
 
-#: apc/config/animal_names.json:351
+#: apc/config/animal_names.json:381
 msgid "Wood Duck"
 msgstr "Деревянная утка"
 
-#: apc/config/animal_names.json:354
+#: apc/config/animal_names.json:384
 msgid "Woodland Caribou"
 msgstr "Вудленд Карибу"
 
-#: apc/config/animal_names.json:357
+#: apc/config/animal_names.json:387
 msgid "Woolly Hare"
 msgstr "Шерстистый заяц"
 
 #: apc/config/fur_names.json:3
+msgid "Abundant Markings"
+msgstr "Обильная маркировка"
+
+#: apc/config/fur_names.json:6
 msgid "Acromelanistic"
 msgstr "Акромеланистический"
 
-#: apc/config/fur_names.json:6
+#: apc/config/fur_names.json:9
 msgid "Albino"
 msgstr "Альбинос"
 
-#: apc/config/fur_names.json:9
+#: apc/config/fur_names.json:12
 msgid "Albino 2"
 msgstr "Альбинос 2"
 
-#: apc/config/fur_names.json:12
+#: apc/config/fur_names.json:15
 msgid "Albino - Boss"
 msgstr "Альбино - босс"
 
-#: apc/config/fur_names.json:15 apc/config/fur_names.json:609
+#: apc/config/fur_names.json:18 apc/config/fur_names.json:663
 msgid "Bald Calico"
 msgstr "Лысый ситцевый"
 
-#: apc/config/fur_names.json:18 apc/config/fur_names.json:606
+#: apc/config/fur_names.json:21 apc/config/fur_names.json:660
 msgid "Bald Spotted"
 msgstr "Лысый Пятнистый"
 
-#: apc/config/fur_names.json:21
+#: apc/config/fur_names.json:24
 msgid "Fabled Battlethorn"
 msgstr "Легендарный боевой шип"
 
-#: apc/config/fur_names.json:24
+#: apc/config/fur_names.json:27
 msgid "Beige"
 msgstr "Бежевый"
 
-#: apc/config/fur_names.json:27
+#: apc/config/fur_names.json:30
 msgid "Bicolor"
 msgstr "Двухцветный"
 
-#: apc/config/fur_names.json:30
+#: apc/config/fur_names.json:33
 msgid "Black"
 msgstr "Черный"
 
-#: apc/config/fur_names.json:33
+#: apc/config/fur_names.json:36
 msgid "Black Brown"
 msgstr "Чёрно-коричневый"
 
-#: apc/config/fur_names.json:36
+#: apc/config/fur_names.json:39
 msgid "Black Brown 2"
 msgstr "Черный коричневый 2"
 
-#: apc/config/fur_names.json:39
+#: apc/config/fur_names.json:42
 msgid "Black Spots"
 msgstr "Черные пятна"
 
-#: apc/config/fur_names.json:42
+#: apc/config/fur_names.json:45
 msgid "Black Spots 2"
 msgstr "Черные пятна 2"
 
-#: apc/config/fur_names.json:45
+#: apc/config/fur_names.json:48
 msgid "Black White"
 msgstr "Чёрно-белый"
 
-#: apc/config/fur_names.json:48
+#: apc/config/fur_names.json:51
 msgid "Blackgold"
 msgstr "Чёрный с золотом"
 
-#: apc/config/fur_names.json:51
+#: apc/config/fur_names.json:54
 msgid "Blonde"
 msgstr "Светлый"
 
-#: apc/config/fur_names.json:54
+#: apc/config/fur_names.json:57
+msgid "Blondfaced"
+msgstr "блондинка"
+
+#: apc/config/fur_names.json:60
 msgid "Blue"
 msgstr "Голубой"
 
-#: apc/config/fur_names.json:57
+#: apc/config/fur_names.json:63
 msgid "Blue Grey"
 msgstr "Серо-голубой"
 
-#: apc/config/fur_names.json:60
+#: apc/config/fur_names.json:66
 msgid "Blue Morph"
 msgstr "Синий морф"
 
-#: apc/config/fur_names.json:63
+#: apc/config/fur_names.json:69
+msgid "Bold"
+msgstr "Смелый"
+
+#: apc/config/fur_names.json:72
 msgid "Bright"
 msgstr "Светлый"
 
-#: apc/config/fur_names.json:69
+#: apc/config/fur_names.json:78
 msgid "Brown"
 msgstr "Бурый"
 
-#: apc/config/fur_names.json:72
+#: apc/config/fur_names.json:81
 msgid "Brown 2"
 msgstr "Коричневый 2"
 
-#: apc/config/fur_names.json:75
+#: apc/config/fur_names.json:84
 msgid "Brown 3"
 msgstr "Браун 3"
 
-#: apc/config/fur_names.json:78
+#: apc/config/fur_names.json:87
+msgid "Brown Grey"
+msgstr "Коричневый Серый"
+
+#: apc/config/fur_names.json:90
 msgid "Brown Hybrid"
 msgstr "Коричневый"
 
-#: apc/config/fur_names.json:81
+#: apc/config/fur_names.json:93
 msgid "Brown Hybrid 2"
 msgstr "Коричневый гибрид 2"
 
-#: apc/config/fur_names.json:84
+#: apc/config/fur_names.json:96
 msgid "Brown Maned"
 msgstr "Коричневый Мэн"
 
-#: apc/config/fur_names.json:87
+#: apc/config/fur_names.json:99
 msgid "Buff"
 msgstr "Бежевый"
 
-#: apc/config/fur_names.json:90
+#: apc/config/fur_names.json:102
 msgid "Caramel"
 msgstr "карамель"
 
-#: apc/config/fur_names.json:93
+#: apc/config/fur_names.json:105
 msgid "Chestnut"
 msgstr "Каштановый"
 
-#: apc/config/fur_names.json:96
+#: apc/config/fur_names.json:108
 msgid "Chocolate"
 msgstr "Шоколад"
 
-#: apc/config/fur_names.json:99
+#: apc/config/fur_names.json:111
 msgid "Cinnamon"
 msgstr "Коричный"
 
-#: apc/config/fur_names.json:102
+#: apc/config/fur_names.json:114
 msgid "Cream"
 msgstr "Песочный"
 
-#: apc/config/fur_names.json:105 apc/config/fur_names.json:612
+#: apc/config/fur_names.json:117 apc/config/fur_names.json:666
 msgid "Crested Blond"
 msgstr "Хохлатый блондин"
 
-#: apc/config/fur_names.json:108 apc/config/fur_names.json:615
+#: apc/config/fur_names.json:120 apc/config/fur_names.json:669
 msgid "Crested Brown"
 msgstr "Хохлатый Браун"
 
-#: apc/config/fur_names.json:111
+#: apc/config/fur_names.json:123
 msgid "Crowned"
 msgstr "Увенчанный"
 
-#: apc/config/fur_names.json:114
+#: apc/config/fur_names.json:126
 msgid "Dark"
 msgstr "Темный"
 
-#: apc/config/fur_names.json:117
+#: apc/config/fur_names.json:129
 msgid "Dark 2"
 msgstr "Темный 2"
 
-#: apc/config/fur_names.json:120
+#: apc/config/fur_names.json:132
 msgid "Dark Brown"
 msgstr "Тёмно-коричневый"
 
-#: apc/config/fur_names.json:123
+#: apc/config/fur_names.json:135
 msgid "Dark Brown 2"
 msgstr "Темно -коричневый 2"
 
-#: apc/config/fur_names.json:126
+#: apc/config/fur_names.json:138
 msgid "Dark Green"
 msgstr "Тёмно-зелёный"
 
-#: apc/config/fur_names.json:129
+#: apc/config/fur_names.json:141
+msgid "Dark Green 2"
+msgstr "Темно-зеленый 2"
+
+#: apc/config/fur_names.json:144
 msgid "Dark Grey"
 msgstr "Тёмно-серый"
 
-#: apc/config/fur_names.json:132
+#: apc/config/fur_names.json:147
 msgid "Dark Red"
 msgstr "Тёмно-красный"
 
-#: apc/config/fur_names.json:135
+#: apc/config/fur_names.json:150
 msgid "Dark Red Brown"
 msgstr "Темно-красно-коричневый"
 
-#: apc/config/fur_names.json:138
+#: apc/config/fur_names.json:153
 msgid "Fabled Dawnbreak"
 msgstr "Легендарный рассвет"
 
-#: apc/config/fur_names.json:141
+#: apc/config/fur_names.json:156
 msgid "Dilute"
 msgstr "Выцветший"
 
-#: apc/config/fur_names.json:144
+#: apc/config/fur_names.json:159
 msgid "Dilute Silver"
 msgstr "Разбавлять серебро"
 
-#: apc/config/fur_names.json:147
+#: apc/config/fur_names.json:162
 msgid "Dusky"
 msgstr "Темный"
 
-#: apc/config/fur_names.json:150
+#: apc/config/fur_names.json:165
 msgid "Dusky Gradient"
 msgstr "Градиент темного цвета"
 
-#: apc/config/fur_names.json:153
+#: apc/config/fur_names.json:168
 msgid "Eclipse"
 msgstr "Летний"
 
-#: apc/config/fur_names.json:156
+#: apc/config/fur_names.json:171
 msgid "Eggwhite"
 msgstr "Белоснежный"
 
-#: apc/config/fur_names.json:159
+#: apc/config/fur_names.json:174
 msgid "Erythristic"
 msgstr "Эритристический"
 
-#: apc/config/fur_names.json:162
+#: apc/config/fur_names.json:177
+msgid "Erythristic Chocolate"
+msgstr "Эритристический шоколад"
+
+#: apc/config/fur_names.json:180
 msgid "Erythristic Golden"
 msgstr "Эритристическое золотое"
 
-#: apc/config/fur_names.json:165
+#: apc/config/fur_names.json:183
 msgid "Erythristic Isabelline"
 msgstr "Эритрист Изабеллин"
 
-#: apc/config/fur_names.json:168
+#: apc/config/fur_names.json:186
 msgid "Erythristic Red"
 msgstr "Эритристический красный"
 
-#: apc/config/fur_names.json:171
+#: apc/config/fur_names.json:189
 msgid "Fantasma"
 msgstr "Фантаста"
 
-#: apc/config/fur_names.json:174
+#: apc/config/fur_names.json:192
+msgid "Fine"
+msgstr "Отлично"
+
+#: apc/config/fur_names.json:195
 msgid "Fabled Frostbite"
 msgstr "Легендарное обморожение"
 
-#: apc/config/fur_names.json:177 apc/config/fur_names.json:618
+#: apc/config/fur_names.json:198 apc/config/fur_names.json:672
 msgid "Furry Charred Cinnamon"
 msgstr "Пушистая обугленная корица"
 
-#: apc/config/fur_names.json:180 apc/config/fur_names.json:621
+#: apc/config/fur_names.json:201 apc/config/fur_names.json:675
 msgid "Furry Tawny"
 msgstr "Пушистый Тони"
 
-#: apc/config/fur_names.json:183
+#: apc/config/fur_names.json:204
 msgid "Ghost"
 msgstr "Призрак"
 
-#: apc/config/fur_names.json:186
+#: apc/config/fur_names.json:207
+msgid "Fabled Giltdusk"
+msgstr "Легендарный позолоченный сумрак"
+
+#: apc/config/fur_names.json:210
 msgid "Ginger"
 msgstr "Имбирь"
 
-#: apc/config/fur_names.json:189
+#: apc/config/fur_names.json:213
 msgid "Gingersplit"
 msgstr "Gingersplit"
 
-#: apc/config/fur_names.json:195
+#: apc/config/fur_names.json:216
+msgid "Glasses markings"
+msgstr "Маркировка очков"
+
+#: apc/config/fur_names.json:222
 msgid "Fabled Gravehide"
 msgstr "Легендарная могильная шкура"
 
-#: apc/config/fur_names.json:198
+#: apc/config/fur_names.json:225
 msgid "Grey Brown"
 msgstr "Серо-коричневый"
 
-#: apc/config/fur_names.json:201
+#: apc/config/fur_names.json:228
 msgid "Fabled Chestnut"
 msgstr "Лег. каштановый"
 
-#: apc/config/fur_names.json:204
+#: apc/config/fur_names.json:231
 msgid "Fabled Cream"
 msgstr "Лег. песочный"
 
-#: apc/config/fur_names.json:207
+#: apc/config/fur_names.json:234
 msgid "Fabled Glacier"
 msgstr "Лег. с подпал."
 
-#: apc/config/fur_names.json:210
+#: apc/config/fur_names.json:237
 msgid "Fabled Glacier 2"
 msgstr "Легендарный ледник 2"
 
-#: apc/config/fur_names.json:213
+#: apc/config/fur_names.json:240
 msgid "Fabled Spirit"
 msgstr "Лег. выгоревший"
 
-#: apc/config/fur_names.json:216 apc/config/fur_names.json:246
-#: apc/config/fur_names.json:294
+#: apc/config/fur_names.json:243 apc/config/fur_names.json:273
+#: apc/config/fur_names.json:321
 msgid "Fabled Spotted"
 msgstr "Лег. в крапинку"
 
-#: apc/config/fur_names.json:219
+#: apc/config/fur_names.json:246
 msgid "Fabled Silver"
 msgstr "Легендарное серебро"
 
-#: apc/config/fur_names.json:222 apc/config/fur_names.json:345
+#: apc/config/fur_names.json:249 apc/config/fur_names.json:372
 msgid "Fabled Piebald"
 msgstr "Легендарный Piebald"
 
-#: apc/config/fur_names.json:225
+#: apc/config/fur_names.json:252
 msgid "Fabled Hooded"
 msgstr "Сказочный капюшон"
 
-#: apc/config/fur_names.json:228
+#: apc/config/fur_names.json:255
 msgid "Fabled Golden"
 msgstr "Легендарный Золотой"
 
-#: apc/config/fur_names.json:231
+#: apc/config/fur_names.json:258
 msgid "Fabled Mocha"
 msgstr "Легендарный Мокко"
 
-#: apc/config/fur_names.json:234
+#: apc/config/fur_names.json:261
 msgid "Fabled Spruce"
 msgstr "Лег. еловый"
 
-#: apc/config/fur_names.json:237
+#: apc/config/fur_names.json:264
 msgid "Fabled Two Tone"
 msgstr "Лег. двухцветный"
 
-#: apc/config/fur_names.json:240
+#: apc/config/fur_names.json:267
 msgid "Fabled Birch"
 msgstr "Лег. березовый"
 
-#: apc/config/fur_names.json:243
+#: apc/config/fur_names.json:270
 msgid "Fabled Ashen"
 msgstr "Лег. пепельный"
 
-#: apc/config/fur_names.json:249
+#: apc/config/fur_names.json:276
 msgid "Fabled Oak"
 msgstr "Лег. дубовый"
 
-#: apc/config/fur_names.json:252
+#: apc/config/fur_names.json:279
 msgid "Fabled Dripple Drizzle"
 msgstr "Легендарная капля"
 
-#: apc/config/fur_names.json:255
+#: apc/config/fur_names.json:282
 msgid "Fabled Cobweb Enigma"
 msgstr "Легендарная павикация загадка"
 
-#: apc/config/fur_names.json:258
+#: apc/config/fur_names.json:285
 msgid "Fabled Dusky Drift"
 msgstr "Легендарный сумерки дрейф"
 
-#: apc/config/fur_names.json:261
+#: apc/config/fur_names.json:288
 msgid "Fabled Milky Way"
 msgstr "Легендарный Млечный путь"
 
-#: apc/config/fur_names.json:264
+#: apc/config/fur_names.json:291
 msgid "Fabled Petal Puff"
 msgstr "Легендарная лепестка"
 
-#: apc/config/fur_names.json:267
+#: apc/config/fur_names.json:294
 msgid "Fabled Cinnamon Stripes"
 msgstr "Легендарные корицы"
 
-#: apc/config/fur_names.json:270
+#: apc/config/fur_names.json:297
 msgid "Fabled Citrine"
 msgstr "Легендарный цитрин"
 
-#: apc/config/fur_names.json:273
+#: apc/config/fur_names.json:300
 msgid "Fabled Emerald"
 msgstr "Легендарный Изумруд"
 
-#: apc/config/fur_names.json:276
+#: apc/config/fur_names.json:303
 msgid "Fabled Garnet"
 msgstr "Легендарный гранат"
 
-#: apc/config/fur_names.json:279
+#: apc/config/fur_names.json:306
 msgid "Fabled Morganite"
 msgstr "Легендарный Морганит"
 
-#: apc/config/fur_names.json:282
+#: apc/config/fur_names.json:309
 msgid "Fabled Obsidian"
 msgstr "Легендарный обсидиан"
 
-#: apc/config/fur_names.json:285
+#: apc/config/fur_names.json:312
 msgid "Fabled Pearl"
 msgstr "Легендарная жемчужина"
 
-#: apc/config/fur_names.json:288
+#: apc/config/fur_names.json:315
 msgid "Fabled Ruby"
 msgstr "Легендарный рубин"
 
-#: apc/config/fur_names.json:291
+#: apc/config/fur_names.json:318
 msgid "Fabled Sapphire"
 msgstr "Легендарный сапфир"
 
-#: apc/config/fur_names.json:297
+#: apc/config/fur_names.json:324
 msgid "Fabled Blood Moon"
 msgstr "Легендарная кровяная луна"
 
-#: apc/config/fur_names.json:300
+#: apc/config/fur_names.json:327
 msgid "Fabled Candycane"
 msgstr "Легендарный Candycane"
 
-#: apc/config/fur_names.json:303
+#: apc/config/fur_names.json:330
 msgid "Fabled Cherry Blossom"
 msgstr "Легендарный вишневый цвет"
 
-#: apc/config/fur_names.json:306
+#: apc/config/fur_names.json:333
 msgid "Fabled Licorice"
 msgstr "Легендарная солодка"
 
-#: apc/config/fur_names.json:309
+#: apc/config/fur_names.json:336
 msgid "Fabled Midnight Poppy"
 msgstr "Легендарный полуночный мак"
 
-#: apc/config/fur_names.json:312
+#: apc/config/fur_names.json:339
 msgid "Fabled Mystic Snowdrop"
 msgstr "Легендарный мистический снежок"
 
-#: apc/config/fur_names.json:315
+#: apc/config/fur_names.json:342
 msgid "Fabled Peppermint"
 msgstr "Легендарная мята"
 
-#: apc/config/fur_names.json:318
+#: apc/config/fur_names.json:345
 msgid "Fabled Rosebud Frost"
 msgstr "Легендарный розовый мороз"
 
-#: apc/config/fur_names.json:321
+#: apc/config/fur_names.json:348
 msgid "Fabled Scarlet Nightshade"
 msgstr "Легендарный алый паслен"
 
-#: apc/config/fur_names.json:324
+#: apc/config/fur_names.json:351
 msgid "Fabled Gold"
 msgstr "Легендарное золото"
 
-#: apc/config/fur_names.json:327
+#: apc/config/fur_names.json:354
 msgid "Fabled Grey"
 msgstr "Легендарный серый"
 
-#: apc/config/fur_names.json:330
+#: apc/config/fur_names.json:357
 msgid "Fabled Half"
 msgstr "Легендарная половина"
 
-#: apc/config/fur_names.json:333
+#: apc/config/fur_names.json:360
 msgid "Fabled Latte"
 msgstr "Легендарный латте"
 
-#: apc/config/fur_names.json:336
+#: apc/config/fur_names.json:363
 msgid "Fabled Scars"
 msgstr "Легендарные шрамы"
 
-#: apc/config/fur_names.json:339
+#: apc/config/fur_names.json:366
 msgid "Fabled Skull"
 msgstr "Легендарный череп"
 
-#: apc/config/fur_names.json:342
+#: apc/config/fur_names.json:369
 msgid "Fabled Snow"
 msgstr "Сказочный снег"
 
-#: apc/config/fur_names.json:348
+#: apc/config/fur_names.json:375
 msgid "Grey"
 msgstr "Серый"
 
-#: apc/config/fur_names.json:351
+#: apc/config/fur_names.json:378
 msgid "Grey 2"
 msgstr "Серый 2"
 
-#: apc/config/fur_names.json:354
+#: apc/config/fur_names.json:381
 msgid "Fabled Hollow"
 msgstr "Легендарная лощина"
 
-#: apc/config/fur_names.json:357
+#: apc/config/fur_names.json:384
 msgid "Honeytones"
 msgstr "Медовый"
 
-#: apc/config/fur_names.json:360
+#: apc/config/fur_names.json:387
 msgid "Hybrid"
 msgstr "Гибридный"
 
-#: apc/config/fur_names.json:363
+#: apc/config/fur_names.json:390
 msgid "Hybrid 1"
 msgstr "Гибрид 1"
 
-#: apc/config/fur_names.json:366
+#: apc/config/fur_names.json:393
 msgid "Hybrid 2"
 msgstr "Гибрид 2"
 
-#: apc/config/fur_names.json:369
+#: apc/config/fur_names.json:396
 msgid "Hybrid Blue"
 msgstr "Гибридный-голубой"
 
-#: apc/config/fur_names.json:372
+#: apc/config/fur_names.json:399
 msgid "Hybrid Green"
 msgstr "Гибридный-зелёный"
 
-#: apc/config/fur_names.json:375
+#: apc/config/fur_names.json:402
 msgid "Intermediate Morph"
 msgstr "Промежуточный морф"
 
-#: apc/config/fur_names.json:378
+#: apc/config/fur_names.json:405
+msgid "Fabled Ivorybark"
+msgstr "Легендарная кора слоновой кости"
+
+#: apc/config/fur_names.json:408
 msgid "Jet Black"
 msgstr "Черный как смоль"
 
-#: apc/config/fur_names.json:381
+#: apc/config/fur_names.json:411
 msgid "Jet Brown"
 msgstr "Джет Браун"
 
-#: apc/config/fur_names.json:384
+#: apc/config/fur_names.json:414
 msgid "Leucistic"
 msgstr "В крапинку"
 
-#: apc/config/fur_names.json:387
+#: apc/config/fur_names.json:417
 msgid "Leucistic 2"
 msgstr "Лейцистик 2"
 
-#: apc/config/fur_names.json:390
+#: apc/config/fur_names.json:420
 msgid "Leucistic 3"
 msgstr "Лейцист 3"
 
-#: apc/config/fur_names.json:393
+#: apc/config/fur_names.json:423
 msgid "Leucistic 4"
 msgstr "Лейцист 4"
 
-#: apc/config/fur_names.json:396
+#: apc/config/fur_names.json:426
 msgid "Leucistic 5"
 msgstr "Лейцист 5"
 
-#: apc/config/fur_names.json:399
+#: apc/config/fur_names.json:429
 msgid "Light Bronze"
 msgstr "Светло-бронзовый"
 
-#: apc/config/fur_names.json:402
+#: apc/config/fur_names.json:432
 msgid "Light Brown"
 msgstr "Светло-коричневый"
 
-#: apc/config/fur_names.json:405
+#: apc/config/fur_names.json:435
 msgid "Light Brown 2"
 msgstr "Светло -коричневый 2"
 
-#: apc/config/fur_names.json:408
+#: apc/config/fur_names.json:438
 msgid "Light Green"
 msgstr "Светло-зелёный"
 
-#: apc/config/fur_names.json:411
+#: apc/config/fur_names.json:441
 msgid "Light Grey"
 msgstr "Светло-серый"
 
-#: apc/config/fur_names.json:414
+#: apc/config/fur_names.json:444
 msgid "Lightbuff"
 msgstr "Светло-бежевый"
 
-#: apc/config/fur_names.json:417
+#: apc/config/fur_names.json:447
 msgid "Light Grey Leucistic"
 msgstr "Светло-серый лейцистический"
 
-#: apc/config/fur_names.json:420
+#: apc/config/fur_names.json:450
 msgid "Maroon"
 msgstr "Бордовый"
 
-#: apc/config/fur_names.json:423
+#: apc/config/fur_names.json:453
 msgid "Melanistic"
 msgstr "Меланизм"
 
-#: apc/config/fur_names.json:426
+#: apc/config/fur_names.json:456
 msgid "Melanistic 2"
 msgstr "Меланистический 2"
 
-#: apc/config/fur_names.json:429
+#: apc/config/fur_names.json:459
 msgid "Melanistic Charcoal"
 msgstr "Меланистический уголь"
 
-#: apc/config/fur_names.json:432
+#: apc/config/fur_names.json:462
+msgid "Messy markings"
+msgstr "Грязная маркировка"
+
+#: apc/config/fur_names.json:465
+msgid "Minimalistic markings"
+msgstr "Минималистичная маркировка"
+
+#: apc/config/fur_names.json:468
 msgid "Mixed"
 msgstr "Смешанный"
 
-#: apc/config/fur_names.json:435
+#: apc/config/fur_names.json:471
 msgid "Mixed 2"
 msgstr "Смешанный 2"
 
-#: apc/config/fur_names.json:438
+#: apc/config/fur_names.json:474
 msgid "Molting"
 msgstr "Линяющий"
 
-#: apc/config/fur_names.json:441
+#: apc/config/fur_names.json:477
 msgid "Molting 2"
 msgstr "Лишение 2"
 
-#: apc/config/fur_names.json:444
+#: apc/config/fur_names.json:480
 msgid "Mosaic"
 msgstr "Мозаика"
 
-#: apc/config/fur_names.json:447
+#: apc/config/fur_names.json:483
 msgid "Mottled"
 msgstr "Пятнистый"
 
-#: apc/config/fur_names.json:450
+#: apc/config/fur_names.json:486
 msgid "Mottled 2"
 msgstr "Петиновый 2"
 
-#: apc/config/fur_names.json:453
+#: apc/config/fur_names.json:489
+msgid "No markings"
+msgstr "Нет маркировки"
+
+#: apc/config/fur_names.json:492
 msgid "Mocha"
 msgstr "Мокко"
 
-#: apc/config/fur_names.json:456
+#: apc/config/fur_names.json:495
 msgid "Ochre"
 msgstr "Коричневато-жёлтый"
 
-#: apc/config/fur_names.json:459
+#: apc/config/fur_names.json:498
 msgid "Ogro"
 msgstr "Огро"
 
-#: apc/config/fur_names.json:462
+#: apc/config/fur_names.json:501
 msgid "Olive"
 msgstr "Оливка"
 
-#: apc/config/fur_names.json:465
+#: apc/config/fur_names.json:504
 msgid "Orange"
 msgstr "Оранжевый"
 
-#: apc/config/fur_names.json:468
+#: apc/config/fur_names.json:507
 msgid "Pale"
 msgstr "Светлый"
 
-#: apc/config/fur_names.json:471
+#: apc/config/fur_names.json:510
 msgid "Piebald"
 msgstr "Разношёрстный"
 
-#: apc/config/fur_names.json:474
+#: apc/config/fur_names.json:513
 msgid "Piebald 2"
 msgstr "Пегий 2"
 
-#: apc/config/fur_names.json:477
+#: apc/config/fur_names.json:516
 msgid "Piebald 3"
 msgstr "Piebald 3"
 
-#: apc/config/fur_names.json:480
+#: apc/config/fur_names.json:519
 msgid "Piebald 4"
 msgstr "Piebald 4"
 
-#: apc/config/fur_names.json:483
+#: apc/config/fur_names.json:522
 msgid "Piebald 5"
 msgstr "Piebald 5"
 
-#: apc/config/fur_names.json:486
+#: apc/config/fur_names.json:525
 msgid "Piebald Blonde"
 msgstr "Шибальд Блондинка"
 
-#: apc/config/fur_names.json:489
+#: apc/config/fur_names.json:528
 msgid "Piebald Grey"
 msgstr "Серый разношёрстный"
 
-#: apc/config/fur_names.json:492
+#: apc/config/fur_names.json:531
 msgid "Pink"
 msgstr "Розовый"
 
-#: apc/config/fur_names.json:495
+#: apc/config/fur_names.json:534
+msgid "Fabled Porcelain"
+msgstr "Легендарный фарфор"
+
+#: apc/config/fur_names.json:537
 msgid "Pristine"
 msgstr "Чистота"
 
-#: apc/config/fur_names.json:498
+#: apc/config/fur_names.json:540
 msgid "Pseudo-Melanistic"
 msgstr "Псевдомеланистичный"
 
-#: apc/config/fur_names.json:501
+#: apc/config/fur_names.json:543
 msgid "Pseudo-Melanistic 2"
 msgstr "Псевдомеланистичный 2"
 
-#: apc/config/fur_names.json:504
+#: apc/config/fur_names.json:546
 msgid "Pseudo-Melanistic White"
 msgstr "Псевдомеланистичный белый"
 
-#: apc/config/fur_names.json:507
+#: apc/config/fur_names.json:549
 msgid "Pseudo-Melanistic White 2"
 msgstr "Псевдомеланистичный белый 2"
 
-#: apc/config/fur_names.json:510
+#: apc/config/fur_names.json:552
 msgid "Purple Grey"
 msgstr "Фиолетовый Серый"
 
-#: apc/config/fur_names.json:513
+#: apc/config/fur_names.json:555
 msgid "Fabled Razorwind"
 msgstr "Легендарный Бритвенный Ветер"
 
-#: apc/config/fur_names.json:516
+#: apc/config/fur_names.json:558
 msgid "Red"
 msgstr "Рыжий"
 
-#: apc/config/fur_names.json:519
+#: apc/config/fur_names.json:561
 msgid "Red 2"
 msgstr "Красный 2"
 
-#: apc/config/fur_names.json:522
+#: apc/config/fur_names.json:564
 msgid "Red Brown"
 msgstr "Красно-коричневый"
 
-#: apc/config/fur_names.json:525
+#: apc/config/fur_names.json:567
 msgid "Reddish Brown"
 msgstr "Красновато -коричневый"
 
-#: apc/config/fur_names.json:528
+#: apc/config/fur_names.json:570
 msgid "Fabled Ghostveil"
 msgstr "Легендарная Призрачная Завеса"
 
-#: apc/config/fur_names.json:531
+#: apc/config/fur_names.json:573
 msgid "Fabled Moonmarked"
 msgstr "Легендарный отмеченный луной"
 
-#: apc/config/fur_names.json:534
+#: apc/config/fur_names.json:576
 msgid "Fabled Rustveil"
 msgstr "Легендарный Ржавейль"
 
-#: apc/config/fur_names.json:537
+#: apc/config/fur_names.json:579
 msgid "Fabled Wildfire"
 msgstr "Легендарный лесной пожар"
 
-#: apc/config/fur_names.json:540
+#: apc/config/fur_names.json:582
 msgid "Fabled Kindledawn"
 msgstr "Легендарный рассвет"
 
-#: apc/config/fur_names.json:543
+#: apc/config/fur_names.json:585
 msgid "Fabled Mistbound"
 msgstr "Легендарный туман"
 
-#: apc/config/fur_names.json:546
+#: apc/config/fur_names.json:588
+msgid "Rosetted"
+msgstr "Розеточный"
+
+#: apc/config/fur_names.json:591
+msgid "Fabled Rosewash"
+msgstr "Легендарная розовая смывка"
+
+#: apc/config/fur_names.json:594
 msgid "Sand"
 msgstr "Песок"
 
-#: apc/config/fur_names.json:549
+#: apc/config/fur_names.json:597
 msgid "Fabled Scarborne"
 msgstr "Легендарный Скарборн"
 
-#: apc/config/fur_names.json:555
+#: apc/config/fur_names.json:603
 msgid "Slate Grey"
 msgstr "Сланцево-серый"
 
-#: apc/config/fur_names.json:558
+#: apc/config/fur_names.json:606
 msgid "Smoke"
 msgstr "Дым"
 
-#: apc/config/fur_names.json:561
+#: apc/config/fur_names.json:609
 msgid "Snow"
 msgstr "Снег"
 
-#: apc/config/fur_names.json:564
+#: apc/config/fur_names.json:612
 msgid "Sombra"
 msgstr "Сомбра"
 
-#: apc/config/fur_names.json:567
+#: apc/config/fur_names.json:615
 msgid "Spirit"
 msgstr "Призрак"
 
-#: apc/config/fur_names.json:570
+#: apc/config/fur_names.json:618
 msgid "Spotted"
 msgstr "В крапинку"
 
-#: apc/config/fur_names.json:573
+#: apc/config/fur_names.json:621
 msgid "Spotted 2"
 msgstr "Пятнистый 2"
 
-#: apc/config/fur_names.json:576
+#: apc/config/fur_names.json:624
 msgid "Spotted Dark"
 msgstr "Тёмный в крапинку"
 
-#: apc/config/fur_names.json:579
+#: apc/config/fur_names.json:627
 msgid "Spotted Red"
 msgstr "Красный в крапинку"
 
-#: apc/config/fur_names.json:582
+#: apc/config/fur_names.json:630
 msgid "Standard"
 msgstr "Стандартный"
 
-#: apc/config/fur_names.json:585
+#: apc/config/fur_names.json:633
 msgid "Straw"
 msgstr "Солома"
 
-#: apc/config/fur_names.json:588
+#: apc/config/fur_names.json:636
 msgid "Tan"
 msgstr "Рыже-коричневый"
 
-#: apc/config/fur_names.json:591
+#: apc/config/fur_names.json:639
+msgid "Fabled Tapestry"
+msgstr "Легендарный гобелен"
+
+#: apc/config/fur_names.json:642
 msgid "Tawny"
 msgstr "Тони"
 
-#: apc/config/fur_names.json:594
+#: apc/config/fur_names.json:645
 msgid "Two Tone"
 msgstr "Двухцветный"
 
-#: apc/config/fur_names.json:597
+#: apc/config/fur_names.json:648
 msgid "Fabled Twinsoul"
 msgstr "Легендарная близнецовая душа"
 
-#: apc/config/fur_names.json:603
+#: apc/config/fur_names.json:651
+msgid "Fabled Umbrafade"
+msgstr "Легендарная тень"
+
+#: apc/config/fur_names.json:657
 msgid "Fabled Vanguard"
 msgstr "Легендарный авангард"
 
-#: apc/config/fur_names.json:624
+#: apc/config/fur_names.json:678
+msgid "Fabled Vellum"
+msgstr "Легендарный пергамент"
+
+#: apc/config/fur_names.json:681
 msgid "White"
 msgstr "Белый"
 
-#: apc/config/fur_names.json:627
+#: apc/config/fur_names.json:684
 msgid "White Brown"
 msgstr "Бело-коричневый"
 
-#: apc/config/fur_names.json:630
+#: apc/config/fur_names.json:687
 msgid "White Hybrid"
 msgstr "Белый гибрид"
 
-#: apc/config/fur_names.json:633
+#: apc/config/fur_names.json:690
 msgid "White Morph"
 msgstr "Белый морф"
 
-#: apc/config/fur_names.json:636
+#: apc/config/fur_names.json:693
 msgid "White Stripeless"
 msgstr "Белый без полос"
 
-#: apc/config/fur_names.json:639
+#: apc/config/fur_names.json:696
 msgid "Fabled Ash"
 msgstr "Легендарный Эш"
 
-#: apc/config/fur_names.json:642
+#: apc/config/fur_names.json:699
 msgid "Fabled Stipple"
 msgstr "Легендарный Стиппл"
 
-#: apc/config/fur_names.json:645
+#: apc/config/fur_names.json:702
 msgid "Fabled Smolder"
 msgstr "Легендарный Тлеющий"
 
-#: apc/config/fur_names.json:648
+#: apc/config/fur_names.json:705
 msgid "Fabled Cinder"
 msgstr "Легендарный пепел"
 
-#: apc/config/fur_names.json:651
+#: apc/config/fur_names.json:708
 msgid "Fabled Stitch"
 msgstr "Легендарный стежок"
 
-#: apc/config/fur_names.json:654
+#: apc/config/fur_names.json:711
 msgid "Fabled Scorch"
 msgstr "Легендарный ожог"
 
-#: apc/config/fur_names.json:657
+#: apc/config/fur_names.json:714
 msgid "Fabled Butterscotch"
 msgstr "Легендарная ириска"
 
-#: apc/config/fur_names.json:660
+#: apc/config/fur_names.json:717
 msgid "Fabled Chalk"
 msgstr "Легендарный мел"
 
-#: apc/config/fur_names.json:663
+#: apc/config/fur_names.json:720
 msgid "Fabled Brindle"
 msgstr "Легендарный тигровый"
 
-#: apc/config/fur_names.json:666
+#: apc/config/fur_names.json:723
 msgid "Winter"
 msgstr "Зима"
 
-#: apc/config/fur_names.json:669
+#: apc/config/fur_names.json:726
+msgid "X markings"
+msgstr "X-маркировка"
+
+#: apc/config/fur_names.json:729
 msgid "Yellow"
 msgstr "Желтый"
 
@@ -2052,6 +2172,10 @@ msgstr "Охотниковой заповедник Askiy Ridge"
 #: apc/config/reserve_details.json:310
 msgid "Tórr nan Sìthean Hunting Reserve"
 msgstr "Охотничий заповедник Торр-нан-Ситеан"
+
+#: apc/config/reserve_details.json:334
+msgid "Intisuyu Peru Hunting Reserve"
+msgstr "Охотничий заповедник Интисую Перу"
 
 #~ msgid "Updated animals on multiple reserves. Use"
 #~ msgstr "Обновленные животные в нескольких резервах. Использовать"

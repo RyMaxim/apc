@@ -844,7 +844,7 @@ def parse_reserve_species(reserve_index):
   print(reserve.species_ids)
   id_to_name = {data["species_id"]: species_key for species_key, data in animal_details.items()}
   reserve_species = [id_to_name.get(species_id, species_id) for species_id in reserve.species_ids]
-  print(reserve_species)
+  print(f"Species for reserve {reserve_index}: {reserve_species}")
   return reserve_species
 
 def export_reserve_animals_stats(reserve_key: str, species_key: str = None) -> csv:
@@ -1093,8 +1093,8 @@ def map_aps(reserve_name: str, species_key: str) -> str:
 
 if __name__ == "__main__":
   update_global_animal_data()
-  # parse_reserve_species(20)
-  # analyze_reserve(config.get_save_path() / "animal_population_20")
+  # parse_reserve_species(21)
+  analyze_reserve(config.get_save_path() / "animal_population_21")
   # Run APS and select "/apc/mods" folder before you can seed animals
   # seed_reserve_animal_details("scotland", skip_update_fur=True, skip_levels=False)
   # seed_all_reserves()

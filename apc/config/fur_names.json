@@ -1,4 +1,7 @@
 {
+  "abundantmarkings": {
+    "fur_name": "Abundant Markings"
+  },
   "acromelanistic": {
     "fur_name": "Acromelanistic"
   },
@@ -50,6 +53,9 @@
   "blonde": {
     "fur_name": "Blonde"
   },
+  "blondfaced": {
+    "fur_name": "Blondfaced"
+  },
   "blue": {
     "fur_name": "Blue"
   },
@@ -58,6 +64,9 @@
   },
   "blue_morph": {
     "fur_name": "Blue Morph"
+  },
+  "bold": {
+    "fur_name": "Bold"
   },
   "bright": {
     "fur_name": "Bright"
@@ -73,6 +82,9 @@
   },
   "brown_3": {
     "fur_name": "Brown 3"
+  },
+  "brown_grey": {
+    "fur_name": "Brown Grey"
   },
   "brown_hybrid": {
     "fur_name": "Brown Hybrid"
@@ -125,6 +137,9 @@
   "dark_green": {
     "fur_name": "Dark Green"
   },
+  "dark_green_2": {
+    "fur_name": "Dark Green 2"
+  },
   "dark_grey": {
     "fur_name": "Dark Grey"
   },
@@ -158,6 +173,9 @@
   "erythristic": {
     "fur_name": "Erythristic"
   },
+  "erythristic_chocolate": {
+    "fur_name": "Erythristic Chocolate"
+  },
   "erythristic_golden": {
     "fur_name": "Erythristic Golden"
   },
@@ -169,6 +187,9 @@
   },
   "fantasma": {
     "fur_name": "Fantasma"
+  },
+  "fine": {
+    "fur_name": "Fine"
   },
   "frostbite": {
     "fur_name": "Fabled Frostbite"
@@ -182,11 +203,17 @@
   "ghost": {
     "fur_name": "Ghost"
   },
+  "giltdusk": {
+    "fur_name": "Fabled Giltdusk"
+  },
   "ginger": {
     "fur_name": "Ginger"
   },
   "gingersplit": {
     "fur_name": "Gingersplit"
+  },
+  "glassesmarkings": {
+    "fur_name": "Glasses markings"
   },
   "gold": {
     "fur_name": "Gold"
@@ -374,6 +401,9 @@
   "intermediate_morph": {
     "fur_name": "Intermediate Morph"
   },
+  "ivorybark": {
+    "fur_name": "Fabled Ivorybark"
+  },
   "jet_black": {
     "fur_name": "Jet Black"
   },
@@ -428,6 +458,12 @@
   "melanisticcharcoal": {
     "fur_name": "Melanistic Charcoal"
   },
+  "messymarkings": {
+    "fur_name": "Messy markings"
+  },
+  "minimalisticmarkings": {
+    "fur_name": "Minimalistic markings"
+  },
   "mixed": {
     "fur_name": "Mixed"
   },
@@ -448,6 +484,9 @@
   },
   "mottled_2": {
     "fur_name": "Mottled 2"
+  },
+  "nomarkings": {
+    "fur_name": "No markings"
   },
   "nz_moose_mocha": {
     "fur_name": "Mocha"
@@ -490,6 +529,9 @@
   },
   "pink": {
     "fur_name": "Pink"
+  },
+  "porcelain": {
+    "fur_name": "Fabled Porcelain"
   },
   "pristine": {
     "fur_name": "Pristine"
@@ -542,6 +584,12 @@
   "roe_deer_great_one_6": {
     "fur_name": "Fabled Mistbound"
   },
+  "rosetted": {
+    "fur_name": "Rosetted"
+  },
+  "rosewash": {
+    "fur_name": "Fabled Rosewash"
+  },
   "sand": {
     "fur_name": "Sand"
   },
@@ -587,6 +635,9 @@
   "tan": {
     "fur_name": "Tan"
   },
+  "tapestry": {
+    "fur_name": "Fabled Tapestry"
+  },
   "tawny": {
     "fur_name": "Tawny"
   },
@@ -595,6 +646,9 @@
   },
   "twinsoul": {
     "fur_name": "Fabled Twinsoul"
+  },
+  "umbrafade": {
+    "fur_name": "Fabled Umbrafade"
   },
   "unknown": {
     "fur_name": "Unknown"
@@ -619,6 +673,9 @@
   },
   "variation_trophy_furry_tawny": {
     "fur_name": "Furry Tawny"
+  },
+  "vellum": {
+    "fur_name": "Fabled Vellum"
   },
   "white": {
     "fur_name": "White"
@@ -664,6 +721,9 @@
   },
   "winter": {
     "fur_name": "Winter"
+  },
+  "xmarkings": {
+    "fur_name": "X markings"
   },
   "yellow": {
     "fur_name": "Yellow"

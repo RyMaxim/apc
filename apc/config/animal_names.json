@@ -29,6 +29,9 @@
   "black_bear": {
     "animal_name": "Black Bear"
   },
+  "black_caiman": {
+    "animal_name": "Black Caiman"
+  },
   "black_grouse": {
     "animal_name": "Black Grouse"
   },
@@ -52,6 +55,9 @@
   },
   "cape_buffalo": {
     "animal_name": "Cape Buffalo"
+  },
+  "capybara": {
+    "animal_name": "Capybara"
   },
   "caribou": {
     "animal_name": "Grant Caribou"
@@ -140,6 +146,9 @@
   "gray_wolf": {
     "animal_name": "Gray Wolf"
   },
+  "greater_grison": {
+    "animal_name": "Greater Grison"
+  },
   "gredos_ibex": {
     "animal_name": "Gredos Ibex"
   },
@@ -169,6 +178,9 @@
   },
   "jackrabbit": {
     "animal_name": "White-tailed Jackrabbit"
+  },
+  "jaguar": {
+    "animal_name": "Jaguar"
   },
   "javan_rusa": {
     "animal_name": "Javan Rusa"
@@ -220,6 +232,9 @@
   },
   "northern_red_muntjac": {
     "animal_name": "Northern Red Muntjac"
+  },
+  "ocelot": {
+    "animal_name": "Ocelot"
   },
   "pheasant": {
     "animal_name": "Ring-Necked Pheasant"
@@ -293,8 +308,14 @@
   "snow_leopard": {
     "animal_name": "Snow Leopard"
   },
+  "south_american_tapir": {
+    "animal_name": "South American Tapir"
+  },
   "southeastern_ibex": {
     "animal_name": "Southeastern Spanish Ibex"
+  },
+  "spectacled_bear": {
+    "animal_name": "Spectacled Bear"
   },
   "springbok": {
     "animal_name": "Springbok"
@@ -305,6 +326,9 @@
   "tahr": {
     "animal_name": "Tahr"
   },
+  "taruca": {
+    "animal_name": "Taruca"
+  },
   "tibetan_fox": {
     "animal_name": "Tibetan Fox"
   },
@@ -314,6 +338,9 @@
   "tundra_bean_goose": {
     "animal_name": "Tundra Bean Goose"
   },
+  "vicuna": {
+    "animal_name": "Vicuna"
+  },
   "warthog": {
     "animal_name": "Warthog"
   },
@@ -322,6 +349,9 @@
   },
   "western_capercaillie": {
     "animal_name": "Western Capercaillie"
+  },
+  "western_mountain_coati": {
+    "animal_name": "Western Mountain Coati"
   },
   "whitetail_deer": {
     "animal_name": "Whitetail Deer"

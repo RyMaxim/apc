@@ -329,5 +329,25 @@
       "pheasant",
       "red_grouse"
     ]
+  },
+  "peru": {
+    "reserve_name": "Intisuyu Peru Hunting Reserve",
+    "index": 21,
+    "species": [
+      "taruca",
+      "western_mountain_coati",
+      "puma",
+      "ocelot",
+      "cinnamon_teal",
+      "collared_peccary",
+      "vicuna",
+      "spectacled_bear",
+      "jaguar",
+      "south_american_tapir",
+      "black_caiman",
+      "whitetail_deer",
+      "capybara",
+      "greater_grison"
+    ]
   }
 }
